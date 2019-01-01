@@ -32,7 +32,7 @@ _z(selector).blur();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-```
+```js
 _z(selector).un("blur", [function]);
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
