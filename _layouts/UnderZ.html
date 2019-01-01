@@ -46,14 +46,10 @@
         {% endif %}
 <script type="text/javascript">
 function listToggleShow(e) {
-	var shown = 0;
-	_z("[pagename]").each(function(k, e) {
-		shown += _z(this).isShow() ? 1 : 0;
-	});
-	var reCount = ()=>{ _z("[pagescounter]").text( ""+shown) };
+	var reCount = ()=>{ return _z("[pagescounter]").text( ""+_z("[pagename]:not(.hidden)").length; ) };
 	return {
-		show: (x)=>{ _z(e).remClass("hidden")&&reCount(); },
-		hide: (x)=>{ _z(e).addClass("hidden")&&reCount(); },
+		show: (x)=>{ _z(e).remClass("hidden")&&reCount(); return _z(e); },
+		hide: (x)=>{ _z(e).addClass("hidden")&&reCount(); return _z(e); },
 	};
 };
 
@@ -62,7 +58,7 @@ _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
 	
 	if( pageFilterData.length )
-	_z("#pages-filter").keyup(function(event) {
+	_z("#pages-filter").keypress(function(event) {
 		var iTxt = _z("#pages-filter");
 		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return listToggleShow(_z("[pagename]")).show();
 		var needle = iTxt.val().trim();
@@ -70,11 +66,19 @@ _1(function() {
 		if( needle == "" ) return listToggleShow(_z("[pagename]")).show();
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
+		
 		console.log(result);
-		listToggleShow(_z("[pagename]")).hide();
-		result.each(function(k, e) {
-			listToggleShow(_z("[pagename='"+e+"']")).show();
-		});
+		if(result.length > 0) {
+			listToggleShow(
+				listToggleShow(
+					_z("[pagename]")
+						).hide().whereIs("[pagename='" + result.join("'], [pagename='") + "']")
+					).show();
+			//listToggleShow(_z("[pagename='" + result.join("'], [pagename='") + "']")).show();
+		}
+		//result.each(function(k, e) {
+			//listToggleShow(_z("[pagename='"+e+"']")).show();
+		//});
 		
 	});
 	
