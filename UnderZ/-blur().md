@@ -15,7 +15,7 @@ _z(selector).blur(function);
 * **blur** method/action name.
 * **function** function to execute when a form field loses blur. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > This method is a shortcut for **_z(selector).on( "blur", function)**.
 > 
@@ -29,7 +29,7 @@ _z(selector).blur();
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **blur** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 ## Unbind blur event
 ```js
@@ -46,7 +46,7 @@ var fun = function lang(l) {
 * **"blur"** event name to unbind.
 * **function** (**optional**) if you like to unbind blur event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 ## Examples
 

@@ -15,7 +15,7 @@ _z(selector).click(function);
 * **click** method/action name.
 * **function** function to execute when selected element is clicked. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > This method is a shortcut for _z(selector).on( "click", function).
 > 
@@ -29,7 +29,7 @@ _z(selector).click();
 * **selector** select element by selector to trigger click event on. _( you can send DOM element or selector)_
 * **click** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 ## Unbind click event
 ```js
@@ -41,7 +41,7 @@ _z(selector).un("click", [function]);
 * **"click"** event name to unbind.
 * **function** (**optional**) if you like to unbind click event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 ## Examples
 

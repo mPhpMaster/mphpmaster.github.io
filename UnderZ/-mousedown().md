@@ -18,7 +18,7 @@ _z(selector).mousedown(function);
 * **mousedown** method/action name.
 * **function** function to execute when a mouse button is pressed down on the selected element. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > This method is a shortcut for _z(selector).on( "mousedown", function).
 > 
@@ -36,7 +36,7 @@ _z(selector).mousedown();
 * **selector** select element by selector to trigger mousedown event on. _( you can send DOM element or selector)_
 * **mousedown** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***
@@ -52,7 +52,7 @@ _z(selector).un("mousedown", [function]);
 * **"mousedown"** event name to unbind.
 * **function** (**optional**) if you like to unbind mousedown event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***

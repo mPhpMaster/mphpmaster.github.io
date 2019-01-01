@@ -5,6 +5,9 @@ layout: UnderZ
 Execute an event.
 
 
+***
+
+
 ## Trigger event
 ```js
 _z(selector).trigger("click");
@@ -15,11 +18,14 @@ _z(selector).trigger("click");
 * **trigger** method/action name.
 * **"click"** event name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on()#bind-click-event)
 
 > To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-click-event)
+
+
+***
 
 
 ## Examples
@@ -60,6 +66,5 @@ _z("button").on("click", function () {
 // trigger click event
 _z("#button").trigger("click"); // Trigger click event
 </script>
-
 ```
 

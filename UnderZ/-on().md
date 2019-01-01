@@ -19,7 +19,7 @@ _z(selector).on("click", function);
 * **"click"** event name.
 * **function** function to execute when event triggered. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-an-event)
 
@@ -36,7 +36,7 @@ _z(selector).trigger("click");
 * **trigger** method/action name.
 * **"click"** event name to trigger.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***
@@ -52,7 +52,7 @@ _z(selector).un("click", [function]);
 * **"click"** event name to unbind.
 * **function** (**optional**) if you like to unbind click event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***

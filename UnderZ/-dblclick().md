@@ -18,7 +18,7 @@ _z(selector).dblclick(function);
 * **dblclick** method/action name.
 * **function** function to execute when selected element is double-clicked. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > This method is a shortcut for _z(selector).on( "dblclick", function).
 > 
@@ -37,7 +37,7 @@ _z(selector).dblclick();
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **dblclick** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***
@@ -54,7 +54,7 @@ _z(selector).un("dblclick", [function]);
 * **"dblclick"** event name to unbind.
 * **function** (**optional**) if you like to unbind dblclick event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***

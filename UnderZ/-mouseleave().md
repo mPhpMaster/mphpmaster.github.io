@@ -18,7 +18,7 @@ _z(selector).mouseleave(function);
 * **mouseleave** method/action name.
 * **function** function to execute when the mouse pointer leaves the selected element. **It can be anonymous function**
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > This method is a shortcut for _z(selector).on( "mouseleave", function).
 > 
@@ -36,7 +36,7 @@ _z(selector).mouseleave();
 * **selector** select element by selector to trigger mouseleave event on. _( you can send DOM element or selector)_
 * **mouseleave** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***
@@ -52,7 +52,7 @@ _z(selector).un("mouseleave", [function]);
 * **"mouseleave"** event name to unbind.
 * **function** (**optional**) if you like to unbind mouseleave event that triggers specific function.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***

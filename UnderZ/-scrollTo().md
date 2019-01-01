@@ -35,7 +35,7 @@ _z(selector).scrollTo(where);
 * **scrollTo** method/action name.
 * **where** element or number to scroll selected element to.  _( you can send DOM element or selector)_
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 
 ***

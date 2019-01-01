@@ -17,7 +17,7 @@ _z(selector).hide();
 * **selector** select element by the selector to hide. _( you can send DOM element or selector)_
 * **hide** method/action name.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
 
 > To show an element: [Show element](https://hlack.github.io/UnderZ/-show())
 
