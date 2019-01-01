@@ -4,6 +4,8 @@ layout: UnderZ
 # Execute Function/s.
 Store and execute functions.
 
+***
+
 
 ## Create function/s store
 ```js
@@ -14,6 +16,9 @@ _z([functions]);
 * **[functions]** Function/s to store, **MUST BE IN ARRAY**.
 
 > **Returns:** \_z(function/s) _Object_
+
+
+***
 
 
 ## Add function/s to store
@@ -28,6 +33,10 @@ _z([functions]).addThis([functions2]);
 
 > **Returns:** \_z([functions, functions2]) _Object_
 
+
+***
+
+
 ## Execute Stored function/s
 ```js
 _z([functions]).exec( boolean );
@@ -39,6 +48,9 @@ _z([functions]).exec( boolean );
 * **boolean** true to execute, false to do nothing. _default: true_ _( leave this blank to execute stored functions )_
 
 > **Returns:** \_z([functions]) _Object_
+
+
+***
 
 
 ## Examples
