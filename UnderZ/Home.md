@@ -34,6 +34,7 @@ layout: default
 # How to initiate the code when the library starts ?
 1. Edit the `script` tag and add `underZ` attribute to it:
 
+
 ```html
 <head>
 <script type="text/javascript" src="_z.js" underZ></script>
@@ -41,6 +42,7 @@ layout: default
 
 ```
 2. Type your code inside the tag:
+
 
 ```html
 <head>
