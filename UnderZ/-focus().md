@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the form field gets focus. or trigger focus event for an element.
 
 
+***
+
+
 ## Bind focus event
 ```js
 _z(selector).focus(function);
@@ -21,6 +24,9 @@ _z(selector).focus(function);
 > 
 > To unbind focus event: [Unbind focus event](https://hlack.github.io/UnderZ/-focus()#unbind-focus-event)
 
+
+***
+
 ## Trigger focus event
 ```js
 _z(selector).focus();
@@ -30,6 +36,10 @@ _z(selector).focus();
 * **focus** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind focus event
 ```js
@@ -42,6 +52,10 @@ _z(selector).un("focus", [function]);
 * **function** (**optional**) if you like to unbind focus event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
