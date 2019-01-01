@@ -62,8 +62,8 @@
 		<div>
 <!-- <h2>{{ site.data.underzpages.docs_list_title }}</h2> -->
 <ul>
-   {% for item in site.underzpages %}
-      <li><a href="{{ item.category }}">{{ item.Title }}</a></li>
+   {% for item in collections.tags %}
+      <li><a href="{{ item }}">{{ item.Title }} - {{ item.name }}</a></li>
    {% endfor %}
 </ul>
 
