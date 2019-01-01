@@ -1,18 +1,6 @@
 ---
 layout: UnderZ
 ---
-# UnderZ JS Library Wiki
-## A tiny Library With huge use.
-### Built to be:
-1. **Easier** to use with each call.
-2. **Resources friendly**, _shouldn't eat all your cake_.
-3. **Optimized performance**, each call should execute and finish ASAP.
-
-> Write and rewrite until it is right. _By: **hard coder**_
-
-
-***
-
 
 # How to include the library in my project ?
 1. Get the library file [_z.js](https://github.com/hlaCk/UnderZ/blob/master/_z.js) and place it in your project folder.
@@ -27,6 +15,7 @@ layout: UnderZ
 ```
 
 3. Done!.
+
 
 ***
 
@@ -59,4 +48,5 @@ $ = _z;
 
 ```
 3. When the page loads the library, your code will be executed immediately; even if the page is not ready.
+
 
