@@ -50,6 +50,7 @@ function listToggleShow(e) {
 	return {
 		show: (x)=>{ _z(e).remClass("hidden")&&reCount(); return _z(e); },
 		hide: (x)=>{ _z(e).addClass("hidden")&&reCount(); return _z(e); },
+		reCount: reCount,
 	};
 };
 
@@ -76,6 +77,7 @@ _1(function() {
 					).show();
 			//listToggleShow(_z("[pagename='" + result.join("'], [pagename='") + "']")).show();
 		}
+		else listToggleShow().reCount();
 		//result.each(function(k, e) {
 			//listToggleShow(_z("[pagename='"+e+"']")).show();
 		//});
