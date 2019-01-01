@@ -16,9 +16,9 @@ _z.subArray( start from NUMBER, end at NUMBER, array ARRAY );
 * **_z** to access UnderZ library.
 * **subArray** method/action name.
 * **start from** number of 0-based position to start from.
-* **end at NUMBER** number of 0-based position to end at.
+* **end at** number of 0-based position to end at.
 
-> **Returns:** sliced array _array_.
+> **Returns:** _Array_ sliced array.
 
 
 ***
@@ -37,5 +37,6 @@ _z.subArray(false, -3, myArray); // ["a"]
 _z.subArray( 3, false, myArray); // ["f"]
 _z.subArray( -3, false, myArray); // ["o", "s", "f"]
 ``` 
+
 
 > **Note:** subArray method also work with _z(element selector).subArray.
