@@ -5,7 +5,11 @@ layout: UnderZ
 Display/Hide hidden element. 
 
 > if the element hidden this method will display it.
+> 
 > if the element shows this method will hide it.
+
+
+***
 
 
 ## Toggle element
@@ -18,7 +22,10 @@ _z(selector).toggle([display style]);
 * **toggle** method/action name.
 * **display style** (**optional**) Change Display style.
 
-> **Returns:** \_z(selector) _Object_
+> **Returns:** _Object_ \_z(selector)
+
+
+***
 
 
 ## Examples
@@ -48,7 +55,7 @@ _z("#buttonFlex").click(function () {
 	_z("#button").toggle("flex");
 });
 </script>
-
 ```
+
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
