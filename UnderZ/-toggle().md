@@ -4,9 +4,8 @@ layout: UnderZ
 # Toggle an element.
 Display/Hide hidden element. 
 
-if the element hidden this method will display it.
-
-if the element shows this method will hide it.
+> if the element hidden this method will display it.
+> if the element shows this method will hide it.
 
 
 ## Toggle element
