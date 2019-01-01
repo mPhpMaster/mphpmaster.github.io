@@ -13,5 +13,11 @@ repository_url: https://github.com/hlaCk/UnderZ
 repoZip_url: https://github.com/hlaCk/UnderZ/zipball/master
 repoTar_url: https://github.com/hlaCk/UnderZ/tarball/master
 
+defaults:
+  - scope:
+      path: "UnderZ/"
+    values:
+      underz: true
+	  
 collections:
   - underz_pages

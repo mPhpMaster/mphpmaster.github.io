@@ -60,10 +60,11 @@
 		</div>
 		{% endif %}
 		<div>
-		{% for underz_page in site.data.underzpages %}
-		  <h2>{{ underz_page.name }}</h2>
-		  <p>{{ underz_page.name | "failed"}}</p>
-		{% endfor %}
+{% assign image_files = site.static_files | where: "underz", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+
 </div>
       </header>
       <section>
