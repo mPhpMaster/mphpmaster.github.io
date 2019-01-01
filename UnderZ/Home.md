@@ -32,7 +32,7 @@ layout: UnderZ
 
 
 # How to initiate the code when the library starts ?
-1. Edit the `script` tag and add `underZ` attribute to it:
+1. Edit the **script** tag and add **underZ** attribute to it:
 
 
 ```html
@@ -49,7 +49,7 @@ layout: UnderZ
 <script type="text/javascript" src="_z.js" underZ>
 // add variable to library
 _z.var = [ "data", 123 ];
-// edit the `var` variable
+// edit the var variable
 _z.var["data2"] = { "char": 'c', "num": 9 };
 
 // clone the library to new var

@@ -22,7 +22,7 @@ _z.load(function);
 ***
 
 ## Method 2: _Shorter way_.
-> Make sure that no other library use `_1` sign.
+> Make sure that no other library use **_1** sign.
 
 ```js
 _1(function);

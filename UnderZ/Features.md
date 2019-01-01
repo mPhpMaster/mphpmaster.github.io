@@ -47,7 +47,7 @@
 
 ### 1. **callSelf**:
 
-Apply `.apply` on Function with the same Function as context, [_Optional_] with arguments.
+Apply **.apply** on Function with the same Function as context, [_Optional_] with arguments.
 > Return: _**Context Return**_.
 
 **Example:** 
@@ -71,7 +71,7 @@ myFunction.callSelf("Hello", "World"); // "Test: Hello World"
 
 ### 2. **bindSelf**:
 
-Apply `.bind` on Function with the same Function as context, [_Optional_] with arguments.
+Apply **.bind** on Function with the same Function as context, [_Optional_] with arguments.
 > Return: _**Function**_ of new Context.
 
 **Example:** 
@@ -262,7 +262,7 @@ Remove all values that match the given value.
 
 ### 7. **extend**:
 
-Merage all objects in array to first object using `_z.extend`.
+Merage all objects in array to first object using **_z.extend**.
 > When feature is **not disabled**:
 > 
 > Return: _**Object**_ First object in the array.
@@ -271,7 +271,7 @@ Merage all objects in array to first object using `_z.extend`.
 > 
 > Return: _**Array**_ Same array.
 
-> To disable this feature use: `_z.extend.status = false;`
+> To disable this feature use: **_z.extend.status = false;**
 > 
 > see [Extinding Object](https://hlack.github.io/UnderZ/-extend())
 
@@ -330,7 +330,7 @@ _z.testFunc;  // undefined.
 
 ### 8. **mix**:
 
-Merage all objects in array to first object using `_z.mix`.
+Merage all objects in array to first object using **_z.mix**.
 > Return: _**Object**_ First object in the array.
 > 
 > see [Merging Object](https://hlack.github.io/UnderZ/-mix())
@@ -434,7 +434,7 @@ str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 ***
 
 ### Math.random :
-Replacing `Math.random` with `_z.rnd`, the original in Math.__random.
+Replacing **Math.random** with **_z.rnd**, the original in Math.__random.
 > Return: _**Number**_ random number.
 > 
 > see [Random number generator](https://hlack.github.io/UnderZ/-rnd())

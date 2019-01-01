@@ -27,7 +27,7 @@ _z.timer.execFunction(force);
 
 * **timer** method/action name.
 * **execFunction** method/action name.
-* **force** (_Argument_) type _Boolean_, force execution even `_z.timer.hold = true;`. _( Default: false )_
+* **force** (_Argument_) type _Boolean_, force execution even if (**_z.timer.hold = true;**). _( Default: false )_
 
 > **Returns:** callback (function) return
 

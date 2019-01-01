@@ -27,7 +27,7 @@ _z.timer.once(status);
 
 * **timer** method/action name.
 * **once** Once timer method.
-* **status** `true` to set timer type to timer once, `false` to set timer type to a normal timer. _( leave it blank to get Timer once status )_
+* **status** _true_ to set timer type to timer once, _false_ to set timer type to a normal timer. _( leave it blank to get Timer once status )_
 
 > **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 > 

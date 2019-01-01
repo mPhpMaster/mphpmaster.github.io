@@ -52,7 +52,7 @@ To create Timer object use:
 var timer = new _z.timer(function);
 
 ```
-So that `timer` is variable contains Timer object.
+So that _**timer**_ is variable contains Timer object.
 
 ***
 
@@ -93,7 +93,7 @@ _z.timer.startAll()
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **startAll** (_Method_) Start all existing timer. _( return: `_z.timer Object` )_
+* **startAll** (_Method_) Start all existing timer. _( return: **_z.timer Object** )_
 
 ### Stop all existing timers
 ```js
@@ -102,7 +102,7 @@ _z.timer.stopAll()
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **stopAll** (_Method_) Stop all existing timers. _( return: `_z.timer Object` )_
+* **stopAll** (_Method_) Stop all existing timers. _( return: **_z.timer Object** )_
 
 ### Remove all existing timers
 ```js
@@ -111,7 +111,7 @@ _z.timer.removeAll(keepData)
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **removeAll** (_Method_) Stop all existing timers and remove it. _( return: `_z.timer Object` )_
+* **removeAll** (_Method_) Stop all existing timers and remove it. _( return: **_z.timer Object** )_
 * **keepData** (_Argument_) type _Boolean_, to keep the timer data. _( Default: false )_
 
 ***

@@ -30,7 +30,7 @@ _z.timer.start();
 
 > **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 
-> Make sure that `_z.timer.hold = false`.
+> Make sure that **_z.timer.hold = false**.
 
 ***
 

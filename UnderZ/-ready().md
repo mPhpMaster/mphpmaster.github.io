@@ -39,7 +39,7 @@ _z(function);
 
 
 ## Method 3: _Shorter way_.
-> Make sure that no other library use `_` sign, like _Underscore_ Library.
+> Make sure that no other library use **_** sign, like _Underscore_ Library.
 
 ```js
 _2(function);
