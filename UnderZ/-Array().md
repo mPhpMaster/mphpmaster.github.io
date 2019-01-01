@@ -1,5 +1,6 @@
 ---
 layout: UnderZ
+name: .Array()
 ---
 # Convert variable to Array
 Convert the given variable to an Array **Strings doesn't split**
