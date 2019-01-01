@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "UnderZ/index" | "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ "UnderZ/	" | "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -71,7 +71,7 @@ _1(function() {
 </script>
 		{% if site.show_menu %}
 		<div style="width: 100%; display: block; height: 400px;">
-			<table class="asList">
+			<table class="asList" style="display: table;">
 				<thead>
 					<tr>
 						<th style="text-align: center;">Pages</th>
@@ -84,7 +84,7 @@ _1(function() {
 					</tr>
 				</tbody>
 				
-				<tbody style="overflow: auto; width: 272px; display: inline-block; height: 400px;">
+				<tbody style="overflow: auto; width: 272px; display: inline-table; height: 400px;">
 {% for page in site.data.underzpages %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
