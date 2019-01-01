@@ -9,6 +9,7 @@ layout: UnderZ
 
 ***
 
+
 # Page Content:
 * [Javascript changes](https://hlack.github.io/UnderZ/Features#javascript-changes)
 * * [Function's](https://hlack.github.io/UnderZ/Features#functions-)
@@ -39,20 +40,27 @@ layout: UnderZ
 * * [_2 Method](https://hlack.github.io/UnderZ/Features#_2-method-)
 * * [gVar Variable](https://hlack.github.io/UnderZ/Features#gvar-variable-)
 
+
 ***
+
 
 ## Javascript changes
 
+
 ***
+
 
 ### Function's :
 
+
 ***
+
 
 ### 1. **callSelf**:
 
 Apply **.apply** on Function with the same Function as context, [_Optional_] with arguments.
 > Return: _**Context Return**_.
+
 
 **Example:** 
 
@@ -70,7 +78,9 @@ myFunction.apply(myFunction, ["Hello", "World"]); // "Test: Hello World"
 myFunction.callSelf("Hello", "World"); // "Test: Hello World"
 ```
 
+
 ***
+
 
 ### 2. **bindSelf**:
 
@@ -92,9 +102,12 @@ myFunction.value = "Test: ";
 
 ***
 
+
 ### Object's :
 
+
 ***
+
 
 ### 1. **each**:
 
@@ -112,7 +125,9 @@ obj.each(callback); // {user: "admin", password: "123", counter: 1}
 obj.each(callback); // {user: "admin", password: "123", counter: 2}
 ```
 
+
 ***
+
 
 ### 2. **getType**:
 
@@ -130,7 +145,9 @@ Get type of value.
 (_z("body")).getType(); // _z
 ```
 
+
 ***
+
 
 ### 3. **isType**:
 
@@ -147,11 +164,15 @@ Check type of value.
 (_z("body")).isType("_z"); // true
 ```
 
+
 ***
+
 
 ### Array's :
 
+
 ***
+
 
 ### 1. **pushSetter**:
 
@@ -168,7 +189,9 @@ var arr = [ "user", "password", "123", "admin" ];
 arr.pushSetter = "test"; // "test" new value add. arr = [ "user", "password", "123", "admin", "test" ]
 ```
 
+
 ***
+
 
 ### 2. **unique**:
 
@@ -185,7 +208,9 @@ Array with unique values, [_Optional_] key in Object (the values must be objects
 [{ ID: 1 }, { ID: 2 }, { ID: 3 }, { ID: 1 }, { ID: 3 }].unique("ID"); // [{ ID: 1 }, { ID: 2 }, { ID: 3 }]
 ```
 
+
 ***
+
 
 ### 3. **add**:
 
@@ -202,7 +227,9 @@ Push each argument in the array.
 [1, 2, 3].add(4 ,5 ,6); // 6 = length of new array. [1, 2, 3, 4, 5, 6]
 ```
 
+
 ***
+
 
 ### 4. **inArray**:
 
@@ -217,7 +244,9 @@ Search for a specified value within an array.
 ['a', 'b', 'c'].inArray('d'); // -1 = value not found.
 ```
 
+
 ***
+
 
 ### 5. **remove**:
 
@@ -236,7 +265,9 @@ Remove an item/s from the array.
 ['a', 'b', 'c', 'd', 'e'].remove('b', 'd'); // 2 = new array length. // ['a', 'e']
 ```
 
+
 ***
+
 
 ### 6. **removeAll**:
 
@@ -252,22 +283,29 @@ Remove all values that match the given value.
 
 ***
 
+
 ### 7. **extend**:
 
 Merage all objects in array to first object using **_z.extend**.
-> When feature is **not disabled**:
-> 
-> Return: _**Object**_ First object in the array.
-> 
 > When feature is **disabled**:
 > 
 > Return: _**Array**_ Same array.
+> 
+> 
+> When feature is **not disabled**:
+> 
+> Return: _**Object**_ First object in the array.
 
-> To disable this feature use: **_z.extend.status = false;**
+> To disable this feature use: 
+```js
+_z.extend.status = false;
+```
 > 
 > see [Extinding Object](https://hlack.github.io/UnderZ/-extend())
 
+
 **Example:** 
+
 
 ```js
 var myFunction = function() {
@@ -317,7 +355,9 @@ _z.testFunc;  // undefined.
 [myFunction].extend; // myFunction
 ```
 
+
 ***
+
 
 ### 8. **mix**:
 
@@ -376,11 +416,15 @@ _z.testFunc;  // undefined.
 [myFunction].mix; // myFunction
 ```
 
+
 ***
+
 
 ### String's :
 
+
 ***
+
 
 ### 1. **replaceArray**:
 
@@ -401,6 +445,7 @@ str.replaceArray( "Test:" ); // " UnderZ is JS Library."
 
 ***
 
+
 ### 2. **replaceAll**:
 
 Search a string for a specified value/s, replace it with specified value/s.
@@ -419,7 +464,9 @@ str.replaceAll( "Test:", "\\:>"); // "\:> UnderZ is JS Library."
 str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 ```
 
+
 ***
+
 
 ### Math.random :
 Replacing **Math.random** with **_z.rnd**, the original in Math.__random.
@@ -427,33 +474,45 @@ Replacing **Math.random** with **_z.rnd**, the original in Math.__random.
 > 
 > see [Random number generator](https://hlack.github.io/UnderZ/-rnd())
 
+
 ***
+
 
 ## Variables & Methods _(window Bound)_
 ### fns Variable :
-> see [Function Tools](https://github.com/hlaCk/UnderZ/wiki/fns)
+> see [Function Tools](https://hlack.github.io/UnderZ/fns)
+
 
 ***
+
 
 ### timer Method :
 > see [Timer](https://hlack.github.io/UnderZ/-timer()#timer)
 
+
 ***
+
 
 ### _z Method :
 UnderZ library.
 
+
 ***
+
 
 ### _1 Method :
 > see [.load()](https://hlack.github.io/UnderZ/-load()#method-2-shorter-way)
 
+
 ***
+
 
 ### _2 Method :
 > see [.ready()](https://hlack.github.io/UnderZ/-ready()#method-3-shorter-way)
 
+
 ***
+
 
 ### gVar Variable :
 Global variable, public variable for private use only.
