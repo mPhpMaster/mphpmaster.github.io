@@ -58,6 +58,4 @@ _z("input").each(function( index, element ) {
 // change input value
     _z(this).val( "-" );
 }, dataToAttach);
-
-
 ``` 
