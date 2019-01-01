@@ -6,7 +6,7 @@ Execute a function when the form field loses focus. or trigger blur event for an
 
 
 ## Bind blur event
-```
+```js
 _z(selector).blur(function);
 ```
 

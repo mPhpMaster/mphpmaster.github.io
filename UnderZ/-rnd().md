@@ -54,6 +54,4 @@ var y = _z.rnd(6, 8); // either 6,7,8
 var z = _z.rnd(3); // either 0,1,2,3
 var z = _z.rnd(100, null); // bitween 100 and 9007199254740991
 
-
-
 ```
