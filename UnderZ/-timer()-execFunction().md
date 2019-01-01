@@ -15,7 +15,7 @@ Execute timer callback.
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 > All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
 > 
-> all codes bellow after using this code:
+> ## Create new timer object:
 > 
 ```js
 > var timer = new _z.timer(function);
