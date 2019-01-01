@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the left, middle or right mouse button is pressed down while the mouse is over the element. or trigger mousedown event for an element.
 
 
+***
+
+
 ## Bind mousedown event
 ```js
 _z(selector).mousedown(function);
@@ -21,6 +24,10 @@ _z(selector).mousedown(function);
 > 
 > To unbind mousedown event: [Unbind mousedown event](https://hlack.github.io/UnderZ/-mousedown()#unbind-mousedown-event)
 
+
+***
+
+
 ## Trigger mousedown event
 ```js
 _z(selector).mousedown();
@@ -30,6 +37,10 @@ _z(selector).mousedown();
 * **mousedown** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind mousedown event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("mousedown", [function]);
 * **function** (**optional**) if you like to unbind mousedown event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -73,7 +88,6 @@ _z(".btnCTitle").mousedown(); // change document title to 'Change Title'
 _z("#button").mousedown(); // alert 'Mouse button down!' and change document title to 'Show Message & Change Title'
 _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" event' and unbind mousedown event on .btnCTitle button
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

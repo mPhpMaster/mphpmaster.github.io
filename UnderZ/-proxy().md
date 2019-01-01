@@ -5,6 +5,9 @@ layout: UnderZ
 Change function context and add additional arguments.
 
 
+***
+
+
 ## Bind function with context
 ```js
 _z.proxy(function, context);
@@ -16,6 +19,9 @@ _z.proxy(function, context);
 * **context** new function context. _( it could be any object type )_
 
 > **Returns:** function with new context _Function_
+
+
+***
 
 
 ## Bind context with function
@@ -31,6 +37,9 @@ _z.proxy(context, function);
 > **Returns:** function with new context _Function_
 
 
+***
+
+
 ## Bind function with context and additional arguments
 ```js
 _z.proxy(function, context, ...additionalArguments);
@@ -43,6 +52,9 @@ _z.proxy(function, context, ...additionalArguments);
 * **...additionalArguments** any number of arguments to be passed.
 
 > **Returns:** function with new context _Function_
+
+
+***
 
 
 ## Examples
@@ -72,5 +84,4 @@ _z.proxy(obj, "func"); // [{ name: "Object", func: function () {}, data: [ 1, 2,
 // Change context of function obj.func to Myfn and attache additional arguments to it
 _z.proxy(obj.func, Myfn, "a1", "a2", "b1"); // [function Myfn, ["a1", "a2", "b1"]]
 </script>
-
 ```

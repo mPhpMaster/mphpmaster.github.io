@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the mouse pointer enters the element. or trigger mouseenter event for an element.
 
 
+***
+
+
 ## Bind mouseenter event
 ```js
 _z(selector).mouseenter(function);
@@ -21,6 +24,10 @@ _z(selector).mouseenter(function);
 > 
 > To unbind mouseenter event: [Unbind mouseenter event](https://hlack.github.io/UnderZ/-mouseenter()#unbind-mouseenter-event)
 
+
+***
+
+
 ## Trigger mouseenter event
 ```js
 _z(selector).mouseenter();
@@ -30,6 +37,10 @@ _z(selector).mouseenter();
 * **mouseenter** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind mouseenter event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("mouseenter", [function]);
 * **function** (**optional**) if you like to unbind mouseenter event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -73,7 +88,6 @@ _z(".btnCTitle").mouseenter(); // change document title to 'Change Title'
 _z("#button").mouseenter(); // alert 'Mouse on the element!' and change document title to 'Show Message & Change Title'
 _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" event' and unbind mouseenter event on .btnCTitle button
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

@@ -5,6 +5,8 @@ layout: UnderZ
 Execute function after the document is finished loading (Trigger when the document has finished loading. We can access the DOM elements. But sub-resources such as images, stylesheets, and frames are still loading).
 
 
+***
+
 
 ## Method 1: _Default way_.
 
@@ -16,6 +18,10 @@ _z.ready(function);
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** \_z _Object_
+
+
+***
+
 
 ## Method 2: _Short way_.
 
@@ -34,12 +40,14 @@ _z(function);
 > 	// disable execution in _z(function)
 > 	_z.f.status(false);
 > </script>
-> 
 ```
 
 
+***
+
+
 ## Method 3: _Shorter way_.
-> Make sure that no other library use **_** sign, like _Underscore_ Library.
+> Make sure that no other library use **\_** sign, like _Underscore_ Library.
 
 ```js
 _2(function);
@@ -48,6 +56,10 @@ _2(function);
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** \_z _Object_
+
+
+***
+
 
 ## Examples
 
@@ -86,6 +98,6 @@ _2( returnTest ); // _z
 _z( returnTest ) === _z; // false
 _z.ready( returnTest ) === _z; // true
 _2( returnTest ) === _z; // true
-
 ```
+
 > Use your own way.

@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the left, middle or right mouse button is released while the mouse is over the element. or trigger mouseup event for an element.
 
 
+***
+
+
 ## Bind mouseup event
 ```js
 _z(selector).mouseup(function);
@@ -21,6 +24,10 @@ _z(selector).mouseup(function);
 > 
 > To unbind mouseup event: [Unbind mouseup event](https://hlack.github.io/UnderZ/-mouseup()#unbind-mouseup-event)
 
+
+***
+
+
 ## Trigger mouseup event
 ```js
 _z(selector).mouseup();
@@ -30,6 +37,10 @@ _z(selector).mouseup();
 * **mouseup** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind mouseup event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("mouseup", [function]);
 * **function** (**optional**) if you like to unbind mouseup event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -73,7 +88,6 @@ _z(".btnCTitle").mouseup(); // change document title to 'Change Title'
 _z("#button").mouseup(); // alert 'Mouse button up!' and change document title to 'Show Message & Change Title'
 _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" event' and unbind mouseup event on .btnCTitle button
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

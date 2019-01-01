@@ -32,7 +32,9 @@ _1(function);
 
 > **Returns:** \_z _Object_
 
+
 ***
+
 
 ## Examples
 
@@ -64,6 +66,6 @@ _1( returnTest ); // _z
 
 _z.load( returnTest ) === _z; // true
 _1( returnTest ) === _z; // true
-
 ```
+
 > Use your own way.

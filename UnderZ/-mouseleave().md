@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the mouse pointer leaves the element. or trigger mouseleave event for an element.
 
 
+***
+
+
 ## Bind mouseleave event
 ```js
 _z(selector).mouseleave(function);
@@ -21,6 +24,10 @@ _z(selector).mouseleave(function);
 > 
 > To unbind mouseleave event: [Unbind mouseleave event](https://hlack.github.io/UnderZ/-mouseleave()#unbind-mouseleave-event)
 
+
+***
+
+
 ## Trigger mouseleave event
 ```js
 _z(selector).mouseleave();
@@ -30,6 +37,10 @@ _z(selector).mouseleave();
 * **mouseleave** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind mouseleave event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("mouseleave", [function]);
 * **function** (**optional**) if you like to unbind mouseleave event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -73,7 +88,6 @@ _z(".btnCTitle").mouseleave(); // change document title to 'Change Title'
 _z("#button").mouseleave(); // alert 'Mouse out!' and change document title to 'Show Message & Change Title'
 _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" event' and unbind mouseleave event on .btnCTitle button
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

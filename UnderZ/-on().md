@@ -5,6 +5,9 @@ layout: UnderZ
 Attach a function executes when event triggered.
 
 
+***
+
+
 ## Bind click event
 ```js
 _z(selector).on("click", function);
@@ -20,6 +23,10 @@ _z(selector).on("click", function);
 
 > To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-an-event)
 
+
+***
+
+
 ## Trigger click event
 ```js
 _z(selector).trigger("click");
@@ -30,6 +37,10 @@ _z(selector).trigger("click");
 * **"click"** event name to trigger.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind an event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("click", [function]);
 * **function** (**optional**) if you like to unbind click event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -81,7 +96,6 @@ _z("button").on("click", function () {
 // trigger click event
 _z("#button").trigger("click"); // Trigger click event
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
