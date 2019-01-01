@@ -86,7 +86,7 @@ _1(function() {
 				
 				<tbody style="overflow: auto; width: 272px; display: inline-block; height: 400px;">
 {% for page in site.data.underzpages %}
-	<tr style="display: table;width: 100%;" pagename="{{ page.name }}">
+	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
 {% endfor %}
