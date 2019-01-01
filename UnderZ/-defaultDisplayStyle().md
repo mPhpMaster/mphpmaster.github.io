@@ -5,6 +5,9 @@ layout: UnderZ
 Get default css display value for element tag.
 
 
+***
+
+
 ## Get default display style
 ```js
 _z(selector).defaultDisplayStyle();
@@ -17,6 +20,9 @@ _z(selector).defaultDisplayStyle();
 > **Returns:** CSS Display Property _String_
 
 
+***
+
+
 ## Get default display style for element tag
 ```js
 _z().defaultDisplayStyle( tagname );
@@ -27,6 +33,9 @@ _z().defaultDisplayStyle( tagname );
 * **tagname** Get default display style value for this tag. _( you CAN NOT send DOM element, must be HTML tagname)_
 
 > **Returns:** CSS Display Property _String_
+
+
+***
 
 
 ## Examples
