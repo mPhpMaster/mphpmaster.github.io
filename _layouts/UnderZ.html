@@ -43,7 +43,7 @@
         {% endif %}
 
 		{% if site.show_menu %}
-		<div style="width: 100%;display: inline-block;height: 400px;">
+		<div style="width: 100%; display: block; height: 400px;">
 			<table class="asList">
 				<thead>
 					<tr>
@@ -57,9 +57,9 @@
 					</tr>
 				</tbody>
 				
-				<tbody style="overflow: auto; width: 100%; display: inline-block; height: 400px;">
+				<tbody style="overflow: auto; width: 272px; display: inline-block; height: 400px;">
 {% for page in site.data.underzpages %}
-	<tr>
+	<tr style="display: table;">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
 {% endfor %}
