@@ -51,6 +51,7 @@ Apply `.apply` on Function with the same Function as context, [_Optional_] with 
 > Return: _**Context Return**_.
 
 **Example:** 
+
 ```js
 fns.arg.callSelf(); // return undefined, Like: fns.arg(); // fns.arg.apply(fns.arg, []);
 fns.arg.callSelf("hi", 123); // return undefined, Like: fns.arg("hi", 123); // fns.arg.apply(fns.arg, ["hi", 123]);
@@ -63,6 +64,7 @@ myFunction.value = "Test: ";
 
 myFunction.apply(myFunction, ["Hello", "World"]); // "Test: Hello World"
 myFunction.callSelf("Hello", "World"); // "Test: Hello World"
+
 ```
 
 ***
@@ -73,6 +75,7 @@ Apply `.bind` on Function with the same Function as context, [_Optional_] with a
 > Return: _**Function**_ of new Context.
 
 **Example:** 
+
 ```js
 var myFunction = function () {
 	return "" + this.value + (Array.from(arguments).join(" ")|| "");
@@ -82,6 +85,7 @@ myFunction.value = "Test: ";
 
 (myFunction.bind(myFunction, ["Hello", "World"]))(); // "Test: Hello World"
 (myFunction.bindSelf("Hello", "World"))(); // "Test: Hello World"
+
 ```
 
 ***
@@ -96,6 +100,7 @@ Iterate over an object, executing a function for each value.
 > Return: _**Object**_ same object after applying the change.
 
 **Example:** 
+
 ```js
 var obj = { user: "admin", password: "123", counter: 0 };
 var callback = function (k, v) {
@@ -103,6 +108,7 @@ var callback = function (k, v) {
 };
 obj.each(callback); // {user: "admin", password: "123", counter: 1}
 obj.each(callback); // {user: "admin", password: "123", counter: 2}
+
 ```
 
 ***
@@ -113,6 +119,7 @@ Get type of value.
 > Return: _**String**_ the type of given value (lowerCase).
 
 **Example:** 
+
 ```js
 ("_z").getType(); // string
 (123).getType(); // number
@@ -120,6 +127,7 @@ Get type of value.
 (fns).getType(); // object
 (_z).getType(); // underz
 (_z("body")).getType(); // _z
+
 ```
 
 ***
@@ -130,12 +138,14 @@ Check type of value.
 > Return: _**Boolean**_ is type of Object = given value.
 
 **Example:** 
+
 ```js
 ("_z").isType("number"); // false
 (123).isType("number"); // true
 (fns.arg).isType("function"); // true
 (_z).isType("underz"); // true
 (_z("body")).isType("_z"); // true
+
 ```
 
 ***
@@ -150,12 +160,14 @@ Add a new item to an array.
 > Return: _**new item type**_ new item.
 
 **Example:** 
+
 ```js
 var arr = [ "user", "password", "123", "admin" ];
 arr.push("test"); // 5 new array length. arr = [ "user", "password", "123", "admin", "test" ]
 
 var arr = [ "user", "password", "123", "admin" ];
 arr.pushSetter = "test"; // "test" new value add. arr = [ "user", "password", "123", "admin", "test" ]
+
 ```
 
 ***
@@ -166,12 +178,14 @@ Array with unique values, [_Optional_] key in Object (the values must be objects
 > Return: _**Array**_ after the change.
 
 **Example:** 
+
 ```js
 // values is not objects
 [1, 2, 3, 1, 3].unique(); // [1, 2, 3]
 
 // values is objects
 [{ ID: 1 }, { ID: 2 }, { ID: 3 }, { ID: 1 }, { ID: 3 }].unique("ID"); // [{ ID: 1 }, { ID: 2 }, { ID: 3 }]
+
 ```
 
 ***
@@ -182,12 +196,14 @@ Push each argument in the array.
 > Return: _**Number**_ new array length.
 
 **Example:** 
+
 ```js
 // push 1 value
 [1, 2, 3].add(4); // 4 = length of new array. [1, 2, 3, 4]
 
 // push multi values
 [1, 2, 3].add(4 ,5 ,6); // 6 = length of new array. [1, 2, 3, 4, 5, 6]
+
 ```
 
 ***
@@ -198,10 +214,12 @@ Search for a specified value within an array.
 > Return: _**Number**_ value index or -1 if not found.
 
 **Example:** 
+
 ```js
 [1, 2, 3].inArray(2); // 1 = index of value 2.
 [fns.log, fns.arg, fns.true].inArray(fns.log); // 0 = index of value fns.log.
 ['a', 'b', 'c'].inArray('d'); // -1 = value not found.
+
 
 ```
 
@@ -213,6 +231,7 @@ Remove an item/s from the array.
 > Return: _**Number**_ new array length.
 
 **Example:** 
+
 ```js
 [1, 2, 3, 4, 5].remove(1); // 4 = new array length. // [1, 3, 4, 5]
 [1, 2, 3, 4, 5].remove(1, 3); // 2 = new array length. // [1, 5]
@@ -221,6 +240,7 @@ Remove an item/s from the array.
 [1, 2, 3, 4, 5].remove(1, 3); // 2 = new array length. // [1, 5]
 ['a', 'b', 'a', 'b'].remove('b'); // 3 = new array length. // ['a', 'a', 'b']
 ['a', 'b', 'c', 'd', 'e'].remove('b', 'd'); // 2 = new array length. // ['a', 'e']
+
 ```
 
 ***
@@ -231,9 +251,11 @@ Remove all values that match the given value.
 > Return: _**Array**_ new array.
 
 **Example:** 
+
 ```js
 ['a', 'b', 'c', 'd', 'e', 'c', 'd', 'e2'].remove('d'); // ['a', 'b', 'c', 'e', 'c', 'd', 'e2'] // remove one value
 ['a', 'b', 'c', 'd', 'e', 'c', 'd', 'e2'].removeAll('d'); // ['a', 'b', 'c', 'e', 'c', 'e2'] // remove all values
+
 ```
 
 ***
@@ -254,6 +276,7 @@ Merage all objects in array to first object using `_z.extend`.
 > see [Extinding Object](https://github.com/hlaCk/UnderZ/wiki/.extend())
 
 **Example:** 
+
 ```js
 var myFunction = function() {
 	Object.keys(this).each( function(k, v) {
@@ -300,6 +323,7 @@ theValue = The value
 _z.testFunc;  // undefined. 
 
 [myFunction].extend; // myFunction
+
 ```
 
 ***
@@ -312,6 +336,7 @@ Merage all objects in array to first object using `_z.mix`.
 > see [Merging Object](https://github.com/hlaCk/UnderZ/wiki/.mix())
 
 **Example:** 
+
 ```js
 var myFunction = function() {
 	Object.keys(this).each( function(k, v) {
@@ -358,6 +383,7 @@ theValue = The value
 _z.testFunc;  // undefined. 
 
 [myFunction].mix; // myFunction
+
 ```
 
 ***
@@ -372,6 +398,7 @@ Search a string for a specified value, replace it with a specified value.
 > Return: _**String**_ string with replaced values.
 
 **Example:** 
+
 ```js
 var str = "Test: UnderZ is JS Library.";
 str.replaceArray( ["UnderZ"], ["_z"]); // "Test: _z is JS Library."
@@ -380,6 +407,7 @@ str.replaceArray( ["JS", ":"], "*"); // "Test* UnderZ is * Library."
 str.replaceArray( ["UnderZ", "JS", "Test: "], ["_z", "JavaScript"]); // "_z is JavaScript Library."
 str.replaceArray( "Test:", "\\:>"); // "\:> UnderZ is JS Library."
 str.replaceArray( "Test:" ); // " UnderZ is JS Library."
+
 ```
 
 ***
@@ -390,6 +418,7 @@ Search a string for a specified value/s, replace it with specified value/s.
 > Return: _**String**_ string with replaced values.
 
 **Example:** 
+
 ```js
 var str = "Test: UnderZ is JS Library.";
 str.replaceAll( "UnderZ", "_z"); // "Test: _z is JS Library."
@@ -399,6 +428,7 @@ str.replaceAll( ["JS", ":"], "*"); // "Test UnderZ is * Library."
 str.replaceAll( ["UnderZ", "JS", "Test: "], ["_z", "JavaScript"]); // "_z is JavaScript Library."
 str.replaceAll( "Test:", "\\:>"); // "\:> UnderZ is JS Library."
 str.replaceAll( "Test:" ); // " UnderZ is JS Library."
+
 ```
 
 ***

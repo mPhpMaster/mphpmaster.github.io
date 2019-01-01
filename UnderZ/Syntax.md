@@ -11,6 +11,7 @@ With UnderZ you select HTML elements and perform any actions on them.
 * **action** to be performed on the element(s).
 
 ## Examples
+
 ```js
 // hides the current element
 _z(this).hide();
@@ -23,5 +24,6 @@ _z(".className").hide();
 
 // hides the element with id="idName"
 _z("#idName").hide();
+
 ```
 
