@@ -60,10 +60,13 @@
 		</div>
 		{% endif %}
 		<div>
-		{% for underz_page in site.UnderZ %}
-		  <h2>{{ underz_page.name }}</h2>
-		  <p>{{ underz_page.name | "failed"}}</p>
-		{% endfor %}
+<h2>{{ site.data.underzpages.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.underzpages.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+
 </div>
       </header>
       <section>
