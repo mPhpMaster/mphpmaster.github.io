@@ -25,6 +25,7 @@ Stop the created timer.
 _z.timer.stop();
 ```
 
+* **_z** to access UnderZ library.
 * **timer** method/action name.
 * **stop** Stop timer.
 

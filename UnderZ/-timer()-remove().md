@@ -25,6 +25,7 @@ Remove created timer.
 _z.timer.remove(keepData);
 ```
 
+* **_z** to access UnderZ library.
 * **timer** method/action name.
 * **remove** remove timer method.
 * **keepData** (_Argument_) type _Boolean_, to keep the timer data. _( Default: false )_

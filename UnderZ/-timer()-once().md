@@ -25,6 +25,7 @@ Run created timer once.
 _z.timer.once(status);
 ```
 
+* **_z** to access UnderZ library.
 * **timer** method/action name.
 * **once** Once timer method.
 * **status** _true_ to set timer type to timer once, _false_ to set timer type to a normal timer. _( leave it blank to get Timer once status )_

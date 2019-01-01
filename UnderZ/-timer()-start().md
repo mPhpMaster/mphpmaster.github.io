@@ -25,6 +25,7 @@ Start the created timer.
 _z.timer.start();
 ```
 
+* **_z** to access UnderZ library.
 * **timer** method/action name.
 * **start** Start timer.
 
