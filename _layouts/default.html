@@ -27,15 +27,11 @@
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.programmerGH | site.github.owner_url }}"> {{ site.programmerName }} GitHub Profile</a></p>
+        <p class="view"><a href="{{ site.programmerGH | site.collabGH }}"> {{ site.programmerName }} GitHub Profile</a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.collabGH }}"> {{ site.collabName }} GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.collab }}"> GitHub Profile</a></p>
+        <p class="view"><a href="{{ site.collabGH | site.programmerGH }}"> {{ site.collabName }} GitHub Profile</a></p>
         {% endif %}
 
         {% if site.show_downloads %}
