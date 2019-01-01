@@ -66,7 +66,7 @@ _z.cookie.setBySec(name, value, expire);
 * **value** cookie value. type: _String_
 * **expire** (**optional**) Expire after how many seconds **number of seconds**.  type: _Number_
 
-> **Returns:** _z.cookie _Object_
+> **Returns:** \_z.cookie _Object_
 
 ***
 
@@ -80,8 +80,7 @@ _z.cookie.delete(name);
 * **delete** method/action name.
 * **name** cookie name to delete. type: _String_
 
-> **Returns:** _z.cookie 
-> _Object_
+> **Returns:** \_z.cookie _Object_
 
 > To delete all the cookies you can use: 
 > 
