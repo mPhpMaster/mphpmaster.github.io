@@ -61,7 +61,7 @@
 		{% endif %}
 		<div>
 <ul>
-{% for page in site.data.underspages %}
+{% for page in site.data.underz_pages %}
   <li>
     <a href="{{ page.url }}">
       {{ page.name }}
@@ -69,10 +69,11 @@
   </li>
 {% endfor %}
 </ul>
-		{% for underz_page in site.pages %}
+
+		{ % for underz_page in site.pages %}
 		  <h2>{{ underz_page.name }}</h2>
 		  <p>{{ underz_page.name | "failed"}}</p>
-		{% endfor %}
+		{ % endfor %}
 </div>
       </header>
       <section>
