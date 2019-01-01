@@ -10,7 +10,7 @@ repository_url: https://github.com/hlaCk/UnderZ
 
 jekyll-archives:
   enabled: []
-  layout: archive
+  layout: sitemap
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
