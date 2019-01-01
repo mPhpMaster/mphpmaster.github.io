@@ -5,6 +5,9 @@ layout: UnderZ
 Page/Element scroll.
 
 
+***
+
+
 ## Scroll page to element
 ```js
 _z.scrollTo(where);
@@ -18,6 +21,10 @@ _z.scrollTo(where);
 
 > This method is a shortcut for _z(window).scrollTo(where).
 
+
+***
+
+
 ## Scroll element
 ```js
 _z(selector).scrollTo(where);
@@ -29,6 +36,9 @@ _z(selector).scrollTo(where);
 * **where** element or number to scroll selected element to.  _( you can send DOM element or selector)_
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
 
 
 ## Examples
@@ -52,5 +62,4 @@ _z.scrollTo("#text");
 // scroll page to textarea
 _z.scrollTo( _z(".textarea") );
 </script>
-
 ```
