@@ -7,3 +7,6 @@ google_analytics:
 owner_name: hlaCk
 collab: BlackEagleSA
 repository_url: https://github.com/hlaCk/UnderZ
+
+gems:
+  - jekyll-archives
