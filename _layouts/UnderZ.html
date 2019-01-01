@@ -86,9 +86,13 @@ _1(function() {
 	
 	
 	_z("[asPointer]").click(function() {
-		if( _z(this).attr("asPointer") == "" ) return;
+		var asPointer;
+		if( (asPointer=_z(this).attr("asPointer")) == "" ) return;
 		
-		_z(_z(this).attr("asPointer")).toggle();
+		if( asPointer != "#" )
+			_z(_z(this).attr("asPointer")).toggle();
+		else
+			_z(this).find("a").click();
 	});
 });
 </script>
@@ -133,7 +137,7 @@ _1(function() {
 				<table class="asList2" style="width: 100%;">
 					<tbody style=" width: 272px; height: 400px;">
 {% for page in site.data.underzpages %}
-	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer>
+	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer="#">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
 {% endfor %}
