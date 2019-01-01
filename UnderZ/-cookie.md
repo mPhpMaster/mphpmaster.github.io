@@ -15,7 +15,10 @@ _z.cookie.get();
 * **cookie** to access document cookies.
 * **get** method/action name.
 
-> **Returns:** All cookies as Object `{ "cookie name" = "cookie value" }` _Object_
+> **Returns:** All cookies as Object 
+> ```js
+> { "cookie name" = "cookie value" }
+> ``` _Object_
 
 ***
 
@@ -79,7 +82,9 @@ _z.cookie.delete(name);
 
 > To delete all the cookies you can use: 
 > 
-> `_z.cookie.get().each( (x)=>_z.cookie.delete(x)&&x );`
+> ```js
+> _z.cookie.get().each( (x)=>_z.cookie.delete(x)&&x );
+> ```
 
 ***
 
