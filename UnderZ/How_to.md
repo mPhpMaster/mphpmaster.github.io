@@ -1,6 +1,10 @@
 ---
 layout: UnderZ
 ---
+# How TO.
+How to use UnderZ.
+
+***
 
 # How to include the library in my project ?
 1. Get the library file [_z.js](https://github.com/hlaCk/UnderZ/blob/master/_z.js) and place it in your project folder.
