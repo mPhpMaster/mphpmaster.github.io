@@ -51,7 +51,7 @@ _1(function() {
 	if( pageFilterData.length )
 	_z("#pages-filter").keyup(function(event) {
 		var iTxt = _z("#pages-filter");
-		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return;
+		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return _z("[pagename]").show();
 		var needle = iTxt.val().trim();
 		
 		if( needle == "" ) return _z("[pagename]").show();
