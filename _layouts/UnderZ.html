@@ -61,8 +61,8 @@
 		{% endif %}
 		<div>
 		{% for underz_page in site.pages %}
-		  <h2>{{ underz_page.name }} - {{ underz_page.position }}</h2>
-		  <p>{{ underz_page.content | markdownify }}</p>
+		  <h2>{{ underz_page.name }}</h2>
+		  <p>{{ underz_page.name | "failed"}}</p>
 		{% endfor %}
 </div>
       </header>
