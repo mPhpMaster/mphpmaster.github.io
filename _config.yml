@@ -6,3 +6,6 @@ show_downloads: true
 google_analytics: 
 owner_name: hlaCk
 repository_url: https://github.com/hlaCk/UnderZ
+
+gems:
+  - jekyll-archives
