@@ -3,7 +3,7 @@ layout: UnderZ
 ---
 > _Added in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 
-> _([window Bound](https://github.com/hlaCk/UnderZ/wiki/features#variables--methods-window-bound))_
+> _([window Bound](https://hlack.github.io/UnderZ/Features#variables--methods-window-bound))_
 
 # Timer.
 Creating a timer to call a function or evaluates an expression at specified intervals (in milliseconds).
@@ -23,7 +23,7 @@ new _z.timer(function);
 * **timer** method/action name.
 * **function** the function that will be executed every **x** seconds.  _( Defualt interval: 1 seocnd )_
 
-> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
+> **Returns:** _Object_ [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > This method is a shortcut for _z.timer(1000, function).
 
@@ -42,7 +42,7 @@ new _z.timer(function, milliseconds);
 * **function** the function that will be executed every **x** second/s.
 * **milliseconds** the intervals (in milliseconds) on how often to execute the function. _( 1000 millisecond = 1 second )_
 
-> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
+> **Returns:** _Object_ [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 
 ***
@@ -72,7 +72,7 @@ _z.timer.hold
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **hold** (_Variable_) value type **_Boolean_**. _( Default: false )_
+* **hold** (_Variable_) value type **_Boolean_**. _( Default: **false** )_
 
 
 ***
@@ -85,7 +85,7 @@ _z.timer.interval
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **interval** (_Variable_) value type **_Number_** (in milliseconds). _( Default: 1000 )_
+* **interval** (_Variable_) value type **_Number_** (in milliseconds). _( Default: **1000** )_
 
 
 ***
@@ -98,7 +98,7 @@ _z.timer.instances
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
-* **instances** (_Variable_) value type **_Array_** contains all created timer, use .remove() to remove timer. _( Default: [] )_
+* **instances** (_Variable_) value type **_Array_** contains all created timer, use .remove() to remove timer. _( Default: **[]** )_
 
 
 ***
@@ -138,7 +138,7 @@ _z.timer.removeAll(keepData)
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **removeAll** (_Method_) Stop all existing timers and remove it. _( return: **_z.timer Object** )_
-* **keepData** (_Argument_) type _Boolean_, to keep the timer data. _( Default: false )_
+* **keepData** (_Argument_) type _Boolean_, to keep the timer data. _( Default: **false** )_
 
 
 ***
@@ -146,12 +146,12 @@ _z.timer.removeAll(keepData)
 
 
 ## [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) properties
-### **Variables**
+### **Variables:**
 1. **callback**: Contains the function to execute.
 2. **interval**: Contains the intervals (in milliseconds) on how often to execute the function **_(in milliseconds)_**.
 3. **isRunning**: Contains Boolean value, the status of the timer.
 
-### **Methods**
+### **Methods:**
 1. [**start**](https://hlack.github.io/UnderZ/-timer().start()): Start the timer.
 2. [**stop**](https://hlack.github.io/UnderZ/-timer().stop()): Stop the timer.
 3. [**once**](https://hlack.github.io/UnderZ/-timer().once()): Start the timer once, no repeat.
