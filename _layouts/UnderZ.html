@@ -46,7 +46,7 @@
         {% endif %}
 <script type="text/javascript">
 function listToggleShow(e) {
-	var reCount = ()=>{ return _z("[pagescounter]").text( ""+_z("[pagename]:not(.hidden)").length; ) };
+	var reCount = ()=>{ return _z("[pagescounter]").text( ""+_z("[pagename]:not(.hidden)").length ) };
 	return {
 		show: (x)=>{ _z(e).remClass("hidden")&&reCount(); return _z(e); },
 		hide: (x)=>{ _z(e).addClass("hidden")&&reCount(); return _z(e); },
