@@ -1,11 +1,35 @@
-docs_list_title: ACME Documentation
-docs:
+---
+Title: Sample 1
+category: getting-started
+order: 1
+---
 
-- title: .Array()
-  url: -Array()
+---
+Title: Sample 2
+category: getting-started
+order: 2
+---
 
-- title: .for()
-  url: -for()
+---
+Title: Topic 1
+category: configuration
+order: 1
+---
 
-- title: Features
-  url: Features
+---
+Title: Topic 2
+category: configuration
+order: 2
+---
+
+---
+Title: Widget 1
+category: deployment
+order: 1
+---
+
+---
+Title: Widget 2
+category: deployment
+order: 2
+---

@@ -60,10 +60,10 @@
 		</div>
 		{% endif %}
 		<div>
-<h2>{{ site.data.underzpages.docs_list_title }}</h2>
+<!-- <h2>{{ site.data.underzpages.docs_list_title }}</h2> -->
 <ul>
-   {% for item in site.data.underzpages.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% for item in site.data.underzpages %}
+      <li><a href="{{ item.category }}">{{ item.Title }}</a></li>
    {% endfor %}
 </ul>
 
