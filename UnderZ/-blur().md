@@ -22,7 +22,7 @@ _z(selector).blur(function);
 > To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-```
+```html
 _z(selector).blur();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).blur();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-```
+```ruby
 _z(selector).un("blur", [function]);
 ```
 
