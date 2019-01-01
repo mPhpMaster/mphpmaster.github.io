@@ -4,6 +4,8 @@ title: UnderZ
 description: UnderZ JS Library.
 show_downloads: true
 google_analytics:
-owner_name: hlaCk
-collab: BlackEagleSA
+programmerName: hlaCk
+programmerGH: https://github.com/hlaCk
+collabName: BlackEagleSA
+collabGH: https://github.com/BlackEagleSA
 repository_url: https://github.com/hlaCk/UnderZ
