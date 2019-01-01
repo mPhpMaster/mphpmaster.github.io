@@ -58,7 +58,7 @@ _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
 	
 	if( pageFilterData.length )
-	_z("#pages-filter").keypress(function(event) {
+	_z("#pages-filter").keyup(function(event) {
 		var iTxt = _z("#pages-filter");
 		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return listToggleShow(_z("[pagename]")).show();
 		var needle = iTxt.val().trim();
@@ -67,7 +67,7 @@ _1(function() {
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
 		
-		console.log(result);
+		//console.log(result);
 		if(result.length > 0) {
 			listToggleShow(
 				listToggleShow(
