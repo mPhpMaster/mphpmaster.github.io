@@ -1,5 +1,1 @@
----
-name: Content
-files: [.Array(), .for(), Features]
-urls: [-Array(), -for(), Features]
----
+[{ name: "first", url: "fst"}, { name: "semd", url: "send" }]

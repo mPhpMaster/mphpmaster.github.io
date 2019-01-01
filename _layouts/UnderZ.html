@@ -60,9 +60,19 @@
 		</div>
 		{% endif %}
 		<div>
-{% include fileslist.html content=daataa %}
-
-
+<ul>
+{% for page in site.data.underspages %}
+  <li>
+    <a href="{{ page.url }}">
+      {{ page.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+		{% for underz_page in site.pages %}
+		  <h2>{{ underz_page.name }}</h2>
+		  <p>{{ underz_page.name | "failed"}}</p>
+		{% endfor %}
 </div>
       </header>
       <section>
