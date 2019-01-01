@@ -15,21 +15,21 @@ _z(selector).blur(function);
 * **blur** method/action name.
 * **function** function to execute when a form field loses blur. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
-> This method is a shortcut for _z(selector).on( "blur", function).
+> This method is a shortcut for **_z(selector).on( "blur", function)**.
 > 
 > To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-```
+```js
 _z(selector).blur();
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **blur** method/action name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Unbind blur event
 ```js
@@ -46,7 +46,7 @@ var fun = function lang(l) {
 * **"blur"** event name to unbind.
 * **function** (**optional**) if you like to unbind blur event that triggers specific function.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Examples
 
