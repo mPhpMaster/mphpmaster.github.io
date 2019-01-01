@@ -22,7 +22,7 @@ Execute timer callback.
 
 ## Execute timer function
 ```js
-_imer.execFunction(force);
+_z.timer.execFunction(force);
 ```
 
 * **timer** method/action name.
