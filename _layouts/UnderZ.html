@@ -63,15 +63,11 @@ _1(function() {
 		
 		if(scrolled===false) {
 			var anchr = _z(e).find("a");
-			console.log([
-				anchr,
-				anchr.attr("href"),
-				window.location.href.indexOf( anchr.attr("href") ),
-				scrolled
-			]);
+			
 			if( window.location.href.indexOf( anchr.attr("href") ) > -1 ) {
 				scrolled = true;
 				_z("[listContainer]").scrollTo(anchr);
+				_z(e).addClass("crntPage");
 			}
 		}
 	});
@@ -139,6 +135,13 @@ _1(function() {
 
 .hidden {
 	display: none !Important;
+}
+
+.crntPage {
+	background-color: lightblue;
+}
+.crntPage a {
+	color: black;
 }
 </style>
 		{% if site.show_menu %}
