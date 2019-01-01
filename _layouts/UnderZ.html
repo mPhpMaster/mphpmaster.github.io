@@ -57,21 +57,18 @@ _1(function() {
 		if( needle == "" ) return _z("[pagename]").show("inline-table");
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
-		// console.log(result);
-		//if( result.length == 0 )
-			_z("[pagename]").hide();
-		//else
-			result.each(function(k, e) {
-				console.log("[pagename='"+e+"']");
-				_z("[pagename='"+e+"']").show("inline-table");
-			});
+		
+		_z("[pagename]").hide();
+		result.each(function(k, e) {
+			_z("[pagename='"+e+"']").show("inline-table");
+		});
 		
 	});
 });
 </script>
 		{% if site.show_menu %}
-		<div style="width: 100%; display: block; height: 400px;">
-			<table class="asList" style="display: table;">
+		<div style="width: 100%; /*display: block;*/ height: auto;">
+			<table class="asList" style="/*display: table;*/">
 				<thead>
 					<tr>
 						<th style="text-align: center;">Pages</th>
@@ -84,7 +81,11 @@ _1(function() {
 					</tr>
 				</tbody>
 				
-				<tbody style="overflow: auto; width: 272px; display: inline-table; height: 400px;">
+			</table>
+			
+		<div style="width: 100%; overflow: auto; height: 400px;">
+			<table class="asList" style="/*display: table;*/">
+				<tbody style=" width: 272px; /*display: table;*/ height: 400px;">
 {% for page in site.data.underzpages %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
@@ -92,6 +93,8 @@ _1(function() {
 {% endfor %}
 				</tbody>
 			</table>
+		</div>
+		
 		</div>
 		{% endif %}
 		
