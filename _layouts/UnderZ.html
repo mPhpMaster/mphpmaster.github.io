@@ -57,10 +57,10 @@ _1(function() {
 		if( needle == "" ) return _z("[pagename]").show();
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
-		console.log(result);
-		if( result.length == 0 )
+		// console.log(result);
+		//if( result.length == 0 )
 			_z("[pagename]").hide();
-		else
+		//else
 			result.each(function(k, e) {
 				console.log("[pagename='"+e+"']");
 				_z("[pagename='"+e+"']").show();
