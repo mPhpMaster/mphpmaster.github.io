@@ -45,16 +45,17 @@
         </ul>
         {% endif %}
 <script type="text/javascript">
+function listToggleShow(e) {
+	var reCount = ()=>{ _z("[]pagescounter]").text( ""+_z("[pagename]").isShow().filter(x=>x).length ) };
+	return {
+		show: (x)=>{ _z(e).show(x)&&reCount(); },
+		hide: (x)=>{ _z(e).hide(x)&&reCount(); },
+	};
+};
+
 var pageFilterData = [];
 _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
-	function listToggleShow(e) {
-		var reCount = ()=>{ _z("[]pagescounter]").text( ""+_z("[pagename]").isShow().filter(x=>x).length ) };
-		return {
-			show: (x)=>{ _z(e).show(x)&&reCount(); },
-			hide: (x)=>{ _z(e).hide(x)&&reCount(); },
-		};
-	};
 	
 	if( pageFilterData.length )
 	_z("#pages-filter").keyup(function(event) {
