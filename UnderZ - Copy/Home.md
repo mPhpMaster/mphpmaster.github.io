@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# UnderZ JS Library Wiki 1
+# UnderZ JS Library Wiki
 ## A tiny Library With huge use.
 ### Built to be:
 1. **Easier** to use with each call.
