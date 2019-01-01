@@ -34,6 +34,11 @@ _z(selector).blur();
 ## Unbind blur event
 ```
 _z(selector).un("blur", [function]);
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
