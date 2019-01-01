@@ -15,13 +15,12 @@ _z.cookie.get();
 * **cookie** to access document cookies.
 * **get** method/action name.
 
-> **Returns:** All cookies as Object 
+> **Returns:** _Object_ All cookies as Object 
 > 
 > ```js
 > { "cookie name" = "cookie value" }
 > ``` 
 > 
-> _Object_
 
 ***
 
