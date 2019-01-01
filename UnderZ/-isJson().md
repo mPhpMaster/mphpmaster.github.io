@@ -6,7 +6,9 @@ Check if the value is valid JSON.
 
 
 ## Check Syntax
-```z.isJson(Object);```
+```
+_z.isJson(Object);
+```
 
 * **_z** to access UnderZ library.
 * **isJson** method/action name.

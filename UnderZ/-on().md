@@ -6,7 +6,9 @@ Attach a function executes when event triggered.
 
 
 ## Bind click event
-```z(selector).on("click", function);```
+```
+_z(selector).on("click", function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_
@@ -19,7 +21,9 @@ Attach a function executes when event triggered.
 > To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-an-event)
 
 ## Trigger click event
-```z(selector).trigger("click");```
+```
+_z(selector).trigger("click");
+```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **trigger** method/action name.
@@ -28,7 +32,9 @@ Attach a function executes when event triggered.
 > **Returns:** _z(selector) _Object_
 
 ## Unbind an event
-```z(selector).un("click", [function]);```
+```
+_z(selector).un("click", [function]);
+```
 
 * **selector** select element by selector to unbind **"click"** event. _( you can send DOM element or selector)_
 * **un** method/action name.

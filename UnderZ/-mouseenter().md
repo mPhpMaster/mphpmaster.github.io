@@ -6,7 +6,9 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 
 
 ## Bind mouseenter event
-```z(selector).mouseenter(function);```
+```
+_z(selector).mouseenter(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mouseenter event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 > To unbind mouseenter event: [Unbind mouseenter event](https://hlack.github.io/UnderZ/-mouseenter()#unbind-mouseenter-event)
 
 ## Trigger mouseenter event
-```z(selector).mouseenter();```
+```
+_z(selector).mouseenter();
+```
 
 * **selector** select element by selector to trigger mouseenter event on. _( you can send DOM element or selector)_
 * **mouseenter** method/action name.
@@ -28,7 +32,9 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseenter event
-```z(selector).un("mouseenter", [function]);```
+```
+_z(selector).un("mouseenter", [function]);
+```
 
 * **selector** select element by selector to trigger mouseenter event on. _( you can send DOM element or selector)_
 * **un** method/action name.

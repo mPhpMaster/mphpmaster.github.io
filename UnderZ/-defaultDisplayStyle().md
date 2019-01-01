@@ -6,7 +6,9 @@ Get default css display value for element tag.
 
 
 ## Get default display style
-```z(selector).defaultDisplayStyle();```
+```
+_z(selector).defaultDisplayStyle();
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to get default style. _( you can send DOM element or selector)_
@@ -16,7 +18,9 @@ Get default css display value for element tag.
 
 
 ## Get default display style for element tag
-```z().defaultDisplayStyle( tagname );```
+```
+_z().defaultDisplayStyle( tagname );
+```
 
 * **_z** to access UnderZ library.
 * **defaultDisplayStyle** method/action name.

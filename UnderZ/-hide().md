@@ -5,7 +5,9 @@ layout: UnderZ
 Hide any element.
 
 ## Hide element
-```z(selector).hide();```
+```
+_z(selector).hide();
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to hide. _( you can send DOM element or selector)_

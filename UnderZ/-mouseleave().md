@@ -6,7 +6,9 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 
 
 ## Bind mouseleave event
-```z(selector).mouseleave(function);```
+```
+_z(selector).mouseleave(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mouseleave event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 > To unbind mouseleave event: [Unbind mouseleave event](https://hlack.github.io/UnderZ/-mouseleave()#unbind-mouseleave-event)
 
 ## Trigger mouseleave event
-```z(selector).mouseleave();```
+```
+_z(selector).mouseleave();
+```
 
 * **selector** select element by selector to trigger mouseleave event on. _( you can send DOM element or selector)_
 * **mouseleave** method/action name.
@@ -28,7 +32,9 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseleave event
-```z(selector).un("mouseleave", [function]);```
+```
+_z(selector).un("mouseleave", [function]);
+```
 
 * **selector** select element by selector to trigger mouseleave event on. _( you can send DOM element or selector)_
 * **un** method/action name.

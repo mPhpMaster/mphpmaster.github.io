@@ -21,7 +21,9 @@ Run created timer once.
 ```
 
 ## Set timer is once timer
-```imer.once(status);```
+```
+_imer.once(status);
+```
 
 * **timer** method/action name.
 * **once** Once timer method.

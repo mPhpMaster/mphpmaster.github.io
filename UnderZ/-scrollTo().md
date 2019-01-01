@@ -6,7 +6,9 @@ Page/Element scroll.
 
 
 ## Scroll page to element
-```z.scrollTo(where);```
+```
+_z.scrollTo(where);
+```
 
 * **_z** to access UnderZ library.
 * **scrollTo** method/action name.
@@ -17,7 +19,9 @@ Page/Element scroll.
 > This method is a shortcut for _z(window).scrollTo(where).
 
 ## Scroll element
-```z(selector).scrollTo(where);```
+```
+_z(selector).scrollTo(where);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to preform scroll on it. _( you can send DOM element or selector)_

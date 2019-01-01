@@ -21,7 +21,9 @@ Start the created timer.
 ```
 
 ## Start timer
-```imer.start();```
+```
+_imer.start();
+```
 
 * **timer** method/action name.
 * **start** Start timer.

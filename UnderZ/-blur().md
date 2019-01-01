@@ -6,7 +6,9 @@ Execute a function when the form field loses focus. or trigger blur event for an
 
 
 ## Bind blur event
-```z(selector).blur(function);```
+```
+_z(selector).blur(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when the form field loses focus. or trigger blur event for an
 > To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-```z(selector).blur();```
+```
+_z(selector).blur();
+```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **blur** method/action name.
@@ -28,7 +32,9 @@ Execute a function when the form field loses focus. or trigger blur event for an
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-```z(selector).un("blur", [function]);```
+```
+_z(selector).un("blur", [function]);
+```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **un** method/action name.

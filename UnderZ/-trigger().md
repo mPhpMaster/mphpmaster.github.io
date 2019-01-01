@@ -6,7 +6,9 @@ Execute an event.
 
 
 ## Trigger event
-```z(selector).trigger("click");```
+```
+_z(selector).trigger("click");
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_

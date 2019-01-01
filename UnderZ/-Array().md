@@ -8,7 +8,9 @@ Convert the given variable to an Array **Strings doesn't split**
 ***
 
 ## Make an array
-```z.Array( anyObject );```
+```
+_z.Array( anyObject );
+```
 
 * **_z** to access UnderZ library.
 * **Array** method/action name.

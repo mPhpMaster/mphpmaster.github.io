@@ -6,7 +6,9 @@ Display hidden element.
 
 
 ## Show element
-```z(selector).show([display style]);```
+```
+_z(selector).show([display style]);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to show. _( you can send DOM element or selector)_

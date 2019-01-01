@@ -6,7 +6,9 @@ Deattach an event.
 
 
 ## Unbind click event
-```z(selector).un("click", function);```
+```
+_z(selector).un("click", function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_

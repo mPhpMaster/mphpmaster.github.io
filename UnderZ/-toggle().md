@@ -10,7 +10,9 @@ if the element shows this method will hide it.
 
 
 ## Toggle element
-```z(selector).toggle([display style]);```
+```
+_z(selector).toggle([display style]);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to show or hide. _( you can send DOM element or selector)_

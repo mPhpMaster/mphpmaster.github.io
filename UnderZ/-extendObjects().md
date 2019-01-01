@@ -6,7 +6,9 @@ Create a new object and assign all given objects to it.
 
 
 ## Merge object
-```z.extendObjects(...Objects);```
+```
+_z.extendObjects(...Objects);
+```
 
 * **_z** to access UnderZ library.
 * **extendObjects** method/action name.

@@ -6,7 +6,9 @@ Execute a function when an element is double-clicked. or trigger double click ev
 
 
 ## Bind dblclick event
-```z(selector).dblclick(function);```
+```
+_z(selector).dblclick(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind dblclick event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when an element is double-clicked. or trigger double click ev
 > To unbind dblclick event: [Unbind dblclick event](https://hlack.github.io/UnderZ/-dblclick()#unbind-dblclick-event)
 
 ## Trigger dblclick event
-```z(selector).dblclick();```
+```
+_z(selector).dblclick();
+```
 
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **dblclick** method/action name.
@@ -28,7 +32,9 @@ Execute a function when an element is double-clicked. or trigger double click ev
 > **Returns:** _z(selector) _Object_
 
 ## Unbind dblclick event
-```z(selector).un("dblclick", [function]);```
+```
+_z(selector).un("dblclick", [function]);
+```
 
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **un** method/action name.

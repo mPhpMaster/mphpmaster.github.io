@@ -6,7 +6,9 @@ Change function context and add additional arguments.
 
 
 ## Bind function with context
-```z.proxy(function, context);```
+```
+_z.proxy(function, context);
+```
 
 * **_z** to access UnderZ library.
 * **proxy** method/action name.
@@ -17,7 +19,9 @@ Change function context and add additional arguments.
 
 
 ## Bind context with function
-```z.proxy(context, function);```
+```
+_z.proxy(context, function);
+```
 
 * **_z** to access UnderZ library.
 * **proxy** method/action name.
@@ -28,7 +32,9 @@ Change function context and add additional arguments.
 
 
 ## Bind function with context and additional arguments
-```z.proxy(function, context, ...additionalArguments);```
+```
+_z.proxy(function, context, ...additionalArguments);
+```
 
 * **_z** to access UnderZ library.
 * **proxy** method/action name.

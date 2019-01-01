@@ -21,7 +21,9 @@ Execute timer callback.
 ```
 
 ## Execute timer function
-```imer.execFunction(force);```
+```
+_imer.execFunction(force);
+```
 
 * **timer** method/action name.
 * **execFunction** method/action name.

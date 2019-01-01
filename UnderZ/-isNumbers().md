@@ -5,7 +5,9 @@ layout: UnderZ
 Determine whether a value of an array is number.
 
 ## Check value/s
-```z.isNumbers( [anyObject] );```
+```
+_z.isNumbers( [anyObject] );
+```
 
 * **_z** to access UnderZ library.
 * **isNumbers** method/action name.

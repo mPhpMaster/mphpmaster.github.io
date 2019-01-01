@@ -21,7 +21,9 @@ Stop the created timer.
 ```
 
 ## Stop timer
-```imer.stop();```
+```
+_imer.stop();
+```
 
 * **timer** method/action name.
 * **stop** Stop timer.

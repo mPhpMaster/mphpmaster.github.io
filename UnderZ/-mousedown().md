@@ -6,7 +6,9 @@ Execute a function when the left, middle or right mouse button is pressed down w
 
 
 ## Bind mousedown event
-```z(selector).mousedown(function);```
+```
+_z(selector).mousedown(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mousedown event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when the left, middle or right mouse button is pressed down w
 > To unbind mousedown event: [Unbind mousedown event](https://hlack.github.io/UnderZ/-mousedown()#unbind-mousedown-event)
 
 ## Trigger mousedown event
-```z(selector).mousedown();```
+```
+_z(selector).mousedown();
+```
 
 * **selector** select element by selector to trigger mousedown event on. _( you can send DOM element or selector)_
 * **mousedown** method/action name.
@@ -28,7 +32,9 @@ Execute a function when the left, middle or right mouse button is pressed down w
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mousedown event
-```z(selector).un("mousedown", [function]);```
+```
+_z(selector).un("mousedown", [function]);
+```
 
 * **selector** select element by selector to trigger mousedown event on. _( you can send DOM element or selector)_
 * **un** method/action name.

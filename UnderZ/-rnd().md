@@ -6,20 +6,26 @@ layout: UnderZ
 Generates a random number.
 
 ## Generate a number with no bounds
-```z.rnd();```
+```
+_z.rnd();
+```
 
 * **_z** to access UnderZ library.
 * **rnd** method/action name. 
 
 ## Generate a number given a ceiling
-```z.rnd(end);```
+```
+_z.rnd(end);
+```
 
 * **_z** to access UnderZ library. 
 * **rnd** method/action name. 
 * **end** ceiling for the generated number.
 
 ## Generate a number given a floor
-```z.rnd(start, null);```
+```
+_z.rnd(start, null);
+```
 
 * **_z** to access UnderZ library. 
 * **rnd** method/action name. 
@@ -27,7 +33,9 @@ Generates a random number.
 * **null** no ceiling for the generated number.
 
 ## Generate a number given a range
-```z.rnd(start, end);```
+```
+_z.rnd(start, end);
+```
 
 * **_z** to access UnderZ library. 
 * **rnd** method/action name. 

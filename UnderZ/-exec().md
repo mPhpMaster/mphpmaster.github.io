@@ -6,7 +6,9 @@ Store and execute functions.
 
 
 ## Create function/s store
-```z([functions]);```
+```
+_z([functions]);
+```
 
 * **_z** to access UnderZ library.
 * **[functions]** Function/s to store, **MUST BE IN ARRAY**.
@@ -15,7 +17,9 @@ Store and execute functions.
 
 
 ## Add function/s to store
-```z([functions]).addThis([functions2]);```
+```
+_z([functions]).addThis([functions2]);
+```
 
 * **_z** to access UnderZ library.
 * **[functions]** Store Function/s. _( MUST BE IN ARRAY )_
@@ -25,7 +29,9 @@ Store and execute functions.
 > **Returns:** _z([functions, functions2]) _Object_
 
 ## Execute Stored function/s
-```z([functions]).exec( boolean );```
+```
+_z([functions]).exec( boolean );
+```
 
 * **_z** to access UnderZ library.
 * **[functions]** Stored function/s. _( MUST BE IN ARRAY )_

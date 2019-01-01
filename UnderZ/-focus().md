@@ -6,7 +6,9 @@ Execute a function when the form field gets focus. or trigger focus event for an
 
 
 ## Bind focus event
-```z(selector).focus(function);```
+```
+_z(selector).focus(function);
+```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind focus event with. _( you can send DOM element or selector)_
@@ -20,7 +22,9 @@ Execute a function when the form field gets focus. or trigger focus event for an
 > To unbind focus event: [Unbind focus event](https://hlack.github.io/UnderZ/-focus()#unbind-focus-event)
 
 ## Trigger focus event
-```z(selector).focus();```
+```
+_z(selector).focus();
+```
 
 * **selector** select element by selector to trigger focus event on. _( you can send DOM element or selector)_
 * **focus** method/action name.
@@ -28,7 +32,9 @@ Execute a function when the form field gets focus. or trigger focus event for an
 > **Returns:** _z(selector) _Object_
 
 ## Unbind focus event
-```z(selector).un("focus", [function]);```
+```
+_z(selector).un("focus", [function]);
+```
 
 * **selector** select element by selector to trigger focus event on. _( you can send DOM element or selector)_
 * **un** method/action name.
