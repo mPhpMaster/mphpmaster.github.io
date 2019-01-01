@@ -3,7 +3,7 @@ theme: jekyll-theme-midnight
 title: Midnight theme
 description: Midnight is a theme for GitHub Pages.
 show_downloads: true
-google_analytics:
+google_analytics: 
     github:
       zip_url: http://example.com/download.zip
       repository_url: https://github.com/hlaCk/UnderZ
