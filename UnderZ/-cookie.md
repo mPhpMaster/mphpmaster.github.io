@@ -81,7 +81,8 @@ _z.cookie.delete(name);
 * **delete** method/action name.
 * **name** cookie name to delete. type: _String_
 
-> **Returns:** __z.cookie _Object_
+> **Returns:** _z.cookie 
+> _Object_
 
 > To delete all the cookies you can use: 
 > 
