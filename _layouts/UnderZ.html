@@ -69,7 +69,7 @@ _1(function() {
 				window.location.href.indexOf( anchr.attr("href") ),
 				scrolled
 			]);
-			if( window.location.href.indexOf( anchr.attr("href") ) ) {
+			if( window.location.href.indexOf( anchr.attr("href") ) > -1 ) {
 				scrolled = true;
 				_z("[listContainer]").scrollTo(anchr);
 			}
