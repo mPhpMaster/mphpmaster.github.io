@@ -32,12 +32,24 @@ layout: UnderZ
 ## Required to start
 * [_z.js](https://github.com/hlaCk/UnderZ) 
 
+
+***
+
+
 ## Dependencies
 * NONE
+
+
+***
+
 
 ## Collaborators
 
 * [Turki Alrifaie](https://github.com/BlackEagleSA)
+
+
+***
+
 
 ## Copyright and license
 
