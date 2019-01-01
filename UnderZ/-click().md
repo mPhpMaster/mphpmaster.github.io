@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger a click event on an element.
 Execute a function when an element is clicked. or trigger click event for an element.

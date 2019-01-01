@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger a blur event on an element.
 Execute a function when the form field loses focus. or trigger blur event for an element.

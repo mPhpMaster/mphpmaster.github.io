@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger a mouse leave event on an element.
 Execute a function when the mouse pointer leaves the element. or trigger mouseleave event for an element.

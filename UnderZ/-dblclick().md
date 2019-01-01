@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger a double click event on an element.
 Execute a function when an element is double-clicked. or trigger double click event for an element.

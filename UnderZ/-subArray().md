@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Get part of Array
 Slice Array and return the array elements with a given range.

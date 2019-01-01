@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Execute some JavaScript code globally.
 Execute JavaScript code within the global context.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # UnderZ JS Library Wiki
 ## A tiny Library With huge use.

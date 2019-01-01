@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Hash insertion
 Inserts hash to the current URL.

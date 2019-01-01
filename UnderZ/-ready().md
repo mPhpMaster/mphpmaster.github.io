@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # The Document Ready Event
 Execute function after the document is finished loading (Trigger when the document has finished loading. We can access the DOM elements. But sub-resources such as images, stylesheets, and frames are still loading).

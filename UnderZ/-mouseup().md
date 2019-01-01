@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger a mouse up event on an element.
 Execute a function when the left, middle or right mouse button is released while the mouse is over the element. or trigger mouseup event for an element.

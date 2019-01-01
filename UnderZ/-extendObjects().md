@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Merge multiple objects.
 Create a new object and assign all given objects to it.

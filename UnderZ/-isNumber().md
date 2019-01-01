@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Check value if it's a numeric value.
 Determine whether a value is a number.

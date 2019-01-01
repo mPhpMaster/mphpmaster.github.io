@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Convert variable to Array
 Convert the given variable to an Array **Strings do split**

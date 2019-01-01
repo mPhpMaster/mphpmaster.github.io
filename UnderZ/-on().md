@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Bind or trigger an event on an element.
 Attach a function executes when event triggered.

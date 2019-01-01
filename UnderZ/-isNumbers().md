@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: UnderZ
 ---
 # Check multiple values if it's a numeric value.
 Determine whether a value of an array is number.
