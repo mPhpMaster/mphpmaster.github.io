@@ -19,7 +19,7 @@ _z(selector).toggle([display style]);
 * **toggle** method/action name.
 * **display style** (**optional**) Change Display style.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 
 ## Examples

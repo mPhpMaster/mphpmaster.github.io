@@ -14,7 +14,7 @@ _z.scrollTo(where);
 * **scrollTo** method/action name.
 * **where** element or number to scroll the page to.  _( you can send DOM element or selector)_
 
-> **Returns:** _z(where) or _z(window) _Object_
+> **Returns:** \_z(where) or \_z(window) _Object_
 
 > This method is a shortcut for _z(window).scrollTo(where).
 
@@ -28,7 +28,7 @@ _z(selector).scrollTo(where);
 * **scrollTo** method/action name.
 * **where** element or number to scroll selected element to.  _( you can send DOM element or selector)_
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 
 ## Examples

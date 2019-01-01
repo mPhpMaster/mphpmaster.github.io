@@ -13,7 +13,7 @@ _z([functions]);
 * **_z** to access UnderZ library.
 * **[functions]** Function/s to store, **MUST BE IN ARRAY**.
 
-> **Returns:** _z(function/s) _Object_
+> **Returns:** \_z(function/s) _Object_
 
 
 ## Add function/s to store
@@ -26,7 +26,7 @@ _z([functions]).addThis([functions2]);
 * **addThis** method/action name.
 * **[functions2]** Add function/s to stored function/s.  _( you can send Function or Array of functions )_
 
-> **Returns:** _z([functions, functions2]) _Object_
+> **Returns:** \_z([functions, functions2]) _Object_
 
 ## Execute Stored function/s
 ```js
@@ -38,7 +38,7 @@ _z([functions]).exec( boolean );
 * **exec** method/action name.
 * **boolean** true to execute, false to do nothing. _default: true_ _( leave this blank to execute stored functions )_
 
-> **Returns:** _z([functions]) _Object_
+> **Returns:** \_z([functions]) _Object_
 
 
 ## Examples

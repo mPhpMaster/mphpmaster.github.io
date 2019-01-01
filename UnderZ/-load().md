@@ -17,7 +17,7 @@ _z.load(function);
 * **load** method/action name.
 * **function** function to execute after the DOM is fully loaded. **It can be anonymous function**
 
-> **Returns:** _z _Object_
+> **Returns:** \_z _Object_
 
 ***
 
@@ -30,7 +30,7 @@ _1(function);
 * **_1** to access [.load()](https://hlack.github.io/UnderZ/-load()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is fully loaded. **It can be anonymous function**
 
-> **Returns:** _z _Object_
+> **Returns:** \_z _Object_
 
 ***
 

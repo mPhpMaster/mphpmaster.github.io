@@ -16,7 +16,7 @@ _z.cssRole(String);
 * **cssRole** method/action name.
 * **String** CSS code _(Single code)_.
 
-> **Returns:** _z _Function_
+> **Returns:** \_z _Function_
 
 ***
 
@@ -31,7 +31,7 @@ _z.cssRole([String1, String2]);
 * **String1** CSS code _(Single Code)_.
 * **String2** Another CSS code _(Single Code)_.
 
-> **Returns:** _z _Function_
+> **Returns:** \_z _Function_
 
 
 ## Examples

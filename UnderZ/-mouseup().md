@@ -15,7 +15,7 @@ _z(selector).mouseup(function);
 * **mouseup** method/action name.
 * **function** function to execute when a mouse button is released on the selected element. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > This method is a shortcut for _z(selector).on( "mouseup", function).
 > 
@@ -29,7 +29,7 @@ _z(selector).mouseup();
 * **selector** select element by the selector to trigger mouseup event on. _( you can send DOM element or selector)_
 * **mouseup** method/action name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Unbind mouseup event
 ```js
@@ -41,7 +41,7 @@ _z(selector).un("mouseup", [function]);
 * **"mouseup"** event name to unbind.
 * **function** (**optional**) if you like to unbind mouseup event that triggers specific function.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Examples
 

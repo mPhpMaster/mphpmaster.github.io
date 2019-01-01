@@ -15,7 +15,7 @@ _z(selector).mouseenter(function);
 * **mouseenter** method/action name.
 * **function** function to execute when the mouse pointer enters the selected element. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function).
 > 
@@ -29,7 +29,7 @@ _z(selector).mouseenter();
 * **selector** select element by selector to trigger mouseenter event on. _( you can send DOM element or selector)_
 * **mouseenter** method/action name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Unbind mouseenter event
 ```js
@@ -41,7 +41,7 @@ _z(selector).un("mouseenter", [function]);
 * **"mouseenter"** event name to unbind.
 * **function** (**optional**) if you like to unbind mouseenter event that triggers specific function.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Examples
 

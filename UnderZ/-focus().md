@@ -15,7 +15,7 @@ _z(selector).focus(function);
 * **focus** method/action name.
 * **function** function to execute when a form field gets focus. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > This method is a shortcut for _z(selector).on( "focus", function).
 > 
@@ -29,7 +29,7 @@ _z(selector).focus();
 * **selector** select element by selector to trigger focus event on. _( you can send DOM element or selector)_
 * **focus** method/action name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Unbind focus event
 ```js
@@ -41,7 +41,7 @@ _z(selector).un("focus", [function]);
 * **"focus"** event name to unbind.
 * **function** (**optional**) if you like to unbind focus event that triggers specific function.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Examples
 

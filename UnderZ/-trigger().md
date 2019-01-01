@@ -15,7 +15,7 @@ _z(selector).trigger("click");
 * **trigger** method/action name.
 * **"click"** event name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on()#bind-click-event)
 

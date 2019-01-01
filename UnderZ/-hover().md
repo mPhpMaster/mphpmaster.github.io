@@ -16,7 +16,7 @@ _z(selector).hover(function1, [function2]);
 * **function1** function to execute when the mouse enters the selected element, or pass **false** to skip mouseenter bind. **It can be anonymous function**
 * **[function2]** (**optional**) function to execute when the mouse leaves the selected element, or pass **false** to skip mouseleave bind. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function1).on( "mouseleave", function2)
 > 
@@ -30,7 +30,7 @@ _z(selector).hover();
 * **selector** select element by the selector to trigger hover event on. _( you can send DOM element or selector)_
 * **hover** method/action name.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Unbind hover event
 ```js
@@ -47,7 +47,7 @@ _z(selector).un("hover", [function1, function2]);
 ```
 
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 ## Examples
 

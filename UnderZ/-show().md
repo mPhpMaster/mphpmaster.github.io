@@ -15,7 +15,7 @@ _z(selector).show([display style]);
 * **show** method/action name.
 * **display style** (**optional**) Change Display style.
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > To hide an element: [Hide element](https://hlack.github.io/UnderZ/-hide())
 

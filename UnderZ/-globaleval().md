@@ -14,7 +14,7 @@ _z.globaleval( code );
 * **globaleval** method/action name.
 * **code** JavaScript code to execute. _(String)_
 
-> **Returns:** _z _Function_
+> **Returns:** \_z _Function_
 
 
 ## Examples

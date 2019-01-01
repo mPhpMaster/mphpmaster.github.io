@@ -32,7 +32,7 @@ _z(selector).each( callback, args );
 * **callback** the function that will be executed on every value.
 * **args** (**optional**) arguments to send it as arguments when callback executed.
 
-> **Returns:** _z(selector) __z_.
+> **Returns:** \_z(selector) __z_.
 
 ***
 

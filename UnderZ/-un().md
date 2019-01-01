@@ -16,7 +16,7 @@ _z(selector).un("click", function);
 * **"click"** event name.
 * **function** function to execute when event triggered. **It can be anonymous function**
 
-> **Returns:** _z(selector) _Object_
+> **Returns:** \_z(selector) _Object_
 
 > To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on())
 
