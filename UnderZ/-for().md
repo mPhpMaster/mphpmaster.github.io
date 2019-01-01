@@ -66,6 +66,4 @@ _z.for(lArray, function() {
     if( _z.isNumber(this) && this > 2 )
         return "replaced element - " + this;
 }); // ["new value - 4", 1, "a", "new value - 100", 2, "new value - 3"]
-
-
 ``` 
