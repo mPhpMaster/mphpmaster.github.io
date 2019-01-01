@@ -32,11 +32,24 @@ _z.timer.once(status);
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **once** Once timer method.
-* **status** _true_ to set timer type to timer once, _false_ to set timer type to a normal timer. _( leave it blank to get Timer once status )_
+* **status** _true_ to set timer type to timer once, _false_ to set timer type to a normal timer.
 
-> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
-> 
-> **Returns:** true OR false when no arguments, true = this is Timer once _Boolean_
+> **Returns:** _Object_ [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
+
+
+***
+
+
+## Check timer if its once timer
+```js
+_z.timer.once();
+```
+
+* **_z** to access UnderZ library.
+* **timer** method/action name.
+* **once** Once timer method.
+
+> **Returns:** _Boolean_ true OR false, true = this is Timer once.
 
 
 ***
