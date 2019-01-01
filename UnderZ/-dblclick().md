@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when an element is double-clicked. or trigger double click event for an element.
 
 
+***
+
+
 ## Bind dblclick event
 ```js
 _z(selector).dblclick(function);
@@ -21,6 +24,10 @@ _z(selector).dblclick(function);
 > 
 > To unbind dblclick event: [Unbind dblclick event](https://hlack.github.io/UnderZ/-dblclick()#unbind-dblclick-event)
 
+
+***
+
+
 ## Trigger dblclick event
 ```js
 _z(selector).dblclick();
@@ -30,6 +37,10 @@ _z(selector).dblclick();
 * **dblclick** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind dblclick event
 ```js
@@ -42,6 +53,10 @@ _z(selector).un("dblclick", [function]);
 * **function** (**optional**) if you like to unbind dblclick event that triggers specific function.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
