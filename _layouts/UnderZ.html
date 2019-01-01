@@ -57,6 +57,18 @@ function listToggleShow(e) {
 var pageFilterData = [];
 _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
+	var scrolled = false;
+	_z("[pagename]").each(function(k, e) {
+		pageFilterData.push(_z(e).attr("pagename"));
+		
+		if(scrolled===false) {
+			var anchr = _z(e).find("a");
+			if( window.location.href.indexOf( anchr.attr("href") ) ) {
+				scrolled = true;
+				_z("[listContainer]").scrollTo(anchr);
+			}
+		}
+	});
 	listToggleShow().reCount();
 	
 	if( pageFilterData.length )
@@ -99,6 +111,10 @@ _1(function() {
 			_z(this).remAttr("asPointerAction");
 		}
 	});
+
+	
+	_("[listContainer]")
+	
 });
 </script>
 <style>
@@ -138,7 +154,7 @@ _1(function() {
 				
 			</table>
 			
-			<div style="width: 100%; overflow: auto; height: 300px;">
+			<div style="width: 100%; overflow: auto; height: 300px;" listContainer>
 				<table class="asList2" style="width: 100%;">
 					<tbody style=" width: 272px;">
 {% for page in site.data.underzpages %}
