@@ -6,7 +6,7 @@ Insert a new CSS rule.
 
 
 ## Add CSS code
-```
+```js
 _z.cssRole(String);
 ```
 
@@ -18,7 +18,7 @@ _z.cssRole(String);
 
 
 ## Add multi CSS code
-```
+```js
 _z.cssRole([String1, String2]);
 ```
 

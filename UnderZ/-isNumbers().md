@@ -5,7 +5,7 @@ layout: UnderZ
 Determine whether a value of an array is number.
 
 ## Check value/s
-```
+```js
 _z.isNumbers( [anyObject] );
 ```
 

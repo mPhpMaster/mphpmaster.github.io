@@ -6,7 +6,7 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 
 
 ## Bind mouseenter event
-```
+```js
 _z(selector).mouseenter(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).mouseenter(function);
 > To unbind mouseenter event: [Unbind mouseenter event](https://hlack.github.io/UnderZ/-mouseenter()#unbind-mouseenter-event)
 
 ## Trigger mouseenter event
-```
+```js
 _z(selector).mouseenter();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).mouseenter();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseenter event
-```
+```js
 _z(selector).un("mouseenter", [function]);
 ```
 

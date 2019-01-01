@@ -6,7 +6,7 @@ Page/Element scroll.
 
 
 ## Scroll page to element
-```
+```js
 _z.scrollTo(where);
 ```
 
@@ -19,7 +19,7 @@ _z.scrollTo(where);
 > This method is a shortcut for _z(window).scrollTo(where).
 
 ## Scroll element
-```
+```js
 _z(selector).scrollTo(where);
 ```
 

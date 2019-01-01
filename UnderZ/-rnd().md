@@ -6,7 +6,7 @@ layout: UnderZ
 Generates a random number.
 
 ## Generate a number with no bounds
-```
+```js
 _z.rnd();
 ```
 
@@ -14,7 +14,7 @@ _z.rnd();
 * **rnd** method/action name. 
 
 ## Generate a number given a ceiling
-```
+```js
 _z.rnd(end);
 ```
 
@@ -23,7 +23,7 @@ _z.rnd(end);
 * **end** ceiling for the generated number.
 
 ## Generate a number given a floor
-```
+```js
 _z.rnd(start, null);
 ```
 
@@ -33,7 +33,7 @@ _z.rnd(start, null);
 * **null** no ceiling for the generated number.
 
 ## Generate a number given a range
-```
+```js
 _z.rnd(start, end);
 ```
 

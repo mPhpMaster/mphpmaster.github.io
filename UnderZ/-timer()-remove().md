@@ -21,8 +21,8 @@ Remove created timer.
 ```
 
 ## Remove timer
-```
-_imer.remove(keepData);
+```js
+_z.timer.remove(keepData);
 ```
 
 * **timer** method/action name.

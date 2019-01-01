@@ -10,7 +10,7 @@ Execute function after the document is finished loading (Trigger when the page i
 
 ## Method 1: _Default way_.
 
-```
+```js
 _z.load(function);
 ```
 * **_z** to access UnderZ library.
@@ -24,7 +24,7 @@ _z.load(function);
 ## Method 2: _Shorter way_.
 > Make sure that no other library use `_1` sign.
 
-```
+```js
 _1(function);
 ```
 * **_1** to access [.load()](https://hlack.github.io/UnderZ/-load()#method-1-default-way) method in UnderZ library.

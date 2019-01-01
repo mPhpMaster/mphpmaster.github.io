@@ -10,7 +10,7 @@ if the element shows this method will hide it.
 
 
 ## Toggle element
-```
+```js
 _z(selector).toggle([display style]);
 ```
 

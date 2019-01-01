@@ -21,8 +21,8 @@ Run created timer once.
 ```
 
 ## Set timer is once timer
-```
-_imer.once(status);
+```js
+_z.timer.once(status);
 ```
 
 * **timer** method/action name.

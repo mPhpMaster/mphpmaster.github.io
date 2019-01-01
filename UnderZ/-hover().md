@@ -6,7 +6,7 @@ Execute a function when the mouse enters the element, and/or when the mouse leav
 
 
 ## Bind hover event
-```
+```js
 _z(selector).hover(function1, [function2]);
 ```
 
@@ -23,7 +23,7 @@ _z(selector).hover(function1, [function2]);
 > To unbind hover event: [Unbind hover event](https://hlack.github.io/UnderZ/-hover()#unbind-hover-event)
 
 ## Trigger hover event
-```
+```js
 _z(selector).hover();
 ```
 
@@ -33,7 +33,7 @@ _z(selector).hover();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind hover event
-```
+```js
 _z(selector).un("hover", [function]);
 ```
 
@@ -42,7 +42,7 @@ _z(selector).un("hover", [function]);
 * **un** method/action name.
 * **"hover"** event name to unbind.
 * **function** (**optional**) if you like to unbind hover event that triggers specific function. **also**, you can send multiple functions for **example**:
-```
+```js
 _z(selector).un("hover", [function1, function2]);
 ```
 

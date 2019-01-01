@@ -6,7 +6,7 @@ Get default css display value for element tag.
 
 
 ## Get default display style
-```
+```js
 _z(selector).defaultDisplayStyle();
 ```
 
@@ -18,7 +18,7 @@ _z(selector).defaultDisplayStyle();
 
 
 ## Get default display style for element tag
-```
+```js
 _z().defaultDisplayStyle( tagname );
 ```
 

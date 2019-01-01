@@ -6,7 +6,7 @@ Change function context and add additional arguments.
 
 
 ## Bind function with context
-```
+```js
 _z.proxy(function, context);
 ```
 
@@ -19,7 +19,7 @@ _z.proxy(function, context);
 
 
 ## Bind context with function
-```
+```js
 _z.proxy(context, function);
 ```
 
@@ -32,7 +32,7 @@ _z.proxy(context, function);
 
 
 ## Bind function with context and additional arguments
-```
+```js
 _z.proxy(function, context, ...additionalArguments);
 ```
 

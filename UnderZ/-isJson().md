@@ -6,7 +6,7 @@ Check if the value is valid JSON.
 
 
 ## Check Syntax
-```
+```js
 _z.isJson(Object);
 ```
 

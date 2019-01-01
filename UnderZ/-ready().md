@@ -8,7 +8,7 @@ Execute function after the document is finished loading (Trigger when the docume
 
 ## Method 1: _Default way_.
 
-```
+```js
 _z.ready(function);
 ```
 * **_z** to access UnderZ library.
@@ -19,7 +19,7 @@ _z.ready(function);
 
 ## Method 2: _Short way_.
 
-```
+```js
 _z(function);
 ```
 * **_z** to access UnderZ library.
@@ -41,7 +41,7 @@ _z(function);
 ## Method 3: _Shorter way_.
 > Make sure that no other library use `_` sign, like _Underscore_ Library.
 
-```
+```js
 _2(function);
 ```
 * **_** to access [.ready()](https://hlack.github.io/UnderZ/-ready()#method-1-default-way) method in UnderZ library.

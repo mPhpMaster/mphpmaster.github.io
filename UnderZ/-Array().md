@@ -8,7 +8,7 @@ Convert the given variable to an Array **Strings doesn't split**
 ***
 
 ## Make an array
-```
+```js
 _z.Array( anyObject );
 ```
 

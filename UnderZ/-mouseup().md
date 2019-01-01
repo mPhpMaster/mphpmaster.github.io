@@ -6,7 +6,7 @@ Execute a function when the left, middle or right mouse button is released while
 
 
 ## Bind mouseup event
-```
+```js
 _z(selector).mouseup(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).mouseup(function);
 > To unbind mouseup event: [Unbind mouseup event](https://hlack.github.io/UnderZ/-mouseup()#unbind-mouseup-event)
 
 ## Trigger mouseup event
-```
+```js
 _z(selector).mouseup();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).mouseup();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseup event
-```
+```js
 _z(selector).un("mouseup", [function]);
 ```
 

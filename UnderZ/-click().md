@@ -6,7 +6,7 @@ Execute a function when an element is clicked. or trigger click event for an ele
 
 
 ## Bind click event
-```
+```js
 _z(selector).click(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).click(function);
 > To unbind click event: [Unbind click event](https://hlack.github.io/UnderZ/-click()#unbind-click-event)
 
 ## Trigger click event
-```
+```js
 _z(selector).click();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).click();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind click event
-```
+```js
 _z(selector).un("click", [function]);
 ```
 

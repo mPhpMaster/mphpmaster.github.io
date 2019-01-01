@@ -6,7 +6,7 @@ Execute a function when an element is double-clicked. or trigger double click ev
 
 
 ## Bind dblclick event
-```
+```js
 _z(selector).dblclick(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).dblclick(function);
 > To unbind dblclick event: [Unbind dblclick event](https://hlack.github.io/UnderZ/-dblclick()#unbind-dblclick-event)
 
 ## Trigger dblclick event
-```
+```js
 _z(selector).dblclick();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).dblclick();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind dblclick event
-```
+```js
 _z(selector).un("dblclick", [function]);
 ```
 

@@ -5,7 +5,7 @@ layout: UnderZ
 Determine whether a value is a number.
 
 ## Check value
-```
+```js
 _z.isNumber( anyObject );
 ```
 

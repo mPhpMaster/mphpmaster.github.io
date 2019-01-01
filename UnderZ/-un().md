@@ -6,7 +6,7 @@ Deattach an event.
 
 
 ## Unbind click event
-```
+```js
 _z(selector).un("click", function);
 ```
 

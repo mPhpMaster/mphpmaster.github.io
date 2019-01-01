@@ -7,7 +7,7 @@ Convert the given variable to an Array **Strings do split**
 ***
 
 ## Convert to array
-```
+```js
 _z.toArray( anyObject );
 ```
 

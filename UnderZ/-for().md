@@ -7,7 +7,7 @@ Iterate over object/array, executing a function for each value.
 ***
 
 ## Loop with array/object
-```
+```js
 _z.for( array, callback, context );
 ```
 
@@ -22,7 +22,7 @@ _z.for( array, callback, context );
 ***
 
 ## Loop with DOM elements
-```
+```js
 _z(selector).for( callback, context );
 ```
 

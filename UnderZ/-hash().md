@@ -7,7 +7,7 @@ Inserts hash to the current URL.
 ***
 
 ## Creating hash reference
-```
+```js
 _z.hash( name ) 
 ```
 

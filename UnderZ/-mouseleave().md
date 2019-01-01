@@ -6,7 +6,7 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 
 
 ## Bind mouseleave event
-```
+```js
 _z(selector).mouseleave(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).mouseleave(function);
 > To unbind mouseleave event: [Unbind mouseleave event](https://hlack.github.io/UnderZ/-mouseleave()#unbind-mouseleave-event)
 
 ## Trigger mouseleave event
-```
+```js
 _z(selector).mouseleave();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).mouseleave();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseleave event
-```
+```js
 _z(selector).un("mouseleave", [function]);
 ```
 

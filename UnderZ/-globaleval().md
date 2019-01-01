@@ -6,7 +6,7 @@ Execute JavaScript code within the global context.
 
 
 ## Execute global code
-```
+```js
 _z.globaleval( code );
 ```
 

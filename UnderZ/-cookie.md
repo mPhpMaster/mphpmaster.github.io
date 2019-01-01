@@ -7,7 +7,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Get all cookies
-```
+```js
 _z.cookie.get();
 ```
 
@@ -20,7 +20,7 @@ _z.cookie.get();
 ***
 
 ## Get one cookies
-```
+```js
 _z.cookie.get(name);
 ```
 
@@ -34,7 +34,7 @@ _z.cookie.get(name);
 ***
 
 ## Add/Update cookies. _(expire time by days)_
-```
+```js
 _z.cookie.set(name, value, expire);
 ```
 
@@ -50,7 +50,7 @@ _z.cookie.set(name, value, expire);
 ***
 
 ## Add/Update cookies _(expire time by seconds)_
-```
+```js
 _z.cookie.setBySec(name, value, expire);
 ```
 
@@ -66,7 +66,7 @@ _z.cookie.setBySec(name, value, expire);
 ***
 
 ## Delete cookie _(One at a time)_
-```
+```js
 _z.cookie.delete(name);
 ```
 

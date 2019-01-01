@@ -6,7 +6,7 @@ Execute an event.
 
 
 ## Trigger event
-```
+```js
 _z(selector).trigger("click");
 ```
 

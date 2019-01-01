@@ -7,7 +7,7 @@ Slice Array and return the array elements with a given range.
 ***
 
 ## Slice an array
-```
+```js
 _z.subArray( start from NUMBER, end at NUMBER, array ARRAY );
 ```
 

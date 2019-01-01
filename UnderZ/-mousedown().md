@@ -6,7 +6,7 @@ Execute a function when the left, middle or right mouse button is pressed down w
 
 
 ## Bind mousedown event
-```
+```js
 _z(selector).mousedown(function);
 ```
 
@@ -22,7 +22,7 @@ _z(selector).mousedown(function);
 > To unbind mousedown event: [Unbind mousedown event](https://hlack.github.io/UnderZ/-mousedown()#unbind-mousedown-event)
 
 ## Trigger mousedown event
-```
+```js
 _z(selector).mousedown();
 ```
 
@@ -32,7 +32,7 @@ _z(selector).mousedown();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mousedown event
-```
+```js
 _z(selector).un("mousedown", [function]);
 ```
 

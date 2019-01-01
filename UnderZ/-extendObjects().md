@@ -6,7 +6,7 @@ Create a new object and assign all given objects to it.
 
 
 ## Merge object
-```
+```js
 _z.extendObjects(...Objects);
 ```
 

@@ -11,7 +11,7 @@ Creating a timer to call a function or evaluates an expression at specified inte
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 ## Schedule a function 
-```
+```js
 _ew _z.timer(function);
 ```
 
@@ -28,7 +28,7 @@ _ew _z.timer(function);
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 ## Schedule a function to execute at specified intervals
-```
+```js
 _ew _z.timer(function, milliseconds);
 ```
 
@@ -60,7 +60,7 @@ So that `timer` is variable contains Timer object.
 ## Timer defualt options
 
 ### Stop execution of all timers
-```
+```js
 _z.timer.hold
 ```
 
@@ -69,7 +69,7 @@ _z.timer.hold
 * **hold** (_Variable_) value type **_Boolean_**. _( Default: false )_
 
 ### Default timer interval
-```
+```js
 _z.timer.interval
 ```
 
@@ -78,7 +78,7 @@ _z.timer.interval
 * **interval** (_Variable_) value type **_Number_** (in milliseconds). _( Default: 1000 )_
 
 ### Timers list
-```
+```js
 _z.timer.instances
 ```
 
@@ -87,7 +87,7 @@ _z.timer.instances
 * **instances** (_Variable_) value type **_Array_** contains all created timer, use .remove() to remove timer. _( Default: [] )_
 
 ### Start all existing timers
-```
+```js
 _z.timer.startAll()
 ```
 
@@ -96,7 +96,7 @@ _z.timer.startAll()
 * **startAll** (_Method_) Start all existing timer. _( return: `_z.timer Object` )_
 
 ### Stop all existing timers
-```
+```js
 _z.timer.stopAll()
 ```
 
@@ -105,7 +105,7 @@ _z.timer.stopAll()
 * **stopAll** (_Method_) Stop all existing timers. _( return: `_z.timer Object` )_
 
 ### Remove all existing timers
-```
+```js
 _z.timer.removeAll(keepData)
 ```
 

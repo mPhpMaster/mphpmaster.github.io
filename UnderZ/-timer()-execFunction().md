@@ -21,7 +21,7 @@ Execute timer callback.
 ```
 
 ## Execute timer function
-```
+```js
 _imer.execFunction(force);
 ```
 

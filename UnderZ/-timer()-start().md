@@ -21,8 +21,8 @@ Start the created timer.
 ```
 
 ## Start timer
-```
-_imer.start();
+```js
+_z.timer.start();
 ```
 
 * **timer** method/action name.

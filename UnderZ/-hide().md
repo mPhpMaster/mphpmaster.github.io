@@ -5,7 +5,7 @@ layout: UnderZ
 Hide any element.
 
 ## Hide element
-```
+```js
 _z(selector).hide();
 ```
 

@@ -6,7 +6,7 @@ Store and execute functions.
 
 
 ## Create function/s store
-```
+```js
 _z([functions]);
 ```
 
@@ -17,7 +17,7 @@ _z([functions]);
 
 
 ## Add function/s to store
-```
+```js
 _z([functions]).addThis([functions2]);
 ```
 
@@ -29,7 +29,7 @@ _z([functions]).addThis([functions2]);
 > **Returns:** _z([functions, functions2]) _Object_
 
 ## Execute Stored function/s
-```
+```js
 _z([functions]).exec( boolean );
 ```
 

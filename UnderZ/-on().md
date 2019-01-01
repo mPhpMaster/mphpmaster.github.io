@@ -6,7 +6,7 @@ Attach a function executes when event triggered.
 
 
 ## Bind click event
-```
+```js
 _z(selector).on("click", function);
 ```
 
@@ -21,7 +21,7 @@ _z(selector).on("click", function);
 > To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-an-event)
 
 ## Trigger click event
-```
+```js
 _z(selector).trigger("click");
 ```
 
@@ -32,7 +32,7 @@ _z(selector).trigger("click");
 > **Returns:** _z(selector) _Object_
 
 ## Unbind an event
-```
+```js
 _z(selector).un("click", [function]);
 ```
 

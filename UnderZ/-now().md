@@ -6,7 +6,7 @@ Get current timestamp.
 
 
 ## Get timestamp
-```
+```js
 _z.now();
 ```
 

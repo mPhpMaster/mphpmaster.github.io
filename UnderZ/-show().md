@@ -6,7 +6,7 @@ Display hidden element.
 
 
 ## Show element
-```
+```js
 _z(selector).show([display style]);
 ```
 
