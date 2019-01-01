@@ -33,7 +33,7 @@ _z(function);
 
 > **Returns:** function returning
 
-> You can disable this method by writing this code in [**Initial code**](https://hlack.github.io/UnderZ/How_to#how-to-initiate-the-code-when-the-library-starts-):
+> You can disable this method by writing this code in [Initial code](https://hlack.github.io/UnderZ/How_to#how-to-initiate-the-code-when-the-library-starts-):
 > 
 ```html
 > <script type="text/javascript" src="_z.js" underZ>
