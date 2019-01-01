@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# UnderZ: JavaScript Library. a
+# UnderZ: JavaScript Library.
 
 * [Library Page](https://github.com/hlaCk/UnderZ) 
 
