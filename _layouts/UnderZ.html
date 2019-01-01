@@ -46,7 +46,11 @@
         {% endif %}
 <script type="text/javascript">
 function listToggleShow(e) {
-	var reCount = ()=>{ _z("[pagescounter]").text( ""+_z("[pagename]").isShow().filter(x=>x).length ) };
+	var shown = 0;
+	_z("[pagename]").each(function(k, e) {
+		shown += _z(this).isShow() ? 1 : 0;
+	});
+	var reCount = ()=>{ _z("[pagescounter]").text( ""+shown) };
 	return {
 		show: (x)=>{ _z(e).show(x)&&reCount(); },
 		hide: (x)=>{ _z(e).hide(x)&&reCount(); },
