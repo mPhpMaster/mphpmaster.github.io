@@ -45,16 +45,18 @@
         </ul>
         {% endif %}
 <script type="text/javascript">
-_1(function(event) {
-	var iTxt = _z("#pages-filter");
-	if( iTxt.length < 1 || event["keyCode"] != 13) return;
-	
-	console.log([
-		_z("[pagename='" + iTxt.val().trim() + "']"),
-		iTxt.val(),
-		_z("[pagename]"),
-	]);
-	
+_1(function() {
+	_z("#pages-filter").keyup(function(event) {
+		var iTxt = _z("#pages-filter");
+		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return;
+		
+		console.log([
+			_z("[pagename='" + iTxt.val().trim() + "']"),
+			iTxt.val(),
+			_z("[pagename]"),
+		]);
+		
+	});
 });
 </script>
 		{% if site.show_menu %}
