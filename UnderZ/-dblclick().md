@@ -33,6 +33,7 @@ _z(selector).dblclick(function);
 _z(selector).dblclick();
 ```
 
+* **_z** to access UnderZ library.
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **dblclick** method/action name.
 
@@ -47,6 +48,7 @@ _z(selector).dblclick();
 _z(selector).un("dblclick", [function]);
 ```
 
+* **_z** to access UnderZ library.
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **un** method/action name.
 * **"dblclick"** event name to unbind.
