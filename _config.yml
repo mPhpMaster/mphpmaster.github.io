@@ -4,4 +4,6 @@ title: Midnight theme
 description: Midnight is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-repository_url: https://github.com/hlaCk/UnderZ
+github: {
+	repository_url: https://github.com/hlaCk/UnderZ
+}
