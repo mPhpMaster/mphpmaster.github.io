@@ -1,35 +1,5 @@
 ---
-Title: Sample 1
-category: getting-started
-order: 1
----
-
----
-Title: Sample 2
-category: getting-started
-order: 2
----
-
----
-Title: Topic 1
-category: configuration
-order: 1
----
-
----
-Title: Topic 2
-category: configuration
-order: 2
----
-
----
-Title: Widget 1
-category: deployment
-order: 1
----
-
----
-Title: Widget 2
-category: deployment
-order: 2
+name: Content
+files: [.Array(), .for(), Features]
+urls: [-Array(), -for(), Features]
 ---

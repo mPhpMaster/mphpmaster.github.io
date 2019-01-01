@@ -60,12 +60,14 @@
 		</div>
 		{% endif %}
 		<div>
-<!-- <h2>{{ site.data.underzpages.docs_list_title }}</h2> -->
-<ul>
-   {% for item in collections.tags %}
-      <li><a href="{{ item }}">{{ item.Title }} - {{ item.name }}</a></li>
-   {% endfor %}
-</ul>
+{% for page in site.underzpages %}
+  <h3>{{ page.name }}</h3>
+  <ul>
+    {% for file in page.files %}
+      <li><a href="{{ file }}">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 </div>
       </header>
