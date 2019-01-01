@@ -4,6 +4,10 @@ layout: UnderZ
 # Check value if it's a numeric value.
 Determine whether a value is a number.
 
+
+***
+
+
 ## Check value
 ```js
 _z.isNumber( anyObject );
@@ -13,7 +17,11 @@ _z.isNumber( anyObject );
 * **isNumber** method/action name.
 * **anyObject** Any value to check.
 
-> **Returns:** true|false _boolean_
+> **Returns:** true OR false _boolean_
+
+
+***
+
 
 ## Examples
 
@@ -29,5 +37,4 @@ _z.isNumber(y); // false
 _z.isNumber(ex1); // false 
 _z.isNumber(ex2); // false
 </script>
-
 ```

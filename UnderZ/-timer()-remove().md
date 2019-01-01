@@ -29,7 +29,7 @@ _z.timer.remove(keepData);
 * **remove** remove timer method.
 * **keepData** (_Argument_) type _Boolean_, to keep the timer data. _( Default: false )_
 
-> **Returns:** true|false _Boolean_
+> **Returns:** true OR false _Boolean_
 
 ***
 

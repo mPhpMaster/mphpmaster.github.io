@@ -4,6 +4,10 @@ layout: UnderZ
 # Hide an element.
 Hide any element.
 
+
+***
+
+
 ## Hide element
 ```js
 _z(selector).hide();
@@ -16,6 +20,9 @@ _z(selector).hide();
 > **Returns:** \_z(selector) _Object_
 
 > To show an element: [Show element](https://hlack.github.io/UnderZ/-show())
+
+
+***
 
 
 ## Examples
@@ -37,9 +44,7 @@ _z("#buttonShow").click(function () {
 	// show element
 	_z("#button").show();
 });
-
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

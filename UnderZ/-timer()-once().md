@@ -31,7 +31,7 @@ _z.timer.once(status);
 
 > **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 > 
-> **Returns:** true|false when no arguments, true = this is Timer once _Boolean_
+> **Returns:** true OR false when no arguments, true = this is Timer once _Boolean_
 
 
 ***

@@ -5,6 +5,9 @@ layout: UnderZ
 Check if the value is valid JSON.
 
 
+***
+
+
 ## Check Syntax
 ```js
 _z.isJson(Object);
@@ -14,8 +17,10 @@ _z.isJson(Object);
 * **isJson** method/action name.
 * **Object** Any object to check if its valid JSON.
 
-> **Returns:** true|false _boolean_
+> **Returns:** true OR false _boolean_
 
+
+***
 
 
 ## Examples

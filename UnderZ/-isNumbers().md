@@ -4,6 +4,10 @@ layout: UnderZ
 # Check multiple values if it's a numeric value.
 Determine whether a value of an array is number.
 
+
+***
+
+
 ## Check value/s
 ```js
 _z.isNumbers( [anyObject] );
@@ -13,7 +17,11 @@ _z.isNumbers( [anyObject] );
 * **isNumbers** method/action name.
 * **[anyObject]** Array of any type to check.
 
-> **Returns:** true|false _boolean_
+> **Returns:** true OR false _boolean_
+
+
+***
+
 
 ## Examples
 
@@ -29,5 +37,4 @@ _z.isNumbers(y); // false
 _z.isNumbers(ex1); // false 
 _z.isNumbers(ex2); // false
 </script>
-
 ```

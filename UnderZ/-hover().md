@@ -5,6 +5,9 @@ layout: UnderZ
 Execute a function when the mouse enters the element, and/or when the mouse leaves the element. or trigger the hover event/events for an element.
 
 
+***
+
+
 ## Bind hover event
 ```js
 _z(selector).hover(function1, [function2]);
@@ -22,6 +25,10 @@ _z(selector).hover(function1, [function2]);
 > 
 > To unbind hover event: [Unbind hover event](https://hlack.github.io/UnderZ/-hover()#unbind-hover-event)
 
+
+***
+
+
 ## Trigger hover event
 ```js
 _z(selector).hover();
@@ -31,6 +38,10 @@ _z(selector).hover();
 * **hover** method/action name.
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Unbind hover event
 ```js
@@ -48,6 +59,10 @@ _z(selector).un("hover", [function1, function2]);
 
 
 > **Returns:** \_z(selector) _Object_
+
+
+***
+
 
 ## Examples
 
@@ -84,8 +99,11 @@ _z(".btnCTitle").hover(); // change document title to 'Change Title'
 _z("#button").hover(); // alert 'Mouse in!' when the mouse on the element and change document title to 'Show Message & Change Title'
 _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" event' and unbind hover event on .btnCTitle button
 </script>
-
 ```
+
+
+***
+
 
 ## More examples
 
@@ -138,7 +156,6 @@ _z("#btn3").click(function () {
 // trigger hover event
 _z(".p1").hover(); // try it, have fun.
 </script>
-
 ```
 
 > Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

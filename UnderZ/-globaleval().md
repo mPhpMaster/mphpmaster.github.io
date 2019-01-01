@@ -5,6 +5,9 @@ layout: UnderZ
 Execute JavaScript code within the global context.
 
 
+***
+
+
 ## Execute global code
 ```js
 _z.globaleval( code );
@@ -15,6 +18,9 @@ _z.globaleval( code );
 * **code** JavaScript code to execute. _(String)_
 
 > **Returns:** \_z _Function_
+
+
+***
 
 
 ## Examples
