@@ -86,13 +86,18 @@ _1(function() {
 	
 	
 	_z("[asPointer]").click(function() {
+		if( !!_z(this).attr("asPointerAction") ) return false;
+		
 		var asPointer;
 		if( (asPointer=_z(this).attr("asPointer")) == "" ) return;
 		
 		if( asPointer != "#" )
 			_z(_z(this).attr("asPointer")).toggle();
-		else
+		else {
+			_z(this).attr("asPointerAction", "click");
 			_z(this).find("a").click();
+			_z(this).remAttr("asPointerAction");
+		}
 	});
 });
 </script>
