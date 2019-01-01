@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hlaCk/UnderZ/_z.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hlaCk/UnderZ/_z.js" underZ>
+	
+	</script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -42,7 +44,19 @@
           <li><a href="{{ site.repository_url | site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-
+<script type="text/javascript">
+_1(function(event) {
+	var iTxt = _z("#pages-filter");
+	if( iTxt.length < 1 || event["keyCode"] != 13) return;
+	
+	console.log([
+		_z("[pagename='" + iTxt.val().trim() + "']"),
+		iTxt.val(),
+		_z("[pagename]"),
+	]);
+	
+});
+</script>
 		{% if site.show_menu %}
 		<div style="width: 100%; display: block; height: 400px;">
 			<table class="asList">
@@ -60,7 +74,7 @@
 				
 				<tbody style="overflow: auto; width: 272px; display: inline-block; height: 400px;">
 {% for page in site.data.underzpages %}
-	<tr style="display: table;width: 100%;">
+	<tr style="display: table;width: 100%;" pagename="{{ page.name }}">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
 {% endfor %}
