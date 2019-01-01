@@ -7,11 +7,11 @@ Start the created timer.
 
 ***
 
-> Please see: [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object)
+> Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 
-> All examples bellow uses [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object).
+> All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
 > 
 > all codes bellow after using this code:
 > 
@@ -21,12 +21,12 @@ Start the created timer.
 ```
 
 ## Start timer
-`timer.start();`
+```imer.start();```
 
 * **timer** method/action name.
 * **start** Start timer.
 
-> **Returns:** [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object) _Object_
+> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 
 > Make sure that `_z.timer.hold = false`.
 

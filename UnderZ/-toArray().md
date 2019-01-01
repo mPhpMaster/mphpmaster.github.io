@@ -7,7 +7,7 @@ Convert the given variable to an Array **Strings do split**
 ***
 
 ## Convert to array
-`_z.toArray( anyObject );`
+```z.toArray( anyObject );```
 
 * **_z** to access UnderZ library.
 * **toArray** method/action name.

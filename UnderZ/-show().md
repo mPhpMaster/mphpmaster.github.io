@@ -6,7 +6,7 @@ Display hidden element.
 
 
 ## Show element
-`_z(selector).show([display style]);`
+```z(selector).show([display style]);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to show. _( you can send DOM element or selector)_
@@ -15,7 +15,7 @@ Display hidden element.
 
 > **Returns:** _z(selector) _Object_
 
-> To hide an element: [Hide element](https://github.com/hlaCk/UnderZ/wiki/.hide())
+> To hide an element: [Hide element](https://hlack.github.io/UnderZ/-hide())
 
 
 ## Examples
@@ -55,4 +55,4 @@ _z("#buttonFlex").click(function () {
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

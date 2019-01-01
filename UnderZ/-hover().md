@@ -6,7 +6,7 @@ Execute a function when the mouse enters the element, and/or when the mouse leav
 
 
 ## Bind hover event
-`_z(selector).hover(function1, [function2]);`
+```z(selector).hover(function1, [function2]);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind hover event with. _( you can send DOM element or selector)_
@@ -18,10 +18,10 @@ Execute a function when the mouse enters the element, and/or when the mouse leav
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function1).on( "mouseleave", function2)
 > 
-> To unbind hover event: [Unbind hover event](https://github.com/hlaCk/UnderZ/wiki/.hover()#unbind-hover-event)
+> To unbind hover event: [Unbind hover event](https://hlack.github.io/UnderZ/-hover()#unbind-hover-event)
 
 ## Trigger hover event
-`_z(selector).hover();`
+```z(selector).hover();```
 
 * **selector** select element by the selector to trigger hover event on. _( you can send DOM element or selector)_
 * **hover** method/action name.
@@ -29,14 +29,14 @@ Execute a function when the mouse enters the element, and/or when the mouse leav
 > **Returns:** _z(selector) _Object_
 
 ## Unbind hover event
-`_z(selector).un("hover", [function]);`
+```z(selector).un("hover", [function]);```
 
 
 * **selector** select element by the selector to trigger hover event on. _( you can send DOM element or selector)_
 * **un** method/action name.
 * **"hover"** event name to unbind.
 * **function** (**optional**) if you like to unbind hover event that triggers specific function. **also**, you can send multiple functions for **example**:
-`_z(selector).un("hover", [function1, function2]);`
+```z(selector).un("hover", [function1, function2]);```
 
 
 > **Returns:** _z(selector) _Object_
@@ -133,4 +133,4 @@ _z(".p1").hover(); // try it, have fun.
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

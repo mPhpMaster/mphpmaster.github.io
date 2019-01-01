@@ -6,7 +6,7 @@ Insert a new CSS rule.
 
 
 ## Add CSS code
-`_z.cssRole(String);`
+```z.cssRole(String);```
 
 * **_z** to access UnderZ library.
 * **cssRole** method/action name.
@@ -16,7 +16,7 @@ Insert a new CSS rule.
 
 
 ## Add multi CSS code
-`_z.cssRole([String1, String2]);`
+```z.cssRole([String1, String2]);```
 
 * **_z** to access UnderZ library.
 * **cssRole** method/action name.

@@ -7,7 +7,7 @@ Inserts hash to the current URL.
 ***
 
 ## Creating hash reference
-`_z.hash( name ) `
+```z.hash( name ) ```
 
 * **_z** to access UnderZ library.
 * **hash** method/action name.

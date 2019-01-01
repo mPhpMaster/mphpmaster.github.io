@@ -6,7 +6,7 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 
 
 ## Bind mouseenter event
-`_z(selector).mouseenter(function);`
+```z(selector).mouseenter(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mouseenter event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function).
 > 
-> To unbind mouseenter event: [Unbind mouseenter event](https://github.com/hlaCk/UnderZ/wiki/.mouseenter()#unbind-mouseenter-event)
+> To unbind mouseenter event: [Unbind mouseenter event](https://hlack.github.io/UnderZ/-mouseenter()#unbind-mouseenter-event)
 
 ## Trigger mouseenter event
-`_z(selector).mouseenter();`
+```z(selector).mouseenter();```
 
 * **selector** select element by selector to trigger mouseenter event on. _( you can send DOM element or selector)_
 * **mouseenter** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the mouse pointer enters the element. or trigger mouseen
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseenter event
-`_z(selector).un("mouseenter", [function]);`
+```z(selector).un("mouseenter", [function]);```
 
 * **selector** select element by selector to trigger mouseenter event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

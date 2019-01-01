@@ -273,7 +273,7 @@ Merage all objects in array to first object using `_z.extend`.
 
 > To disable this feature use: `_z.extend.status = false;`
 > 
-> see [Extinding Object](https://github.com/hlaCk/UnderZ/wiki/.extend())
+> see [Extinding Object](https://hlack.github.io/UnderZ/-extend())
 
 **Example:** 
 
@@ -333,7 +333,7 @@ _z.testFunc;  // undefined.
 Merage all objects in array to first object using `_z.mix`.
 > Return: _**Object**_ First object in the array.
 > 
-> see [Merging Object](https://github.com/hlaCk/UnderZ/wiki/.mix())
+> see [Merging Object](https://hlack.github.io/UnderZ/-mix())
 
 **Example:** 
 
@@ -437,7 +437,7 @@ str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 Replacing `Math.random` with `_z.rnd`, the original in Math.__random.
 > Return: _**Number**_ random number.
 > 
-> see [Random number generator](https://github.com/hlaCk/UnderZ/wiki/.rnd())
+> see [Random number generator](https://hlack.github.io/UnderZ/-rnd())
 
 ***
 
@@ -448,7 +448,7 @@ Replacing `Math.random` with `_z.rnd`, the original in Math.__random.
 ***
 
 ### timer Method :
-> see [Timer](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer)
+> see [Timer](https://hlack.github.io/UnderZ/-timer()#timer)
 
 ***
 
@@ -458,12 +458,12 @@ UnderZ library.
 ***
 
 ### _1 Method :
-> see [.load()](https://github.com/hlaCk/UnderZ/wiki/.load()#method-2-shorter-way)
+> see [.load()](https://hlack.github.io/UnderZ/-load()#method-2-shorter-way)
 
 ***
 
 ### _2 Method :
-> see [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()#method-3-shorter-way)
+> see [.ready()](https://hlack.github.io/UnderZ/-ready()#method-3-shorter-way)
 
 ***
 

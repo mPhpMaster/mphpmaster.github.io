@@ -7,11 +7,11 @@ Run created timer once.
 
 ***
 
-> Please see: [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object)
+> Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 
-> All examples bellow uses [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object).
+> All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
 > 
 > all codes bellow after using this code:
 > 
@@ -21,13 +21,13 @@ Run created timer once.
 ```
 
 ## Set timer is once timer
-`timer.once(status);`
+```imer.once(status);```
 
 * **timer** method/action name.
 * **once** Once timer method.
 * **status** `true` to set timer type to timer once, `false` to set timer type to a normal timer. _( leave it blank to get Timer once status )_
 
-> **Returns:** [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object) _Object_
+> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 > 
 > **Returns:** true|false when no arguments, true = this is Timer once _Boolean_
 

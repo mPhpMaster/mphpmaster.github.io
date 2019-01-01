@@ -6,7 +6,7 @@ Get default css display value for element tag.
 
 
 ## Get default display style
-`_z(selector).defaultDisplayStyle();`
+```z(selector).defaultDisplayStyle();```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to get default style. _( you can send DOM element or selector)_
@@ -16,7 +16,7 @@ Get default css display value for element tag.
 
 
 ## Get default display style for element tag
-`_z().defaultDisplayStyle( tagname );`
+```z().defaultDisplayStyle( tagname );```
 
 * **_z** to access UnderZ library.
 * **defaultDisplayStyle** method/action name.
@@ -44,4 +44,4 @@ alert( _z().defaultDisplayStyle( "div" ) ); // default button css display is: bl
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

@@ -6,7 +6,7 @@ Execute a function when the left, middle or right mouse button is released while
 
 
 ## Bind mouseup event
-`_z(selector).mouseup(function);`
+```z(selector).mouseup(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind mouseup event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the left, middle or right mouse button is released while
 
 > This method is a shortcut for _z(selector).on( "mouseup", function).
 > 
-> To unbind mouseup event: [Unbind mouseup event](https://github.com/hlaCk/UnderZ/wiki/.mouseup()#unbind-mouseup-event)
+> To unbind mouseup event: [Unbind mouseup event](https://hlack.github.io/UnderZ/-mouseup()#unbind-mouseup-event)
 
 ## Trigger mouseup event
-`_z(selector).mouseup();`
+```z(selector).mouseup();```
 
 * **selector** select element by the selector to trigger mouseup event on. _( you can send DOM element or selector)_
 * **mouseup** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the left, middle or right mouse button is released while
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseup event
-`_z(selector).un("mouseup", [function]);`
+```z(selector).un("mouseup", [function]);```
 
 * **selector** select element by the selector to trigger mouseup event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

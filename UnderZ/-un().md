@@ -6,7 +6,7 @@ Deattach an event.
 
 
 ## Unbind click event
-`_z(selector).un("click", function);`
+```z(selector).un("click", function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_
@@ -16,7 +16,7 @@ Deattach an event.
 
 > **Returns:** _z(selector) _Object_
 
-> To bind an event: [Bind event](https://github.com/hlaCk/UnderZ/wiki/.on())
+> To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on())
 
 ## Examples
 

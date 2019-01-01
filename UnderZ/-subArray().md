@@ -7,7 +7,7 @@ Slice Array and return the array elements with a given range.
 ***
 
 ## Slice an array
-`_z.subArray( start from NUMBER, end at NUMBER, array ARRAY );`
+```z.subArray( start from NUMBER, end at NUMBER, array ARRAY );```
 
 * **_z** to access UnderZ library.
 * **subArray** method/action name.

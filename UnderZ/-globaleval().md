@@ -6,7 +6,7 @@ Execute JavaScript code within the global context.
 
 
 ## Execute global code
-`_z.globaleval( code );`
+```z.globaleval( code );```
 
 * **_z** to access UnderZ library.
 * **globaleval** method/action name.

@@ -6,7 +6,7 @@ Execute a function when an element is clicked. or trigger click event for an ele
 
 
 ## Bind click event
-`_z(selector).click(function);`
+```z(selector).click(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind click event with. _( you can send DOM element or selector)_
@@ -20,7 +20,7 @@ Execute a function when an element is clicked. or trigger click event for an ele
 > To unbind click event: [Unbind click event](https://hlack.github.io/UnderZ/-click()#unbind-click-event)
 
 ## Trigger click event
-`_z(selector).click();`
+```z(selector).click();```
 
 * **selector** select element by selector to trigger click event on. _( you can send DOM element or selector)_
 * **click** method/action name.
@@ -28,7 +28,7 @@ Execute a function when an element is clicked. or trigger click event for an ele
 > **Returns:** _z(selector) _Object_
 
 ## Unbind click event
-`_z(selector).un("click", [function]);`
+```z(selector).un("click", [function]);```
 
 * **selector** select element by selector to trigger click event on. _( you can send DOM element or selector)_
 * **un** method/action name.

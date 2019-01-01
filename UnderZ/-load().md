@@ -10,7 +10,7 @@ Execute function after the document is finished loading (Trigger when the page i
 
 ## Method 1: _Default way_.
 
-`_z.load(function);`
+```z.load(function);```
 * **_z** to access UnderZ library.
 * **load** method/action name.
 * **function** function to execute after the DOM is fully loaded. **It can be anonymous function**
@@ -22,8 +22,8 @@ Execute function after the document is finished loading (Trigger when the page i
 ## Method 2: _Shorter way_.
 > Make sure that no other library use `_1` sign.
 
-`_1(function);`
-* **_1** to access [.load()](https://github.com/hlaCk/UnderZ/wiki/.load()#method-1-default-way) method in UnderZ library.
+```1(function);```
+* **_1** to access [.load()](https://hlack.github.io/UnderZ/-load()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is fully loaded. **It can be anonymous function**
 
 > **Returns:** _z _Object_

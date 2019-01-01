@@ -7,11 +7,11 @@ Remove created timer.
 
 ***
 
-> Please see: [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object)
+> Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 
-> All examples bellow uses [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object).
+> All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
 > 
 > all codes bellow after using this code:
 > 
@@ -21,7 +21,7 @@ Remove created timer.
 ```
 
 ## Remove timer
-`timer.remove(keepData);`
+```imer.remove(keepData);```
 
 * **timer** method/action name.
 * **remove** remove timer method.

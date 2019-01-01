@@ -5,7 +5,7 @@ layout: UnderZ
 Hide any element.
 
 ## Hide element
-`_z(selector).hide();`
+```z(selector).hide();```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to hide. _( you can send DOM element or selector)_
@@ -13,7 +13,7 @@ Hide any element.
 
 > **Returns:** _z(selector) _Object_
 
-> To show an element: [Show element](https://github.com/hlaCk/UnderZ/wiki/.show())
+> To show an element: [Show element](https://hlack.github.io/UnderZ/-show())
 
 
 ## Examples
@@ -40,4 +40,4 @@ _z("#buttonShow").click(function () {
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

@@ -7,7 +7,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Get all cookies
-`_z.cookie.get();`
+```z.cookie.get();```
 
 * **_z** to access UnderZ library.
 * **cookie** to access document cookies.
@@ -18,7 +18,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Get one cookies
-`_z.cookie.get(name);`
+```z.cookie.get(name);```
 
 * **_z** to access UnderZ library.
 * **cookie** to access document cookies.
@@ -30,7 +30,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Add/Update cookies. _(expire time by days)_
-`_z.cookie.set(name, value, expire);`
+```z.cookie.set(name, value, expire);```
 
 * **_z** to access UnderZ library.
 * **cookie** to access document cookies.
@@ -44,7 +44,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Add/Update cookies _(expire time by seconds)_
-`_z.cookie.setBySec(name, value, expire);`
+```z.cookie.setBySec(name, value, expire);```
 
 * **_z** to access UnderZ library.
 * **cookie** to access document cookies.
@@ -58,7 +58,7 @@ Read/Write/Delete document cookies.
 ***
 
 ## Delete cookie _(One at a time)_
-`_z.cookie.delete(name);`
+```z.cookie.delete(name);```
 
 * **_z** to access UnderZ library.
 * **cookie** to access document cookies.

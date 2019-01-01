@@ -5,7 +5,7 @@ layout: UnderZ
 Determine whether a value is a number.
 
 ## Check value
-`_z.isNumber( anyObject );`
+```z.isNumber( anyObject );```
 
 * **_z** to access UnderZ library.
 * **isNumber** method/action name.

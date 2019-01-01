@@ -6,7 +6,7 @@ Execute a function when the form field gets focus. or trigger focus event for an
 
 
 ## Bind focus event
-`_z(selector).focus(function);`
+```z(selector).focus(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind focus event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the form field gets focus. or trigger focus event for an
 
 > This method is a shortcut for _z(selector).on( "focus", function).
 > 
-> To unbind focus event: [Unbind focus event](https://github.com/hlaCk/UnderZ/wiki/.focus()#unbind-focus-event)
+> To unbind focus event: [Unbind focus event](https://hlack.github.io/UnderZ/-focus()#unbind-focus-event)
 
 ## Trigger focus event
-`_z(selector).focus();`
+```z(selector).focus();```
 
 * **selector** select element by selector to trigger focus event on. _( you can send DOM element or selector)_
 * **focus** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the form field gets focus. or trigger focus event for an
 > **Returns:** _z(selector) _Object_
 
 ## Unbind focus event
-`_z(selector).un("focus", [function]);`
+```z(selector).un("focus", [function]);```
 
 * **selector** select element by selector to trigger focus event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

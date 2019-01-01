@@ -6,7 +6,7 @@ Execute a function when the form field loses focus. or trigger blur event for an
 
 
 ## Bind blur event
-`_z(selector).blur(function);`
+```z(selector).blur(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the form field loses focus. or trigger blur event for an
 
 > This method is a shortcut for _z(selector).on( "blur", function).
 > 
-> To unbind blur event: [Unbind blur event](https://github.com/hlaCk/UnderZ/wiki/.blur()#unbind-blur-event)
+> To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-`_z(selector).blur();`
+```z(selector).blur();```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **blur** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the form field loses focus. or trigger blur event for an
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-`_z(selector).un("blur", [function]);`
+```z(selector).un("blur", [function]);```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

@@ -10,7 +10,7 @@ if the element shows this method will hide it.
 
 
 ## Toggle element
-`_z(selector).toggle([display style]);`
+```z(selector).toggle([display style]);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to show or hide. _( you can send DOM element or selector)_
@@ -50,4 +50,4 @@ _z("#buttonFlex").click(function () {
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

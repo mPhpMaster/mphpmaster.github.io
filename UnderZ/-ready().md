@@ -8,7 +8,7 @@ Execute function after the document is finished loading (Trigger when the docume
 
 ## Method 1: _Default way_.
 
-`_z.ready(function);`
+```z.ready(function);```
 * **_z** to access UnderZ library.
 * **ready** method/action name.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
@@ -17,7 +17,7 @@ Execute function after the document is finished loading (Trigger when the docume
 
 ## Method 2: _Short way_.
 
-`_z(function);`
+```z(function);```
 * **_z** to access UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
@@ -37,8 +37,8 @@ Execute function after the document is finished loading (Trigger when the docume
 ## Method 3: _Shorter way_.
 > Make sure that no other library use `_` sign, like _Underscore_ Library.
 
-`_2(function);`
-* **_** to access [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()#method-1-default-way) method in UnderZ library.
+```2(function);```
+* **_** to access [.ready()](https://hlack.github.io/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** _z _Object_

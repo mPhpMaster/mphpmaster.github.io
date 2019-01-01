@@ -6,7 +6,7 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 
 
 ## Bind mouseleave event
-`_z(selector).mouseleave(function);`
+```z(selector).mouseleave(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mouseleave event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 
 > This method is a shortcut for _z(selector).on( "mouseleave", function).
 > 
-> To unbind mouseleave event: [Unbind mouseleave event](https://github.com/hlaCk/UnderZ/wiki/.mouseleave()#unbind-mouseleave-event)
+> To unbind mouseleave event: [Unbind mouseleave event](https://hlack.github.io/UnderZ/-mouseleave()#unbind-mouseleave-event)
 
 ## Trigger mouseleave event
-`_z(selector).mouseleave();`
+```z(selector).mouseleave();```
 
 * **selector** select element by selector to trigger mouseleave event on. _( you can send DOM element or selector)_
 * **mouseleave** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the mouse pointer leaves the element. or trigger mousele
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mouseleave event
-`_z(selector).un("mouseleave", [function]);`
+```z(selector).un("mouseleave", [function]);```
 
 * **selector** select element by selector to trigger mouseleave event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

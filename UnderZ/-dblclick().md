@@ -6,7 +6,7 @@ Execute a function when an element is double-clicked. or trigger double click ev
 
 
 ## Bind dblclick event
-`_z(selector).dblclick(function);`
+```z(selector).dblclick(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind dblclick event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when an element is double-clicked. or trigger double click ev
 
 > This method is a shortcut for _z(selector).on( "dblclick", function).
 > 
-> To unbind dblclick event: [Unbind dblclick event](https://github.com/hlaCk/UnderZ/wiki/.dblclick()#unbind-dblclick-event)
+> To unbind dblclick event: [Unbind dblclick event](https://hlack.github.io/UnderZ/-dblclick()#unbind-dblclick-event)
 
 ## Trigger dblclick event
-`_z(selector).dblclick();`
+```z(selector).dblclick();```
 
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **dblclick** method/action name.
@@ -28,7 +28,7 @@ Execute a function when an element is double-clicked. or trigger double click ev
 > **Returns:** _z(selector) _Object_
 
 ## Unbind dblclick event
-`_z(selector).un("dblclick", [function]);`
+```z(selector).un("dblclick", [function]);```
 
 * **selector** select element by selector to trigger dblclick event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").dblclick(); // change document title to 'Unbind "Change Title"
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

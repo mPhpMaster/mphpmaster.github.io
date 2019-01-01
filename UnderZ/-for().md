@@ -7,7 +7,7 @@ Iterate over object/array, executing a function for each value.
 ***
 
 ## Loop with array/object
-`_z.for( array, callback, context );`
+```z.for( array, callback, context );```
 
 * **_z** to access UnderZ library.
 * **for** method/action name.
@@ -20,7 +20,7 @@ Iterate over object/array, executing a function for each value.
 ***
 
 ## Loop with DOM elements
-`_z(selector).for( callback, context );`
+```z(selector).for( callback, context );```
 
 * **_z** to access UnderZ library.
 * **for** method/action name.

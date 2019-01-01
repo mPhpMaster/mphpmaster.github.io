@@ -6,7 +6,7 @@ Execute an event.
 
 
 ## Trigger event
-`_z(selector).trigger("click");`
+```z(selector).trigger("click");```
 
 * **_z** to access UnderZ library.
 * **selector** select element by the selector to bind blur event with. _( you can send DOM element or selector)_
@@ -15,9 +15,9 @@ Execute an event.
 
 > **Returns:** _z(selector) _Object_
 
-> To bind an event: [Bind event](https://github.com/hlaCk/UnderZ/wiki/.on()#bind-click-event)
+> To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on()#bind-click-event)
 
-> To unbind an event: [Unbind event](https://github.com/hlaCk/UnderZ/wiki/.un()#unbind-click-event)
+> To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-click-event)
 
 
 ## Examples

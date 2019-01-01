@@ -6,7 +6,7 @@ Store and execute functions.
 
 
 ## Create function/s store
-`_z([functions]);`
+```z([functions]);```
 
 * **_z** to access UnderZ library.
 * **[functions]** Function/s to store, **MUST BE IN ARRAY**.
@@ -15,7 +15,7 @@ Store and execute functions.
 
 
 ## Add function/s to store
-`_z([functions]).addThis([functions2]);`
+```z([functions]).addThis([functions2]);```
 
 * **_z** to access UnderZ library.
 * **[functions]** Store Function/s. _( MUST BE IN ARRAY )_
@@ -25,7 +25,7 @@ Store and execute functions.
 > **Returns:** _z([functions, functions2]) _Object_
 
 ## Execute Stored function/s
-`_z([functions]).exec( boolean );`
+```z([functions]).exec( boolean );```
 
 * **_z** to access UnderZ library.
 * **[functions]** Stored function/s. _( MUST BE IN ARRAY )_
@@ -72,5 +72,5 @@ Myfn.first().exec(false); // get first stored function
 
 > **Warning**: If the store created like: _z(FUNCTION) the function will be executed immediately. _( MUST BE IN ARRAY )_
 > 
-> Please read [Execute function after the document is finished loading](https://github.com/hlaCk/UnderZ/wiki/.ready()#method-2-short-way)
+> Please read [Execute function after the document is finished loading](https://hlack.github.io/UnderZ/-ready()#method-2-short-way)
 

@@ -6,7 +6,7 @@ Execute a function when the left, middle or right mouse button is pressed down w
 
 
 ## Bind mousedown event
-`_z(selector).mousedown(function);`
+```z(selector).mousedown(function);```
 
 * **_z** to access UnderZ library.
 * **selector** select element by selector to bind mousedown event with. _( you can send DOM element or selector)_
@@ -17,10 +17,10 @@ Execute a function when the left, middle or right mouse button is pressed down w
 
 > This method is a shortcut for _z(selector).on( "mousedown", function).
 > 
-> To unbind mousedown event: [Unbind mousedown event](https://github.com/hlaCk/UnderZ/wiki/.mousedown()#unbind-mousedown-event)
+> To unbind mousedown event: [Unbind mousedown event](https://hlack.github.io/UnderZ/-mousedown()#unbind-mousedown-event)
 
 ## Trigger mousedown event
-`_z(selector).mousedown();`
+```z(selector).mousedown();```
 
 * **selector** select element by selector to trigger mousedown event on. _( you can send DOM element or selector)_
 * **mousedown** method/action name.
@@ -28,7 +28,7 @@ Execute a function when the left, middle or right mouse button is pressed down w
 > **Returns:** _z(selector) _Object_
 
 ## Unbind mousedown event
-`_z(selector).un("mousedown", [function]);`
+```z(selector).un("mousedown", [function]);```
 
 * **selector** select element by selector to trigger mousedown event on. _( you can send DOM element or selector)_
 * **un** method/action name.
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.

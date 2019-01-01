@@ -11,14 +11,14 @@ Creating a timer to call a function or evaluates an expression at specified inte
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 ## Schedule a function 
-`new _z.timer(function);`
+```ew _z.timer(function);```
 
 * **new** to create new timer.
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **function** the function that will be executed every **x** seconds.  _( Defualt interval: 1 seocnd )_
 
-> **Returns:** [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object) _Object_
+> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 
 > This method is a shortcut for _z.timer(1000, function).
 
@@ -26,7 +26,7 @@ Creating a timer to call a function or evaluates an expression at specified inte
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
 ## Schedule a function to execute at specified intervals
-`new _z.timer(function, milliseconds);`
+```ew _z.timer(function, milliseconds);```
 
 * **new** to create new timer.
 * **_z** to access UnderZ library.
@@ -34,7 +34,7 @@ Creating a timer to call a function or evaluates an expression at specified inte
 * **function** the function that will be executed every **x** second/s.
 * **milliseconds** the intervals (in milliseconds) on how often to execute the function. _( 1000 millisecond = 1 second )_
 
-> **Returns:** [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object) _Object_
+> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
 
 ***
 
@@ -56,42 +56,42 @@ So that `timer` is variable contains Timer object.
 ## Timer defualt options
 
 ### Stop execution of all timers
-`_z.timer.hold`
+```z.timer.hold```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **hold** (_Variable_) value type **_Boolean_**. _( Default: false )_
 
 ### Default timer interval
-`_z.timer.interval`
+```z.timer.interval```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **interval** (_Variable_) value type **_Number_** (in milliseconds). _( Default: 1000 )_
 
 ### Timers list
-`_z.timer.instances`
+```z.timer.instances```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **instances** (_Variable_) value type **_Array_** contains all created timer, use .remove() to remove timer. _( Default: [] )_
 
 ### Start all existing timers
-`_z.timer.startAll()`
+```z.timer.startAll()```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **startAll** (_Method_) Start all existing timer. _( return: `_z.timer Object` )_
 
 ### Stop all existing timers
-`_z.timer.stopAll()`
+```z.timer.stopAll()```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
 * **stopAll** (_Method_) Stop all existing timers. _( return: `_z.timer Object` )_
 
 ### Remove all existing timers
-`_z.timer.removeAll(keepData)`
+```z.timer.removeAll(keepData)```
 
 * **_z** to access UnderZ library.
 * **timer** method/action name.
@@ -101,17 +101,17 @@ So that `timer` is variable contains Timer object.
 ***
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
-## [Timer object](https://github.com/hlaCk/UnderZ/wiki/.timer()#timer-object) properties
+## [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) properties
 ### Variables
 1. **callback**: Contains the function to execute.
 2. **interval**: Contains the intervals (in milliseconds) on how often to execute the function **_(in milliseconds)_**.
 3. **isRunning**: Contains Boolean value, the status of the timer.
 ### Methods
-1. [**start**](https://github.com/hlaCk/UnderZ/wiki/.timer().start()): Start the timer.
-2. [**stop**](https://github.com/hlaCk/UnderZ/wiki/.timer().stop()): Stop the timer.
-3. [**once**](https://github.com/hlaCk/UnderZ/wiki/.timer().once()): Start the timer once, no repeat.
-4. [**remove**](https://github.com/hlaCk/UnderZ/wiki/.timer().remove()): Delete this timer object.
-5. [**execFunction**](https://github.com/hlaCk/UnderZ/wiki/.timer().execFunction()): Execute the function.
+1. [**start**](https://hlack.github.io/UnderZ/-timer().start()): Start the timer.
+2. [**stop**](https://hlack.github.io/UnderZ/-timer().stop()): Stop the timer.
+3. [**once**](https://hlack.github.io/UnderZ/-timer().once()): Start the timer once, no repeat.
+4. [**remove**](https://hlack.github.io/UnderZ/-timer().remove()): Delete this timer object.
+5. [**execFunction**](https://hlack.github.io/UnderZ/-timer().execFunction()): Execute the function.
 
 ***
 

@@ -6,7 +6,7 @@ Get current timestamp.
 
 
 ## Get timestamp
-`_z.now();`
+```z.now();```
 
 * **_z** to access UnderZ library.
 * **now** method/action name.
