@@ -44,17 +44,17 @@
 
 		{% if site.show_menu %}
 		<div style="overflow: auto;width: 100%;display: inline-block;height: 200px;">
-			<table>
+			<table class="asList">
 				<thead>
 					<tr>
-						<th style="/*text-align: left;*/">Pages</th>
+						<th style="text-align: center;">Pages</th>
 					</tr>
 				</thead>
 
 				<tbody>
-	<tr>
-		<td><input type="text" id="pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…"></td>
-	</tr>
+					<tr>
+						<td style="text-align: center;"><input type="text" id="pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…"></td>
+					</tr>
 				
 {% for page in site.data.underzpages %}
 	<tr>

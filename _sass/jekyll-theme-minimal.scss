@@ -81,6 +81,7 @@ pre {
 }
 
 table {
+  background: #e5e5e5;
   width:100%;
   border-collapse:collapse;
 }
@@ -89,6 +90,15 @@ th, td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
+}
+
+.asList tr:hover {
+  font-weight: bold;
+  background-color:#dddddd;
+}
+
+tr:nth-child(odd) td {
+  background: #f8f8f8;
 }
 
 dt {
