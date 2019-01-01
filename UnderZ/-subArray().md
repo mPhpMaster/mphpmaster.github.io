@@ -4,7 +4,9 @@ layout: UnderZ
 # Get part of Array
 Slice Array and return the array elements with a given range.
 
+
 ***
+
 
 ## Slice an array
 ```js
@@ -18,7 +20,9 @@ _z.subArray( start from NUMBER, end at NUMBER, array ARRAY );
 
 > **Returns:** sliced array _array_.
 
+
 ***
+
 
 ## Examples: 
 
@@ -32,7 +36,6 @@ _z.subArray(false, -3, myArray); // ["a"]
 
 _z.subArray( 3, false, myArray); // ["f"]
 _z.subArray( -3, false, myArray); // ["o", "s", "f"]
-
 ``` 
 
 > **Note:** subArray method also work with _z(element selector).subArray.
