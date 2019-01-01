@@ -81,7 +81,6 @@ pre {
 }
 
 table {
-  background: #e5e5e5;
   width:100%;
   border-collapse:collapse;
 }
@@ -108,6 +107,7 @@ dt {
 
 th {
   color:#444;
+  background: #e5e5e5;
 }
 
 img {
@@ -202,7 +202,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
