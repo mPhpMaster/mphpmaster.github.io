@@ -52,13 +52,17 @@ _1(function() {
 	_z("#pages-filter").keyup(function(event) {
 		var iTxt = _z("#pages-filter");
 		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return;
+		var needle = iTxt.val().trim();
 		
-		console.log([
-			_z("[pagename='" + iTxt.val().trim() + "']"),
-			iTxt.val(),
-			_z("[pagename]"),
-			pageFilterData
-		]);
+		if( needle == "" ) return _z("[pagename]").show();
+		
+		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
+		if( result.length == 0 )
+			_z("[pagename]").hide();
+		else
+			result.each(function(k, e) {
+				_z("[pagename='"+e+"']").show();
+			});
 		
 	});
 });
