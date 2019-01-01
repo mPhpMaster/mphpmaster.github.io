@@ -6,7 +6,7 @@ Execute a function when the form field loses focus. or trigger blur event for an
 
 
 ## Bind blur event
-```js
+```
 _z(selector).blur(function);
 ```
 
@@ -22,8 +22,8 @@ _z(selector).blur(function);
 > To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-```js
-_z("selector").blur();
+```
+_z(selector).blur();
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
@@ -32,10 +32,8 @@ _z("selector").blur();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-```html
-<script>
+```
 _z(selector).un("blur", [function]);
-</script>
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
