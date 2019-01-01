@@ -68,7 +68,7 @@ _1(function() {
 </script>
 		{% if site.show_menu %}
 		<div style="width: 100%; /*display: block;*/ height: auto;">
-			<table class="asList" style="/*display: table;*/">
+			<table class="asList" style="width: 100%;">
 				<thead>
 					<tr>
 						<th style="text-align: center;">Pages</th>
@@ -84,7 +84,7 @@ _1(function() {
 			</table>
 			
 		<div style="width: 100%; overflow: auto; height: 400px;">
-			<table class="asList" style="/*display: table;*/">
+			<table class="asList" style="width: 100%;">
 				<tbody style=" width: 272px; /*display: table;*/ height: 400px;">
 {% for page in site.data.underzpages %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}">
