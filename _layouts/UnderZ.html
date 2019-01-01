@@ -47,11 +47,14 @@
 			<table>
 				<thead>
 					<tr>
-						<th style="/*text-align: left;*/">Pages<input type="text" id="pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…"></th>
+						<th style="/*text-align: left;*/">Pages</th>
 					</tr>
 				</thead>
 
 				<tbody>
+	<tr>
+		<td><input type="text" id="pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…"></td>
+	</tr>
 				
 {% for page in site.data.underzpages %}
 	<tr>
