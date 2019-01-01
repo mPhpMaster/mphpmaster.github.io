@@ -73,6 +73,13 @@ _1(function() {
 		});
 		
 	});
+	
+	
+	_z("[asPointer]").click(function() {
+		if( _z(this).attr("asPointer") == "" ) return;
+		
+		_z(_z(this).attr("asPointer")).toggle();
+	});
 });
 </script>
 <style>
@@ -93,9 +100,9 @@ _1(function() {
 </style>
 		{% if site.show_menu %}
 		<div style="width: 100%; height: auto;">
-			<table class="asList" style="width: 100%; margin-bottom: 3px;">
+			<table class="asList1" style="width: 100%; margin-bottom: 3px;">
 				<thead>
-					<tr asPointer>
+					<tr asPointer=".asList2">
 						<th style="">Pages <b class="circle" pagescounter>0</b></th>
 					</tr>
 				</thead>
@@ -109,7 +116,7 @@ _1(function() {
 			</table>
 			
 			<div style="width: 100%; overflow: auto; height: 400px;">
-				<table class="asList" style="width: 100%;">
+				<table class="asList2" style="width: 100%;">
 					<tbody style=" width: 272px; height: 400px;">
 {% for page in site.data.underzpages %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer>
