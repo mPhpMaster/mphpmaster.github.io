@@ -48,30 +48,50 @@
 var pageFilterData = [];
 _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
+	function listToggleShow(e) {
+		var reCount = ()=>{ _z("[]pagescounter]").text( ""+_z("[pagename]").isShow().filter(x=>x).length ) };
+		return {
+			show: (x)=>{ _z(e).show(x)&&reCount(); },
+			hide: (x)=>{ _z(e).hide(x)&&reCount(); },
+		};
+	};
+	
 	if( pageFilterData.length )
 	_z("#pages-filter").keyup(function(event) {
 		var iTxt = _z("#pages-filter");
-		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return _z("[pagename]").show("inline-table");
+		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return listToggleShow(_z("[pagename]")).show();
 		var needle = iTxt.val().trim();
 		
-		if( needle == "" ) return _z("[pagename]").show("inline-table");
+		if( needle == "" ) return listToggleShow(_z("[pagename]")).show();
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
 		
-		_z("[pagename]").hide();
+		listToggleShow(_z("[pagename]")).hide();
 		result.each(function(k, e) {
-			_z("[pagename='"+e+"']").show("inline-table");
+			listToggleShow(_z("[pagename='"+e+"']")).show();
 		});
 		
 	});
 });
 </script>
+<style>
+.circle {
+	background-color: #6a737d;
+	color: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1;
+	padding: 2px 5px;
+	font-weight: 600;
+}
+</style>
 		{% if site.show_menu %}
 		<div style="width: 100%; height: auto;">
 			<table class="asList" style="width: 100%; margin-bottom: 3px;">
 				<thead>
 					<tr>
-						<th style="text-align: center;">Pages</th>
+						<th style="">Pages <b class="circle" pagescounter>0</b></th>
 					</tr>
 				</thead>
 
@@ -83,17 +103,17 @@ _1(function() {
 				
 			</table>
 			
-		<div style="width: 100%; overflow: auto; height: 400px;">
-			<table class="asList" style="width: 100%;">
-				<tbody style=" width: 272px; height: 400px;">
+			<div style="width: 100%; overflow: auto; height: 400px;">
+				<table class="asList" style="width: 100%;">
+					<tbody style=" width: 272px; height: 400px;">
 {% for page in site.data.underzpages %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
 {% endfor %}
-				</tbody>
-			</table>
-		</div>
+					</tbody>
+				</table>
+			</div>
 		
 		</div>
 		{% endif %}
