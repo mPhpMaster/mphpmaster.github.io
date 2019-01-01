@@ -22,8 +22,8 @@ _z(selector).blur(function);
 > To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
-```html
-_z(selector).blur();
+```js
+_z("selector").blur();
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
@@ -32,8 +32,10 @@ _z(selector).blur();
 > **Returns:** _z(selector) _Object_
 
 ## Unbind blur event
-```ruby
+```html
+<script>
 _z(selector).un("blur", [function]);
+</script>
 ```
 
 * **selector** select element by selector to trigger blur event on. _( you can send DOM element or selector)_
