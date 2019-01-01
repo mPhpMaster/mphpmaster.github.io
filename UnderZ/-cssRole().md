@@ -4,6 +4,8 @@ layout: UnderZ
 # Add CSS code.
 Insert a new CSS rule.
 
+***
+
 
 ## Add CSS code
 ```js
@@ -15,6 +17,8 @@ _z.cssRole(String);
 * **String** CSS code _(Single code)_.
 
 > **Returns:** _z _Function_
+
+***
 
 
 ## Add multi CSS code
