@@ -21,12 +21,6 @@ layout: default
 </head>
 ```
 
-```
-<head>
-<script type="text/javascript" src="_z.js"></script>
-</head>
-```
-
 3. Done!. The library is loaded. see [Library Syntax](https://github.com/hlaCk/UnderZ/wiki/Syntax) .
 
 ## Required to start
