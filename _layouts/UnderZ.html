@@ -59,7 +59,12 @@
 			</table>
 		</div>
 		{% endif %}
-
+		<div>
+		{% for underz_page in site.underz_pages %}
+		  <h2>{{ underz_page.name }} - {{ underz_page.position }}</h2>
+		  <p>{{ underz_page.content | markdownify }}</p>
+		{% endfor %}
+</div>
       </header>
       <section>
 
