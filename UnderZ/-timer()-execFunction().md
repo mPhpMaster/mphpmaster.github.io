@@ -2,23 +2,28 @@
 layout: UnderZ
 ---
 > _Added in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+
 # Execute timer function.
 Execute timer callback.
 
+
 ***
+
 
 > Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
-
 > All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
 > 
 > all codes bellow after using this code:
 > 
 ```js
 > var timer = new _z.timer(function);
-> 
 ```
+
+
+***
+
 
 ## Execute timer function
 ```js
@@ -32,7 +37,9 @@ _z.timer.execFunction(force);
 
 > **Returns:** callback (function) return
 
+
 ***
+
 
 ## Examples
 
@@ -54,5 +61,4 @@ timer1.isRunning; // false
 timer1.isReady(); // false
 timer1.execFunction(); // EXECUTE FAILED return: Timer object
 timer1.execFunction(true); // EXECUTE SUCCESS return: 123456
-
 ```
