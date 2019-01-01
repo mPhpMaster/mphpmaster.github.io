@@ -3,6 +3,7 @@ theme: jekyll-theme-minimal
 title: UnderZ
 description: UnderZ JS Library.
 show_downloads: true
+show_menu: true
 google_analytics:
 programmerName: hlaCk
 programmerGH: https://github.com/hlaCk
