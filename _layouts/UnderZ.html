@@ -51,10 +51,10 @@ _1(function() {
 	if( pageFilterData.length )
 	_z("#pages-filter").keyup(function(event) {
 		var iTxt = _z("#pages-filter");
-		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return _z("[pagename]").show();
+		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return _z("[pagename]").show("inline-table");
 		var needle = iTxt.val().trim();
 		
-		if( needle == "" ) return _z("[pagename]").show();
+		if( needle == "" ) return _z("[pagename]").show("inline-table");
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
 		// console.log(result);
@@ -63,7 +63,7 @@ _1(function() {
 		//else
 			result.each(function(k, e) {
 				console.log("[pagename='"+e+"']");
-				_z("[pagename='"+e+"']").show();
+				_z("[pagename='"+e+"']").show("inline-table");
 			});
 		
 	});
