@@ -16,9 +16,12 @@ _z.cookie.get();
 * **get** method/action name.
 
 > **Returns:** All cookies as Object 
+> 
 > ```js
 > { "cookie name" = "cookie value" }
-> ``` _Object_
+> ``` 
+> 
+> _Object_
 
 ***
 
@@ -32,7 +35,7 @@ _z.cookie.get(name);
 * **get** method/action name.
 * **name** cookie name.
 
-> **Returns:** cookie value|"" _String_
+> **Returns:** _String_ cookie value Or "" 
 
 ***
 
@@ -48,7 +51,7 @@ _z.cookie.set(name, value, expire);
 * **value** cookie value. type: _String_
 * **expire** (**optional**) Expire after how many days **number of days**.  type: _Number_
 
-> **Returns:** _z.cookie _Object_
+> **Returns:** \_z.cookie _Object_
 
 ***
 
