@@ -53,3 +53,11 @@ $ = _z;
 3. When the page loads the library, your code will be executed immediately; even if the page is not ready.
 
 
+
+***
+
+
+# How to preform action on element?
+> Please see: [Library Syntax](https://hlack.github.io/UnderZ/Syntax)
+
+

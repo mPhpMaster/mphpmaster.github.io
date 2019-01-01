@@ -469,7 +469,7 @@ str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 
 
 ### Math.random :
-Replacing **Math.random** with **_z.rnd**, the original in Math.__random.
+Replacing **Math.random** with **_z.rnd**, the original in **Math.__random**.
 > Return: _**Number**_ random number.
 > 
 > see [Random number generator](https://hlack.github.io/UnderZ/-rnd())

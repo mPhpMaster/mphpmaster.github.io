@@ -17,7 +17,7 @@ _z.ready(function);
 * **ready** method/action name.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
-> **Returns:** \_z _Object_
+> **Returns:** _Object_ \_z
 
 
 ***
@@ -55,7 +55,7 @@ _2(function);
 * **_** to access [.ready()](https://hlack.github.io/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
-> **Returns:** \_z _Object_
+> **Returns:** _Object_ \_z
 
 
 ***
