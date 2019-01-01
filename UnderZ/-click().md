@@ -17,7 +17,7 @@ Execute a function when an element is clicked. or trigger click event for an ele
 
 > This method is a shortcut for _z(selector).on( "click", function).
 > 
-> To unbind click event: [Unbind click event](https://github.com/hlaCk/UnderZ/wiki/.click()#unbind-click-event)
+> To unbind click event: [Unbind click event](https://hlack.github.io/UnderZ/-click()#unbind-click-event)
 
 ## Trigger click event
 `_z(selector).click();`
@@ -70,4 +70,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://github.com/hlaCk/UnderZ/wiki/.ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
