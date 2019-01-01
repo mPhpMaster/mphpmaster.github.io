@@ -57,6 +57,7 @@ function listToggleShow(e) {
 var pageFilterData = [];
 _1(function() {
 	pageFilterData = _z("[pagename]").attr("pagename");
+	listToggleShow().reCount();
 	
 	if( pageFilterData.length )
 	_z("#pages-filter").keyup(function(event) {
