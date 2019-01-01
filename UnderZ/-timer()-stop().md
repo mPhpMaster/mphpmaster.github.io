@@ -2,23 +2,26 @@
 layout: UnderZ
 ---
 > _Added in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+
 # Stop timer.
 Stop the created timer.
 
+
 ***
 
-> Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 > _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
-
 > All examples bellow uses [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object).
-> 
-> all codes bellow after using this code:
-> 
+
+## Create new timer object:
 ```js
-> var timer = new _z.timer(function);
-> 
+var timer = new _z.timer(function);
 ```
+> Please see: [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
+
+
+***
+
 
 ## Stop timer
 ```js
@@ -29,10 +32,11 @@ _z.timer.stop();
 * **timer** method/action name.
 * **stop** Stop timer.
 
-> **Returns:** [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object) _Object_
+> **Returns:** _Object_ [Timer object](https://hlack.github.io/UnderZ/-timer()#timer-object)
 
 
 ***
+
 
 ## Examples
 
@@ -48,5 +52,4 @@ timer1.isRunning; // true
 timer1.stop();
 timer1.isRunning; // false
 timer1.isReady(); // true
-
 ```
