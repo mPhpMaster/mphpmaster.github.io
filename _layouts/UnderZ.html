@@ -52,8 +52,8 @@ function listToggleShow(e) {
 	});
 	var reCount = ()=>{ _z("[pagescounter]").text( ""+shown) };
 	return {
-		show: (x)=>{ _z(e).show(x)&&reCount(); },
-		hide: (x)=>{ _z(e).hide(x)&&reCount(); },
+		show: (x)=>{ _z(e).remClass("hidden")&&reCount(); },
+		hide: (x)=>{ _z(e).addClass("hidden")&&reCount(); },
 	};
 };
 
@@ -70,7 +70,7 @@ _1(function() {
 		if( needle == "" ) return listToggleShow(_z("[pagename]")).show();
 		
 		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
-		
+		console.log(result);
 		listToggleShow(_z("[pagename]")).hide();
 		result.each(function(k, e) {
 			listToggleShow(_z("[pagename='"+e+"']")).show();
@@ -100,6 +100,10 @@ _1(function() {
 
 [asPointer] {
 	cursor: pointer;
+}
+
+.hidden {
+	display: none;
 }
 </style>
 		{% if site.show_menu %}
