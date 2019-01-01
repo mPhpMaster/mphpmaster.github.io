@@ -3,6 +3,7 @@ theme: jekyll-theme-minimal
 title: UnderZ
 description: UnderZ JS Library.
 show_downloads: true
-google_analytics: 
+google_analytics:
 owner_name: hlaCk
+collab: BlackEagleSA
 repository_url: https://github.com/hlaCk/UnderZ
