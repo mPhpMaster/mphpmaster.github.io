@@ -63,6 +63,11 @@ _1(function() {
 		
 		if(scrolled===false) {
 			var anchr = _z(e).find("a");
+			console.log([
+				anchr,
+				anchr.attr("href"),
+				window.location.href.indexOf( anchr.attr("href") ),
+			]);
 			if( window.location.href.indexOf( anchr.attr("href") ) ) {
 				scrolled = true;
 				_z("[listContainer]").scrollTo(anchr);
