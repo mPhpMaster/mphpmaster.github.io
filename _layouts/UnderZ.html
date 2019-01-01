@@ -47,30 +47,22 @@
 			<table>
 				<thead>
 					<tr>
-						<th style="text-align: left;">three</th>
+						<th style="/*text-align: left;*/">Pages</th>
 					</tr>
 				</thead>
 
 				<tbody>
-					<tr>
-						<td><a href="{LINK}">{TEXT}</a></td>
-					</tr>
+				
+{% for page in site.data.underzpages %}
+	<tr>
+		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
+	</tr>
+{% endfor %}
 				</tbody>
 			</table>
 		</div>
 		{% endif %}
-		<div>
-<ul>
-{% for page in site.data.underzpages %}
-  <li>
-    <a href="{{ page.url }}">
-      {{ page.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-
-</div>
+		
       </header>
       <section>
 
