@@ -77,8 +77,7 @@ _1(function() {
 						).hide().whereIs("[pagename='" + result.join("'], [pagename='") + "']")
 					).show();
 			//listToggleShow(_z("[pagename='" + result.join("'], [pagename='") + "']")).show();
-		}
-		else listToggleShow().reCount();
+		} else listToggleShow(_z("[pagename]")).hide();
 		//result.each(function(k, e) {
 			//listToggleShow(_z("[pagename='"+e+"']")).show();
 		//});
