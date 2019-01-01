@@ -60,10 +60,8 @@
 		</div>
 		{% endif %}
 		<div>
-{% assign image_files = site.static_files | where: "underz", true %}
-{% for myimage in image_files %}
-  {{ myimage }}
-{% endfor %}
+{% include fileslist.html content=download_note %}
+
 
 </div>
       </header>
