@@ -75,8 +75,6 @@ _z.cssRole(cssCodeSingle1).cssRole(cssCodeSingle2);
 > CSSSelector {
 >   property: value;
 > }
-> 
-> 
 ```
 > 
 > 
@@ -84,7 +82,6 @@ _z.cssRole(cssCodeSingle1).cssRole(cssCodeSingle2);
 > 
 > 
 ```css
-> 
 > CSSSelector1 {
 >   property: value;
 > }
@@ -92,6 +89,4 @@ _z.cssRole(cssCodeSingle1).cssRole(cssCodeSingle2);
 > CSSSelector2 {
 >   property: value;
 > }
-> 
-> 
 ```
