@@ -33,17 +33,8 @@
         </ul>
         {% endif %}
 		
-		{% if site.github.is_user_page %}
-		<hr>
-        <p class="view"><a href="{{ site.programmer[1] }}"><img src="{{ "/assets/img/github.png" | relative_url }}" style="width: 50px;" alt="GitHub Profile" /> {{ site.programmer[0] }}</a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-		{% for collab in site.data.collabs | sort: 'name'  %}
-			<p class="view"><a href="{{ collab.url }}"><img src="{{ "/assets/img/github.png" | relative_url }}" style="width: 50px;" alt="GitHub Profile" /> {{ collab.name }}</a></p>
-		{% endfor %}
-        {% endif %}
-
+		{% include githubProfileLinks.html %}
+		
 <script type="text/javascript">
 function listToggleShow(e) {
 	var reCount = ()=>{ return _z("[pagescounter]").text( ""+_z("[pagename]:not(.hidden)").length ) };
