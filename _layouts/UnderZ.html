@@ -34,10 +34,9 @@
         {% endif %}
 
         {% if site.github.is_user_page %}
-{% for collab in site.data.collabs | sort: 'name'  %}
-	<p class="view"><a href="{{ collab.url }}"> {{ collab.name }} GitHub Profile</a></p>
-{% endfor %}
-        <!-- p class="view"><a href="{{ site.collabGH }}"> {{ site.collabName }} GitHub Profile</a></p -->
+		{% for collab in site.data.collabs | sort: 'name'  %}
+			<p class="view"><a href="{{ collab.url }}"> {{ collab.name }} GitHub Profile</a></p>
+		{% endfor %}
         {% endif %}
 
         {% if site.show_downloads %}
