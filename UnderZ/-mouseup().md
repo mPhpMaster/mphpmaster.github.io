@@ -22,7 +22,7 @@ _z(selector).mouseup(function);
 
 > This method is a shortcut for _z(selector).on( "mouseup", function).
 > 
-> To unbind mouseup event: [Unbind mouseup event](https://hlack.github.io/UnderZ/-mouseup()#unbind-mouseup-event)
+> To unbind mouseup event: [Unbind mouseup event](http://hlack.xyz/UnderZ/-mouseup()#unbind-mouseup-event)
 
 
 ***
@@ -90,4 +90,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 </script>
 ```
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.

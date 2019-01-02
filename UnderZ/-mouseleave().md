@@ -22,7 +22,7 @@ _z(selector).mouseleave(function);
 
 > This method is a shortcut for _z(selector).on( "mouseleave", function).
 > 
-> To unbind mouseleave event: [Unbind mouseleave event](https://hlack.github.io/UnderZ/-mouseleave()#unbind-mouseleave-event)
+> To unbind mouseleave event: [Unbind mouseleave event](http://hlack.xyz/UnderZ/-mouseleave()#unbind-mouseleave-event)
 
 
 ***
@@ -90,4 +90,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 </script>
 ```
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.

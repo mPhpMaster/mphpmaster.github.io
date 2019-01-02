@@ -90,5 +90,5 @@ Myfn.first().exec(false); // get first stored function
 
 > **Warning**: If the store created like: _z(FUNCTION) the function will be executed immediately. _( MUST BE IN ARRAY )_
 > 
-> Please read [Execute function after the document is finished loading](https://hlack.github.io/UnderZ/-ready()#method-2-short-way)
+> Please read [Execute function after the document is finished loading](http://hlack.xyz/UnderZ/-ready()#method-2-short-way)
 

@@ -1,8 +1,8 @@
 ---
 layout: UnderZ
 ---
-# How TO.
-How to use UnderZ.
+# Getting Started.
+How to use UnderZ ?
 
 
 ***
@@ -58,6 +58,6 @@ $ = _z;
 
 
 # How to preform action on element?
-> Please see: [Library Syntax](https://hlack.github.io/UnderZ/Syntax)
+> Please see: [Library Syntax](http://hlack.xyz/UnderZ/Syntax)
 
 

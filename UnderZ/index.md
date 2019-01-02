@@ -19,11 +19,11 @@ layout: UnderZ
 
 * [Library Page](https://github.com/hlaCk/UnderZ) 
 
-* [Wiki Page](https://hlack.github.io/UnderZ/)
+* [Wiki Page](http://hlack.xyz/UnderZ/)
 
-* [Features Page](https://hlack.github.io/UnderZ/Features)
+* [Features Page](http://hlack.xyz/UnderZ/Features)
 
-* [Syntax Page](https://hlack.github.io/UnderZ/Syntax)
+* [Syntax Page](http://hlack.xyz/UnderZ/Syntax)
 
 
 ***

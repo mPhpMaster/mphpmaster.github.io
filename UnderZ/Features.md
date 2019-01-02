@@ -11,34 +11,34 @@ layout: UnderZ
 
 
 # Page Content:
-* [Javascript changes](https://hlack.github.io/UnderZ/Features#javascript-changes)
-* * [Function's](https://hlack.github.io/UnderZ/Features#functions-)
-* * * [callSelf](https://hlack.github.io/UnderZ/Features#1-callself)
-* * * [bindSelf](https://hlack.github.io/UnderZ/Features#2-bindself)
-* * [Object's](https://hlack.github.io/UnderZ/Features#objects-)
-* * * [each](https://hlack.github.io/UnderZ/Features#1-each)
-* * * [getType](https://hlack.github.io/UnderZ/Features#2-gettype)
-* * * [isType](https://hlack.github.io/UnderZ/Features#3-istype)
-* * [Array's](https://hlack.github.io/UnderZ/Features#arrays-)
-* * * [pushSetter](https://hlack.github.io/UnderZ/Features#1-pushsetter)
-* * * [unique](https://hlack.github.io/UnderZ/Features#2-unique)
-* * * [add](https://hlack.github.io/UnderZ/Features#3-add)
-* * * [inArray](https://hlack.github.io/UnderZ/Features#4-inarray)
-* * * [remove](https://hlack.github.io/UnderZ/Features#5-remove)
-* * * [removeAll](https://hlack.github.io/UnderZ/Features#6-removeall)
-* * * [extend](https://hlack.github.io/UnderZ/Features#7-extend)
-* * * [mix](https://hlack.github.io/UnderZ/Features#8-mix)
-* * [String's](https://hlack.github.io/UnderZ/Features#strings-)
-* * * [replaceArray](https://hlack.github.io/UnderZ/Features#1-replacearray)
-* * * [replaceAll](https://hlack.github.io/UnderZ/Features#2-replaceall)
-* * [Math.random](https://hlack.github.io/UnderZ/Features#mathrandom-)
-* [Variables & Methods (window Bound)](https://hlack.github.io/UnderZ/Features#variables--methods-window-bound)
-* * [fns Variable](https://hlack.github.io/UnderZ/Features#fns-variable-)
-* * [timer Method](https://hlack.github.io/UnderZ/Features#timer-method-)
-* * [_z Method](https://hlack.github.io/UnderZ/Features#_z-method-)
-* * [_1 Method](https://hlack.github.io/UnderZ/Features#_1-method-)
-* * [_2 Method](https://hlack.github.io/UnderZ/Features#_2-method-)
-* * [gVar Variable](https://hlack.github.io/UnderZ/Features#gvar-variable-)
+* [Javascript changes](http://hlack.xyz/UnderZ/Features#javascript-changes)
+* * [Function's](http://hlack.xyz/UnderZ/Features#functions-)
+* * * [callSelf](http://hlack.xyz/UnderZ/Features#1-callself)
+* * * [bindSelf](http://hlack.xyz/UnderZ/Features#2-bindself)
+* * [Object's](http://hlack.xyz/UnderZ/Features#objects-)
+* * * [each](http://hlack.xyz/UnderZ/Features#1-each)
+* * * [getType](http://hlack.xyz/UnderZ/Features#2-gettype)
+* * * [isType](http://hlack.xyz/UnderZ/Features#3-istype)
+* * [Array's](http://hlack.xyz/UnderZ/Features#arrays-)
+* * * [pushSetter](http://hlack.xyz/UnderZ/Features#1-pushsetter)
+* * * [unique](http://hlack.xyz/UnderZ/Features#2-unique)
+* * * [add](http://hlack.xyz/UnderZ/Features#3-add)
+* * * [inArray](http://hlack.xyz/UnderZ/Features#4-inarray)
+* * * [remove](http://hlack.xyz/UnderZ/Features#5-remove)
+* * * [removeAll](http://hlack.xyz/UnderZ/Features#6-removeall)
+* * * [extend](http://hlack.xyz/UnderZ/Features#7-extend)
+* * * [mix](http://hlack.xyz/UnderZ/Features#8-mix)
+* * [String's](http://hlack.xyz/UnderZ/Features#strings-)
+* * * [replaceArray](http://hlack.xyz/UnderZ/Features#1-replacearray)
+* * * [replaceAll](http://hlack.xyz/UnderZ/Features#2-replaceall)
+* * [Math.random](http://hlack.xyz/UnderZ/Features#mathrandom-)
+* [Variables & Methods (window Bound)](http://hlack.xyz/UnderZ/Features#variables--methods-window-bound)
+* * [fns Variable](http://hlack.xyz/UnderZ/Features#fns-variable-)
+* * [timer Method](http://hlack.xyz/UnderZ/Features#timer-method-)
+* * [_z Method](http://hlack.xyz/UnderZ/Features#_z-method-)
+* * [_1 Method](http://hlack.xyz/UnderZ/Features#_1-method-)
+* * [_2 Method](http://hlack.xyz/UnderZ/Features#_2-method-)
+* * [gVar Variable](http://hlack.xyz/UnderZ/Features#gvar-variable-)
 
 
 ***
@@ -301,7 +301,7 @@ Merage all objects in array to first object using **_z.extend**.
 _z.extend.status = false;
 ```
 > 
-> see [Extinding Object](https://hlack.github.io/UnderZ/-extend())
+> see [Extinding Object](http://hlack.xyz/UnderZ/-extend())
 
 
 **Example:** 
@@ -364,7 +364,7 @@ _z.testFunc;  // undefined.
 Merage all objects in array to first object using **_z.mix**.
 > Return: _**Object**_ First object in the array.
 > 
-> see [Merging Object](https://hlack.github.io/UnderZ/-mix())
+> see [Merging Object](http://hlack.xyz/UnderZ/-mix())
 
 **Example:** 
 
@@ -472,7 +472,7 @@ str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 Replacing **Math.random** with **_z.rnd**, the original in **Math.__random**.
 > Return: _**Number**_ random number.
 > 
-> see [Random number generator](https://hlack.github.io/UnderZ/-rnd())
+> see [Random number generator](http://hlack.xyz/UnderZ/-rnd())
 
 
 ***
@@ -480,14 +480,14 @@ Replacing **Math.random** with **_z.rnd**, the original in **Math.__random**.
 
 ## Variables & Methods _(window Bound)_
 ### fns Variable :
-> see [Function Tools](https://hlack.github.io/UnderZ/fns)
+> see [Function Tools](http://hlack.xyz/UnderZ/fns)
 
 
 ***
 
 
 ### timer Method :
-> see [Timer](https://hlack.github.io/UnderZ/-timer()#timer)
+> see [Timer](http://hlack.xyz/UnderZ/-timer()#timer)
 
 
 ***
@@ -501,14 +501,14 @@ UnderZ library.
 
 
 ### _1 Method :
-> see [.load()](https://hlack.github.io/UnderZ/-load()#method-2-shorter-way)
+> see [.load()](http://hlack.xyz/UnderZ/-load()#method-2-shorter-way)
 
 
 ***
 
 
 ### _2 Method :
-> see [.ready()](https://hlack.github.io/UnderZ/-ready()#method-3-shorter-way)
+> see [.ready()](http://hlack.xyz/UnderZ/-ready()#method-3-shorter-way)
 
 
 ***

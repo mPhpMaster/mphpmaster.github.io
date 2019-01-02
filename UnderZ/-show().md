@@ -20,7 +20,7 @@ _z(selector).show([display style]);
 
 > **Returns:** _Object_ \_z(selector)
 
-> To hide an element: [Hide element](https://hlack.github.io/UnderZ/-hide())
+> To hide an element: [Hide element](http://hlack.xyz/UnderZ/-hide())
 
 
 ***
@@ -63,4 +63,4 @@ _z("#buttonFlex").click(function () {
 ```
 
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.

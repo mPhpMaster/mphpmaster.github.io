@@ -19,7 +19,7 @@ _z(selector).blur(function);
 
 > This method is a shortcut for **_z(selector).on( "blur", function)**.
 > 
-> To unbind blur event: [Unbind blur event](https://hlack.github.io/UnderZ/-blur()#unbind-blur-event)
+> To unbind blur event: [Unbind blur event](http://hlack.xyz/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
 ```js
@@ -81,4 +81,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.

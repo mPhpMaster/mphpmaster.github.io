@@ -21,7 +21,7 @@ _z(selector).un("click", function);
 
 > **Returns:** _Object_ \_z(selector)
 
-> To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on())
+> To bind an event: [Bind event](http://hlack.xyz/UnderZ/-on())
 
 
 ***

@@ -33,7 +33,7 @@ _z(function);
 
 > **Returns:** function returning
 
-> You can disable this method by writing this code in [Initial code](https://hlack.github.io/UnderZ/How_to#how-to-initiate-the-code-when-the-library-starts-):
+> You can disable this method by writing this code in [Initial code](http://hlack.xyz/UnderZ/Getting_Started#how-to-initiate-the-code-when-the-library-starts-):
 > 
 ```html
 > <script type="text/javascript" src="_z.js" underZ>
@@ -52,7 +52,7 @@ _z(function);
 ```js
 _2(function);
 ```
-* **_** to access [.ready()](https://hlack.github.io/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
+* **_** to access [.ready()](http://hlack.xyz/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** _Object_ \_z

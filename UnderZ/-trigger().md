@@ -20,9 +20,9 @@ _z(selector).trigger("click");
 
 > **Returns:** _Object_ \_z(selector)
 
-> To bind an event: [Bind event](https://hlack.github.io/UnderZ/-on()#bind-click-event)
+> To bind an event: [Bind event](http://hlack.xyz/UnderZ/-on()#bind-click-event)
 
-> To unbind an event: [Unbind event](https://hlack.github.io/UnderZ/-un()#unbind-click-event)
+> To unbind an event: [Unbind event](http://hlack.xyz/UnderZ/-un()#unbind-click-event)
 
 
 ***

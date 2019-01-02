@@ -57,4 +57,4 @@ alert( _z().defaultDisplayStyle( "div" ) ); // default button css display is: bl
 
 ```
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.

@@ -22,7 +22,7 @@ _z(selector).focus(function);
 
 > This method is a shortcut for _z(selector).on( "focus", function).
 > 
-> To unbind focus event: [Unbind focus event](https://hlack.github.io/UnderZ/-focus()#unbind-focus-event)
+> To unbind focus event: [Unbind focus event](http://hlack.xyz/UnderZ/-focus()#unbind-focus-event)
 
 
 ***
@@ -90,4 +90,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](https://hlack.github.io/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.
