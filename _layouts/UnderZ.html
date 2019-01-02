@@ -24,12 +24,17 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+		
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.repoZip_url | site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.repoTar_url | site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.repository_url | site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
         {% endif %}
-
-        {% if site.github.is_user_page %}
+		
+		{% if site.github.is_user_page %}
+		<hr>
         <p class="view"><a href="{{ site.programmer[1] }}"><img src="{{ "/assets/img/github.png" | relative_url }}" style="width: 50px;" alt="GitHub Profile" /> {{ site.programmer[0] }}</a></p>
         {% endif %}
 
@@ -39,13 +44,6 @@
 		{% endfor %}
         {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.repoZip_url | site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.repoTar_url | site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.repository_url | site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
 <script type="text/javascript">
 function listToggleShow(e) {
 	var reCount = ()=>{ return _z("[pagescounter]").text( ""+_z("[pagename]:not(.hidden)").length ) };
