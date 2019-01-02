@@ -12,13 +12,3 @@ collabGH: https://github.com/BlackEagleSA
 repository_url: https://github.com/hlaCk/UnderZ
 repoZip_url: https://github.com/hlaCk/UnderZ/zipball/master
 repoTar_url: https://github.com/hlaCk/UnderZ/tarball/master
-
-
-- programmers: 'hlaCk'
-  sub_programmers:
-   - name  : 'n1'
-     url   : 'config.adoc'
-   - name  : 'n2'
-     url   : 'variablen.adoc'
-   - name  : 'n3'
-     url   : 'liquid.adoc'

@@ -29,26 +29,8 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-{% for entry in site.programmers %}
-
-<h2>{{ entry.programmers }}</h2>
-
-  {% for subchapter in entry.sub_programmers %}
-  	{% if forloop.first %}<ul>{% endif %}
-    	<li><h3><a href="{{ subchapter.url }}">{{ subchapter.name }}</a></h3></li>
-
-		  {% for subsubchapter in subchapter.sub_sub_programmers %}
-		  	{% if forloop.first %}<ul>{% endif %}
-		    	<li><h4><a href="{{ subchapter.url }}">{{ subchapter.name }}</a></h4></li>
-		  	{% if forloop.last %}</ul>{% endif %}
-		  {% endfor %}
-
-  	{% if forloop.last %}</ul>{% endif %}
-  {% endfor %}
-
-{% endfor %}
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.programmer }}"> {{ site.programmerName }} GitHub Profile</a></p>
+        <p class="view"><a href="{{ site.programmerGH }}"> {{ site.programmerName }} GitHub Profile</a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
@@ -182,7 +164,7 @@ _1(function() {
 			<div style="width: 100%; overflow: auto; height: 300px;" listContainer>
 				<table class="asList2" style="width: 100%;">
 					<tbody style=" width: 272px;">
-{% for page in site.data.underzpages %}
+{% for page in site.data.underzpages | sort: 'name'  %}
 	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer="#">
 		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
 	</tr>
