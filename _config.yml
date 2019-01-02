@@ -5,11 +5,7 @@ description: Javascript Library.
 show_downloads: true
 show_menu: true
 google_analytics:
-programmer: ["aaaaa","bbbbbbbbbbb"]
-programmerName: hlaCk
-programmerGH: https://github.com/hlaCk
-collabName: BlackEagleSA
-collabGH: https://github.com/BlackEagleSA
+programmer: ["hlaCk","https://github.com/hlaCk"]
 repository_url: https://github.com/hlaCk/UnderZ
 repoZip_url: https://github.com/hlaCk/UnderZ/zipball/master
 repoTar_url: https://github.com/hlaCk/UnderZ/tarball/master
