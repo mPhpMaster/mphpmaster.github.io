@@ -108,19 +108,19 @@ _1(function() {
 	});
 	
 	_z("[asPointer]").click(function(e) {
-		if( !!_z(this).attr("asPointerAction") ) return false;
-		
 		var asPointer,
-			elm = this;
-		if( (asPointer=_z(elm).attr("asPointer")) == "" )
-			if( (asPointer=_z(elm=e.currentTarget).attr("asPointer")) == "" ) return;
+			elm = e.currentTarget;
+		console.log(elm);
+		if( !!elm || !!_z(elm).attr("asPointerAction") ) return false;
+		
+		if( (asPointer=_z(elm).attr("asPointer")) == "" ) return;
 		
 		if( asPointer != "#" )
 			_z( asPointer ).toggle();
 		else {
-			//_z(this).attr("asPointerAction", "click");
-			_z(elm).find("a").attr("asPointerAction", "click").click().remAttr("asPointerAction");
-			//_z(this).remAttr("asPointerAction");
+			_z(elm).attr("asPointerAction", "click");
+			_z(elm).find("a").click();
+			_z(elm).remAttr("asPointerAction");
 		}
 	});
 
