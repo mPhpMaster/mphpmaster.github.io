@@ -110,13 +110,12 @@ _1(function() {
 	_z("[asPointer]").click(function(e) {
 		if( !!_z(this).attr("asPointerAction") ) return false;
 		
-	console.log(e);
 		var asPointer;
 		if( (asPointer=_z(this).attr("asPointer")) == "" )
-			if( (asPointer=_z(this).parent("[asPointer]").attr("asPointer")) == "" ) return;
+			if( (asPointer=_z(e.currentTarget).attr("asPointer")) == "" ) return;
 		
 		if( asPointer != "#" )
-			_z( _z(this).attr("asPointer") ).toggle();
+			_z( asPointer ).toggle();
 		else {
 			_z(this).attr("asPointerAction", "click");
 			_z(this).find("a").click();
