@@ -1,3 +1,63 @@
+<!--pagesMenu-->
+<style>
+    .circle {
+        background-color: #6a737d;
+        color: #fff;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 1;
+        padding: 2px 5px;
+        font-weight: 600;
+    }
+
+    .crntPage {
+        background-color: lightblue;
+    }
+
+    .crntPage a {
+        color: black;
+    }
+
+    .pMContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .tblPages { width: 100%; }
+</style>
+
+<div class="pMContainer">
+    <table class="asList1" style="width: 100%; margin-bottom: 3px;">
+        <thead>
+        <tr asPointer=".asList2">
+            <th style="">Pages <b class="circle" pagescounter>0</b></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td style="text-align: center;">
+                <input type="text" id="pages-filter" placeholder="Find a Page…" title="Find a Page…">
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <div style="width: 100%; overflow: auto; height: 300px;" listContainer>
+        <table class="tblPages">
+            <tbody style=" width: 272px;">
+            {% for page in site.data.underzpages | sort: 'name'  %}
+            <tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer="#">
+                <td><a href="{{ page.url }}">{{ page.name }}</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
 
 <script type="text/javascript">
 function listToggleShow(e) {
@@ -66,52 +126,3 @@ _1(function() {
 	
 });
 </script>
-<style>
-.circle {
-	background-color: #6a737d;
-	color: #fff;
-	border-radius: 20px;
-	display: inline-block;
-	font-size: 12px;
-	line-height: 1;
-	padding: 2px 5px;
-	font-weight: 600;
-}
-
-.crntPage {
-	background-color: lightblue;
-}
-.crntPage a {
-	color: black;
-}
-</style>
-		<div style="width: 100%; height: auto;">
-			<table class="asList1" style="width: 100%; margin-bottom: 3px;">
-				<thead>
-					<tr asPointer=".asList2">
-						<th style="">Pages <b class="circle" pagescounter>0</b></th>
-					</tr>
-				</thead>
-
-				<tbody>
-					<tr>
-						<td style="text-align: center;"><input type="text" id="pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…"></td>
-					</tr>
-				</tbody>
-				
-			</table>
-			
-			<div style="width: 100%; overflow: auto; height: 300px;" listContainer>
-				<table class="asList2" style="width: 100%;">
-					<tbody style=" width: 272px;">
-{% for page in site.data.underzpages | sort: 'name'  %}
-	<tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer="#">
-		<td><a href="{{ page.url }}">{{ page.name }}</a></td>
-	</tr>
-{% endfor %}
-					</tbody>
-				</table>
-			</div>
-		
-		</div>
-		
