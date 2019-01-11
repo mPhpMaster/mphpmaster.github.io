@@ -107,12 +107,13 @@ _1(function() {
 		} else listToggleShow(_z("[pagename]")).hide();
 	});
 	
-	console.log(_z("[asPointer]"));
-	_z("[asPointer]").click(function() {
+	_z("[asPointer]").click(function(e) {
 		if( !!_z(this).attr("asPointerAction") ) return false;
 		
+	console.log(e);
 		var asPointer;
-		if( (asPointer=_z(this).attr("asPointer")) == "" ) return;
+		if( (asPointer=_z(this).attr("asPointer")) == "" )
+			if( (asPointer=_z(this).parent("[asPointer]").attr("asPointer")) == "" ) return;
 		
 		if( asPointer != "#" )
 			_z( _z(this).attr("asPointer") ).toggle();
