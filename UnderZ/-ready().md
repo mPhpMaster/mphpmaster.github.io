@@ -54,7 +54,7 @@ _z(function);
 ```js
 _1(function);
 ```
-* **_** to access [.ready()](http://hlack.xyz/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
+* **_1** to access [.ready()](http://hlack.xyz/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** _Object_ \_z
