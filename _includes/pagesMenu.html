@@ -111,16 +111,14 @@ _1(function() {
 		var asPointer,
 			elm = e.currentTarget;
 		console.log(elm);
-		if( !!!elm || !!_z(elm).attr("asPointerAction") ) return;
+		if( !!!elm || !!_z(this).attr("asPointerAction") ) return true;
 		
 		if( (asPointer=_z(elm).attr("asPointer")) == "" ) return;
 		
 		if( asPointer != "#" )
 			_z( asPointer ).toggle();
 		else {
-			_z(elm).attr("asPointerAction", "click");
-			_z(elm).find("a").click();
-			_z(elm).remAttr("asPointerAction");
+			_z(elm).find("a").attr("asPointerAction", "click").trigger("click");
 		}
 	});
 
