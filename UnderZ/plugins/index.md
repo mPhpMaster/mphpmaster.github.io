@@ -3,55 +3,7 @@ layout: UnderZ
 ---
 
 # UnderZ JS Library Plugins
-## A tiny Library With huge use.
-### Built to be:
-1. **Easier** to use with each call.
-2. **Resources friendly**, _shouldn't eat all your cake_.
-3. **Optimized performance**, each call should execute and finish ASAP.
 
-> Write and rewrite until it is right. _By: **hard coder**_
-
-
-***
-
-
-# Links:
-
-* [Library Page](https://github.com/hlaCk/UnderZ) 
-
-* [Wiki Page](http://hlack.xyz/UnderZ/)
-
-* [Features Page](http://hlack.xyz/UnderZ/Features)
-
-* [Syntax Page](http://hlack.xyz/UnderZ/Syntax)
-
-
-***
-
-
-## Required to start
-* [_z.js](https://github.com/hlaCk/UnderZ) 
-
-
-***
-
-
-## Dependencies
-* NONE
-
-
-***
-
-
-## Collaborators
-
-* [Turki Alrifaie](https://github.com/BlackEagleSA)
-
-
-***
-
-
-## Copyright and license
 
 Copyright © 2008-2019 hlaCk (https://github.com/hlaCk)
 
