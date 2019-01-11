@@ -111,7 +111,7 @@ _1(function() {
 		var asPointer,
 			elm = e.currentTarget;
 		console.log(elm);
-		if( !!!elm || !!_z(elm).attr("asPointerAction") ) return false;
+		if( !!!elm || !!_z(elm).attr("asPointerAction") ) return;
 		
 		if( (asPointer=_z(elm).attr("asPointer")) == "" ) return;
 		
