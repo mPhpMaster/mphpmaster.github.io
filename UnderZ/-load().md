@@ -1,7 +1,7 @@
 ---
 layout: UnderZ
 ---
-# The Document Load Event
+# (REMOVED in v1.0.1) The Document Load Event
 Execute function after the document is finished loading (Trigger when the page is fully loaded).
 
 

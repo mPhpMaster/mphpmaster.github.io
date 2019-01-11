@@ -49,8 +49,10 @@ _z(function);
 ## Method 3: _Shorter way_.
 > Make sure that no other library use **\_** sign, like _Underscore_ Library.
 
+> _As in v [1.0.1](https://github.com/hlaCk/UnderZ/tree/clean1.0.1)_
+
 ```js
-_2(function);
+_1(function);
 ```
 * **_** to access [.ready()](http://hlack.xyz/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
@@ -75,7 +77,7 @@ _z(function () {
 });
 
 // print the title first thing in <body> when the document is loaded
-_2(function () {
+_1(function () {
 	_z("body").prepend(document.title);
 });
 
@@ -93,11 +95,11 @@ function returnTest() {
 
 _z( returnTest ); // Only when the document is loaded
 _z.ready( returnTest ); // _z
-_2( returnTest ); // _z
+_1( returnTest ); // _z
 
 _z( returnTest ) === _z; // false
 _z.ready( returnTest ) === _z; // true
-_2( returnTest ) === _z; // true
+_1( returnTest ) === _z; // true
 ```
 
 > Use your own way.

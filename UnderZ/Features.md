@@ -37,7 +37,6 @@ layout: UnderZ
 * * [timer Method](http://hlack.xyz/UnderZ/Features#timer-method-)
 * * [_z Method](http://hlack.xyz/UnderZ/Features#_z-method-)
 * * [_1 Method](http://hlack.xyz/UnderZ/Features#_1-method-)
-* * [_2 Method](http://hlack.xyz/UnderZ/Features#_2-method-)
 * * [gVar Variable](http://hlack.xyz/UnderZ/Features#gvar-variable-)
 
 
@@ -501,13 +500,6 @@ UnderZ library.
 
 
 ### _1 Method :
-> see [.load()](http://hlack.xyz/UnderZ/-load()#method-2-shorter-way)
-
-
-***
-
-
-### _2 Method :
 > see [.ready()](http://hlack.xyz/UnderZ/-ready()#method-3-shorter-way)
 
 
