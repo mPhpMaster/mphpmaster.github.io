@@ -88,6 +88,7 @@ let pageFilterCalc = function() {
             }
         });
     } catch (e) {
+        console.warn(e);
         return setTimeout(pageFilterCalc, 500);
     }
     listToggleShow().reCount();
@@ -129,5 +130,5 @@ let pageFilterCalc = function() {
 
 };
 
-_1();
+_1(pageFilterCalc);
 </script>
