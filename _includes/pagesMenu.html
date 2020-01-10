@@ -5,8 +5,7 @@
   #menu3 {
     width: 100%;
     float: left;
-    font-weight: bold;
-
+    font-weight: normal;
     text-align: left;
     max-height: 512px;
     overflow: auto;
@@ -14,7 +13,7 @@
 
   #menu3 ul
   {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive,Arial, Helvetica, sans-serif;
     list-style-type: circle;
     list-style-position: inside;
     margin: 0;
@@ -26,35 +25,39 @@
     /* for IE5 and IE6 */
   }
 
+  #menu3 li:nth-child(odd) a {
+    background-color: #f2ffff;
+  }
   #menu3 a
   {
     /* color: #483000; */
     text-decoration: none;
     font-size: 14px;
     display: block;
-    padding: 6px;
+    padding: 14px;
     /* width: 160px; */
-    background-color: #e5e5e5;
+    background-color: #f7f7f7;
     border-bottom: 1px solid #6a737d4a;
     padding-left: 50px;
   }
 
   #menu3 a:link, #menu3 a:visited
   {
-    color: #aae3ff;
+    color: #267CB9;
   }
 
   #menu3 a:hover
   {
-    border-left: 2px solid #000000;
-    color: #dadeff;
+    color: #fff6e2;
+    background-color: #6a737d;
   }
 
   #menu3 .crntPage a
   {
-    border-left: 2px solid #000000;
-    background: rgba(#534f4f, 0.81);
-    color: #ffffff;
+    border-left: 3px solid #9dd7ff;
+    background-color: #444 !important;
+    color: #9dd7ff;
+    font-weight: normal;
   }
   /* Menu 3 ends here */
 
