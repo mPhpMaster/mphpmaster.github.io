@@ -1,11 +1,11 @@
 
 		
 		<hr>
-        <p class="view"><a href="{{ site.programmer[1] }}"><img src="{{ "/assets/img/github.png" | relative_url }}" style="width: 50px;" title="GitHub Profile" alt="GitHub Profile" /> {{ site.programmer[0] }}</a></p>
+        <p class="view"><a href="{{ site.programmer[1] }}"><img src="{{ '/assets/img/github.png' | relative_url }}" style="width: 50px;" title="GitHub Profile" alt="GitHub Profile" /> {{ site.programmer[0] }}</a></p>
         
 		
 		{% for collab in site.data.collabs | sort: 'name'  %}
 			<p class="view"><a href="{{ collab.url }}">
-				<img src="{{ "/assets/img/github.png" | relative_url }}" style="width: 50px;" title="GitHub Profile" alt="GitHub Profile" /> {{ collab.name }}</a>
+				<img src="{{ '/assets/img/github.png' | relative_url }}" style="width: 50px;" title="GitHub Profile" alt="GitHub Profile" /> {{ collab.name }}</a>
 			</p>
 		{% endfor %}
