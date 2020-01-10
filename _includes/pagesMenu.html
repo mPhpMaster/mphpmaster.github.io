@@ -1,5 +1,61 @@
 <!--pagesMenu-->
 <style>
+
+  /* Menu 3 starts here */
+  #menu3 {
+    width: 200px;
+    float:left;
+  }
+
+  #menu3 ul
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: circle;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+  }
+  #menu3 li
+  {
+    display: inline;
+    /* for IE5 and IE6 */
+  }
+
+  #menu3 a
+  {
+    color: #483000;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 3px;
+    width: 160px;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  #menu3 a:link, #menu3 a:visited
+  {
+    color: #483000;
+    text-decoration: none;
+  }
+
+  #menu3 a:hover
+  {
+    border-left: 3px solid #901818;
+    color: #000;
+  }
+
+  #menu3 .crntPage a
+  {
+    border-left: 3px solid #901818;
+    background: #F0F0F0;
+    color: #000;
+  }
+  /* Menu 3 ends here */
+
+</style>
+
+<style>
     .circle {
         background-color: #6a737d;
         color: #fff;
@@ -45,17 +101,16 @@
 
     </table>
 
-    <div style="width: 100%; overflow: auto; height: 300px;" listContainer>
-        <table class="tblPages">
-            <tbody style=" width: 272px;">
-            {% for page in site.data.underzpages | sort: 'name'  %}
-            <tr style="display: inline-table;width: 100%;" pagename="{{ page.name }}" asPointer="#">
-                <td><a href="{{ page.url }}">{{ page.name }}</a></td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+    <div id="menu3" listContainer>
+      <ul class="tblPages">
+      {% for page in site.data.underzpages | sort: 'name'  %}
+      <li pagename="{{ page.name }}" asPointer="#">
+        <a href="{{ page.url }}">{{ page.name }}</a>
+      </li>
+      {% endfor %}
+      </ul>
     </div>
+    
 
 </div>
 
