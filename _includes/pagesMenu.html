@@ -186,7 +186,7 @@ let pageFilterCalc = function() {
 
             if( needle === "" ) return listToggleShow(_z("[pagename]")).show();
 
-            var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) > -1);
+            var result = pageFilterData.filter(k =>(String(k).toLowerCase().indexOf( needle.toLowerCase() ) > -1));
 
             if(result.length > 0) {
                 let wQ = "[pagename='" + result.join("'], [pagename='") + "']";
@@ -195,6 +195,7 @@ let pageFilterCalc = function() {
                 ).show();
             } else listToggleShow(_z("[pagename]")).hide();
 
+            console.error(wQ, needle);
         });
 
     _z("[asPointer]").click(function(e) {
