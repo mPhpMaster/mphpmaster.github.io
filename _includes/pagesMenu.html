@@ -70,58 +70,64 @@ function listToggleShow(e) {
 };
 
 var pageFilterData = [];
-_1(function() {
-	pageFilterData = _z("[pagename]").attr("pagename");
-	var scrolled = false;
-	_z("[pagename]").each(function(k, e) {
-		pageFilterData.push(_z(e).attr("pagename"));
-		
-		if(scrolled===false) {
-			var anchr = _z(e).find("a");
-			
-			if( window.location.href.indexOf( anchr.attr("href") ) > -1 ) {
-				scrolled = true;
-				_z("[listContainer]").scrollTo(anchr);
-				_z(e).addClass("crntPage");
-			}
-		}
-	});
-	listToggleShow().reCount();
-	
-	if( pageFilterData.length )
-	_z("#pages-filter").keyup(function(event) {
-		var iTxt = _z("#pages-filter");
-		if( iTxt.length < 1 || iTxt.val().trim() == "" ) return listToggleShow(_z("[pagename]")).show();
-		var needle = iTxt.val().trim();
-		
-		if( needle == "" ) return listToggleShow(_z("[pagename]")).show();
-		
-		var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
-		
-		if(result.length > 0) {
-			listToggleShow(
-				listToggleShow(
-					_z("[pagename]")
-						).hide().whereIs("[pagename='" + result.join("'], [pagename='") + "']")
-					).show();
-		} else listToggleShow(_z("[pagename]")).hide();
-	});
-	
-	_z("[asPointer]").click(function(e) {
-		var asPointer,
-			elm = e.currentTarget;
-		
-		if( !!!elm || !!_z(this).attr("asPointerAction") ) return true;
-		
-		if( (asPointer=_z(elm).attr("asPointer")) == "" ) return;
-		
-		if( asPointer != "#" )
-			_z( asPointer ).toggle();
-		else {
-			_z(elm).find("a").attr("asPointerAction", "click").trigger("click");
-		}
-	});
+let pageFilterCalc = function() {
+    try {
+        pageFilterData = _z("[pagename]").attr("pagename");
+        var scrolled = false;
+        _z("[pagename]").each(function(k, e) {
+            pageFilterData.push(_z(e).attr("pagename"));
 
-	
-});
+            if(scrolled===false) {
+                var anchr = _z(e).find("a");
+
+                if( window.location.href.indexOf( anchr.attr("href") ) > -1 ) {
+                    scrolled = true;
+                    _z("[listContainer]").scrollTo(anchr);
+                    _z(e).addClass("crntPage");
+                }
+            }
+        });
+    } catch (e) {
+        return setTimeout(pageFilterCalc, 500);
+    }
+    listToggleShow().reCount();
+
+    if( pageFilterData.length )
+        _z("#pages-filter").keyup(function(event) {
+            var iTxt = _z("#pages-filter");
+            if( iTxt.length < 1 || iTxt.val().trim() == "" ) return listToggleShow(_z("[pagename]")).show();
+            var needle = iTxt.val().trim();
+
+            if( needle == "" ) return listToggleShow(_z("[pagename]")).show();
+
+            var result = pageFilterData.filter((k)=>String(k).toLowerCase().indexOf( needle.toLowerCase() ) != -1);
+
+            if(result.length > 0) {
+                listToggleShow(
+                    listToggleShow(
+                        _z("[pagename]")
+                    ).hide().whereIs("[pagename='" + result.join("'], [pagename='") + "']")
+                ).show();
+            } else listToggleShow(_z("[pagename]")).hide();
+        });
+
+    _z("[asPointer]").click(function(e) {
+        var asPointer,
+            elm = e.currentTarget;
+
+        if( !!!elm || !!_z(this).attr("asPointerAction") ) return true;
+
+        if( (asPointer=_z(elm).attr("asPointer")) == "" ) return;
+
+        if( asPointer != "#" )
+            _z( asPointer ).toggle();
+        else {
+            _z(elm).find("a").attr("asPointerAction", "click").trigger("click");
+        }
+    });
+
+
+};
+
+_1();
 </script>
