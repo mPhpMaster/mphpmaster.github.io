@@ -9,4 +9,7 @@ programmer: ["hlaCk","https://github.com/mPhpMaster"]
 repository_url: https://github.com/mPhpMaster/UnderZ
 repoZip_url: https://github.com/mPhpMaster/UnderZ/zipball/master
 repoTar_url: https://github.com/mPhpMaster/UnderZ/tarball/master
-repository: master
+repository: mPhpMaster/UnderZ
+
+plugins:
+  - "jekyll-github-metadata"
