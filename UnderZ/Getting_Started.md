@@ -9,8 +9,8 @@ How to use UnderZ ?
 
 
 # How to include the library in my project?
-1. Get the library file [_z.js](https://github.com/hlaCk/UnderZ/blob/master/_z.js) and place it in your project folder.
-2. Include the library in your html file inside `<head>` tag, **better if it is The First JavaScript Include**: 
+1. Get the library file [_z.js](https://github.com/mPhpMaster/UnderZ/blob/master/_z.js) and place it in your project folder.
+2. Include the library in your html file inside `<head>` tag, **better if it is The First JavaScript Include**:
 
 
 ```html
@@ -59,5 +59,3 @@ $ = _z;
 
 # How to preform action on element?
 > Please see: [Library Syntax](http://hlack.xyz/UnderZ/Syntax)
-
-

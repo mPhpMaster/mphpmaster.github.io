@@ -34,7 +34,7 @@ _z(function);
 > **Returns:** function returning
 
 > You can disable this method by writing this code in [Initial code](http://hlack.xyz/UnderZ/Getting_Started#how-to-initiate-the-code-when-the-library-starts-):
-> 
+>
 ```html
 > <script type="text/javascript" src="_z.js" underZ>
 > 	// disable execution in _z(function)
@@ -49,7 +49,7 @@ _z(function);
 ## Method 3: _Shorter way_.
 > Make sure that no other library use **\_** sign, like _Underscore_ Library.
 
-> _As in v [1.0.1](https://github.com/hlaCk/UnderZ/tree/clean1.0.1)_
+> _As in v [1.0.1](https://github.com/mPhpMaster/UnderZ/tree/1.0.1)_
 
 ```js
 _1(function);

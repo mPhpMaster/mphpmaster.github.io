@@ -1,7 +1,7 @@
 ---
 layout: UnderZ
 ---
-> _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+> _As in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 
 # UnderZ Features
 ## This Library add several features to javascript to make it easier to build your programs and web pages.

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hlaCk/UnderZ/_z.js" underZ>
-	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mPhpMaster/UnderZ/_z.js" underZ>
+
 	</script>
 
 {% seo %}
@@ -15,7 +15,7 @@
     <![endif]-->
   </head>
 <body>
-  
+
 	<style>
 	[asPointer] {
 		cursor: pointer;
@@ -35,7 +35,7 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-		
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.repoZip_url | site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -43,11 +43,11 @@
           <li><a href="{{ site.repository_url | site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-		
+
 		{% if site.github.is_user_page %}
 		{% include githubProfileLinks.html %}
 		{% endif %}
-		
+
 		{% if site.show_menu %}
 		{% include pagesMenu.html %}
 		{% endif %}

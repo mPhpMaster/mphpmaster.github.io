@@ -1,7 +1,7 @@
 ---
 layout: UnderZ
 ---
-> _Added in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+> _Added in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 
 # Remove timer.
 Remove created timer.
@@ -9,7 +9,7 @@ Remove created timer.
 ***
 
 
-> _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+> _As in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 > All examples bellow uses [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object).
 
 ## Create new timer object:

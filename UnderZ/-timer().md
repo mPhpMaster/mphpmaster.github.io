@@ -1,7 +1,7 @@
 ---
 layout: UnderZ
 ---
-> _Added in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+> _Added in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 
 > _([window Bound](http://hlack.xyz/UnderZ/Features#variables--methods-window-bound))_
 
@@ -12,9 +12,9 @@ Creating a timer to call a function or evaluates an expression at specified inte
 ***
 
 
-> _As in v [1.0.0](https://github.com/hlaCk/UnderZ/tree/clean1.0.0)_
+> _As in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 
-## Schedule a function 
+## Schedule a function
 ```js
 new _z.timer(function);
 ```

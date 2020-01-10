@@ -17,7 +17,7 @@ layout: UnderZ
 
 # Links:
 
-* [Library Page](https://github.com/hlaCk/UnderZ) 
+* [Library Page](https://github.com/mPhpMaster/UnderZ)
 
 * [Wiki Page](http://hlack.xyz/UnderZ/)
 
@@ -30,7 +30,7 @@ layout: UnderZ
 
 
 ## Required to start
-* [_z.js](https://github.com/hlaCk/UnderZ) 
+* [_z.js](https://github.com/mPhpMaster/UnderZ/blob/master/_z.js)
 
 
 ***
@@ -53,6 +53,6 @@ layout: UnderZ
 
 ## Copyright and license
 
-Copyright © 2008-2019 hlaCk (https://github.com/hlaCk)
+Copyright © 2008-2020 hlaCk (https://github.com/mPhpMaster)
 
-Licensed under the **GNU General Public License v3.0** (https://github.com/hlaCk/UnderZ/blob/master/LICENSE) license.
+Licensed under the **MIT License** (https://github.com/mPhpMaster/UnderZ/blob/master/LICENSE.txt) license.
