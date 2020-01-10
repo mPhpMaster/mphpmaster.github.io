@@ -1,2 +1,2 @@
-source 'https://rubygems.org'
-gem "github-pages", "~> 203", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-theme-minimal', '~> 0.1.1'
