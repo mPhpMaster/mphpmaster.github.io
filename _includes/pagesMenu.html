@@ -72,12 +72,13 @@
 
 <style>
   #pages-filter {
-    padding: 10px 0px;
+    padding: 6px 0px;
     font-size: 24px;
     width: 100%;
     color: #17527b;
     font-weight: bold;
     font-family: monospace;
+    margin-left: -2px;
   }
 
   .circle {
@@ -116,14 +117,14 @@
     <table class="asList1" style="width: 100%; margin-bottom: 3px;">
         <thead>
         <tr asPointer=".tblPages">
-            <th style="">Pages <b class="circle" pagescounter>0</b></th>
+            <th style="">Commands <b class="circle" pagescounter>0</b></th>
         </tr>
         </thead>
 
         <tbody>
         <tr>
             <td style="text-align: center;">
-                <input onfocus="this.select();" type="text" id="pages-filter" placeholder="Find a Page…" title="Find a Page…">
+                <input onfocus="this.select(); listToggleShow().show();" type="text" id="pages-filter" placeholder="Search …" title="Find Command…">
             </td>
         </tr>
         </tbody>
