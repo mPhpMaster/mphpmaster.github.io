@@ -17,6 +17,8 @@ layout: UnderZ
 
 # Links:
 
+* [Getting Started](http://hlack.xyz/UnderZ/Getting_Started)
+
 * [Library Page](https://github.com/mPhpMaster/UnderZ)
 
 * [Features Page](http://hlack.xyz/UnderZ/Features)
