@@ -36,3 +36,13 @@ _z.isNull(str); // false
 _z.isNull(arr); // false
 _z.isNull(nll); // true
 ```
+
+## Excpetions! 
+
+```js
+undefined == null // true
+undefined === null // false
+_z.isUndefined(null) // false
+_z.isNull(undefined) // false
+
+```
