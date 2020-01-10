@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9db261-1a52-4cbf-8e2f-1255a8612cb4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_data/underzpages.json" beforeDir="false" afterPath="$PROJECT_DIR$/_data/underzpages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnderZ/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +31,17 @@
       <file leaf-file-name="underzpages.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/underzpages.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="44">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagesMenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/pagesMenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -43,6 +52,7 @@
     <findStrings>
       <find>_underz</find>
       <find>[{&quot;name&quot;:&quot;Home&quot;,&quot;url&quot;:&quot;index&quot;},{&quot;name&quot;:&quot;Getting Started&quot;,&quot;url&quot;:&quot;Getting_Started&quot;},{&quot;name&quot;:&quot;Features&quot;,&quot;url&quot;:&quot;Features&quot;},{&quot;name&quot;:&quot;Syntax&quot;,&quot;url&quot;:&quot;Syntax&quot;},{&quot;name&quot;:&quot;.Array()&quot;,&quot;url&quot;:&quot;-Array()&quot;},{&quot;name&quot;:&quot;.blur()&quot;,&quot;url&quot;:&quot;-blur()&quot;},{&quot;name&quot;:&quot;.click()&quot;,&quot;url&quot;:&quot;-click()&quot;},{&quot;name&quot;:&quot;.cookie&quot;,&quot;url&quot;:&quot;-cookie&quot;},{&quot;name&quot;:&quot;.cssRole()&quot;,&quot;url&quot;:&quot;-cssRole()&quot;},{&quot;name&quot;:&quot;.dblclick()&quot;,&quot;url&quot;:&quot;-dblclick()&quot;},{&quot;name&quot;:&quot;.defaultDisplayStyle()&quot;,&quot;url&quot;:&quot;-defaultDisplayStyle()&quot;},{&quot;name&quot;:&quot;.each()&quot;,&quot;url&quot;:&quot;-each()&quot;},{&quot;name&quot;:&quot;.exec()&quot;,&quot;url&quot;:&quot;-exec()&quot;},{&quot;name&quot;:&quot;.extendObjects()&quot;,&quot;url&quot;:&quot;-extendObjects()&quot;},{&quot;name&quot;:&quot;.focus()&quot;,&quot;url&quot;:&quot;-focus()&quot;},{&quot;name&quot;:&quot;.for()&quot;,&quot;url&quot;:&quot;-for()&quot;},{&quot;name&quot;:&quot;.globaleval()&quot;,&quot;url&quot;:&quot;-globaleval()&quot;},{&quot;name&quot;:&quot;.hash()&quot;,&quot;url&quot;:&quot;-hash()&quot;},{&quot;name&quot;:&quot;.hide()&quot;,&quot;url&quot;:&quot;-hide()&quot;},{&quot;name&quot;:&quot;.hover()&quot;,&quot;url&quot;:&quot;-hover()&quot;},{&quot;name&quot;:&quot;.isJson()&quot;,&quot;url&quot;:&quot;-isJson()&quot;},{&quot;name&quot;:&quot;.isNumber()&quot;,&quot;url&quot;:&quot;-isNumber()&quot;},{&quot;name&quot;:&quot;.isNumbers()&quot;,&quot;url&quot;:&quot;-isNumbers()&quot;},{&quot;name&quot;:&quot;.isString()&quot;,&quot;url&quot;:&quot;-isString()&quot;},{&quot;name&quot;:&quot;.load()&quot;,&quot;url&quot;:&quot;-load()&quot;},{&quot;name&quot;:&quot;.mousedown()&quot;,&quot;url&quot;:&quot;-mousedown()&quot;},{&quot;name&quot;:&quot;.mouseenter()&quot;,&quot;url&quot;:&quot;-mouseenter()&quot;},{&quot;name&quot;:&quot;.mouseleave()&quot;,&quot;url&quot;:&quot;-mouseleave()&quot;},{&quot;name&quot;:&quot;.mouseup()&quot;,&quot;url&quot;:&quot;-mouseup()&quot;},{&quot;name&quot;:&quot;.now()&quot;,&quot;url&quot;:&quot;-now()&quot;},{&quot;name&quot;:&quot;.on()&quot;,&quot;url&quot;:&quot;-on()&quot;},{&quot;name&quot;:&quot;.proxy()&quot;,&quot;url&quot;:&quot;-proxy()&quot;},{&quot;name&quot;:&quot;.ready()&quot;,&quot;url&quot;:&quot;-ready()&quot;},{&quot;name&quot;:&quot;.rnd()&quot;,&quot;url&quot;:&quot;-rnd()&quot;},{&quot;name&quot;:&quot;.scrollTo()&quot;,&quot;url&quot;:&quot;-scrollTo()&quot;},{&quot;name&quot;:&quot;.show()&quot;,&quot;url&quot;:&quot;-show()&quot;},{&quot;name&quot;:&quot;.size()&quot;,&quot;url&quot;:&quot;-size()&quot;},{&quot;name&quot;:&quot;.subArray()&quot;,&quot;url&quot;:&quot;-subArray()&quot;},{&quot;name&quot;:&quot;.timer().execFunction()&quot;,&quot;url&quot;:&quot;-timer()-execFunction()&quot;},{&quot;name&quot;:&quot;.timer().once()&quot;,&quot;url&quot;:&quot;-timer()-once()&quot;},{&quot;name&quot;:&quot;.timer().remove()&quot;,&quot;url&quot;:&quot;-timer()-remove()&quot;},{&quot;name&quot;:&quot;.timer().start()&quot;,&quot;url&quot;:&quot;-timer()-start()&quot;},{&quot;name&quot;:&quot;.timer().stop()&quot;,&quot;url&quot;:&quot;-timer()-stop()&quot;},{&quot;name&quot;:&quot;.timer()&quot;,&quot;url&quot;:&quot;-timer()&quot;},{&quot;name&quot;:&quot;.toArray()&quot;,&quot;url&quot;:&quot;-toArray()&quot;},{&quot;name&quot;:&quot;.toggle()&quot;,&quot;url&quot;:&quot;-toggle()&quot;},{&quot;name&quot;:&quot;.trigger()&quot;,&quot;url&quot;:&quot;-trigger()&quot;},{&quot;name&quot;:&quot;.un()&quot;,&quot;url&quot;:&quot;-un()&quot;}]</find>
+      <find>wiki</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,6 +107,11 @@
             <path>
               <item name="hlack.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hlack.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlack.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlack.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="UnderZ" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -135,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578631220456</updated>
-      <workItem from="1578631221820" duration="915000" />
+      <workItem from="1578631221820" duration="1033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="915000" />
+    <option name="totallyTimeSpent" value="1033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -241,10 +256,23 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/fileslist.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/githubProfileLinks.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/pagesMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_data/underzpages.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="44">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

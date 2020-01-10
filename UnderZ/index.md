@@ -19,8 +19,6 @@ layout: UnderZ
 
 * [Library Page](https://github.com/mPhpMaster/UnderZ)
 
-* [Wiki Page](http://hlack.xyz/UnderZ/)
-
 * [Features Page](http://hlack.xyz/UnderZ/Features)
 
 * [Syntax Page](http://hlack.xyz/UnderZ/Syntax)
