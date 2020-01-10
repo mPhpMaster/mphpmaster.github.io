@@ -11,5 +11,5 @@ repoZip_url: 'https://github.com/mPhpMaster/UnderZ/zipball/master'
 repoTar_url: 'https://github.com/mPhpMaster/UnderZ/tarball/master'
 repository: 'mPhpMaster/UnderZ'
 
-plugins:
+gems:
   - "jekyll-github-metadata"
