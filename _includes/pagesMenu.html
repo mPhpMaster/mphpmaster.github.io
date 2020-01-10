@@ -28,6 +28,10 @@
   #menu3 li:nth-child(odd) a {
       background-color: #f4f4f4;
   }
+  #menu3 li:nth-child(odd):not(.crntPage) a {
+    color: #17527b;
+    background-color: #267cb933;
+  }
 
   #menu3 a
   {
@@ -49,9 +53,8 @@
 
   #menu3 a:hover
   {
-    /* border-left: 2px solid #6a737d40; */
-    color: #fff6e2;
-    background-color: #6a737d;
+    color: #fff6e2 !important;
+    background-color: #6a737d !important;
   }
 
   #menu3 .crntPage a
