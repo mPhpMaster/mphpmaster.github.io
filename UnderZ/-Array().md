@@ -20,12 +20,12 @@ _z.Array( anyObject );
 
 ***
 
-## Examples: 
+## Examples:
 
-```js 
+```js
 
-var name = "John Smith"; 
-var x = 12; 
+var name = "John Smith";
+var x = 12;
 
 _z.Array(name); // ["John Smith"]
 _z.toArray(name); // ["J", "o", "h", "n", " ", "S", "m", "i", "t", "h"]
@@ -33,4 +33,4 @@ _z.toArray(name); // ["J", "o", "h", "n", " ", "S", "m", "i", "t", "h"]
 _z.Array(x); // [12]
 _z.Array( _z("p") ); // Array of all DOM element with tagname p
 
-``` 
+```
