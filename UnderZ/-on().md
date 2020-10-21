@@ -21,7 +21,7 @@ _z(selector).on("click", function);
 
 > **Returns:** _Object_ \_z(selector)
 
-> To unbind an event: [Unbind event](http://hlack.xyz/UnderZ/-un()#unbind-an-event)
+> To unbind an event: [Unbind event](http://underz.decodercan.com/UnderZ/-un()#unbind-an-event)
 
 
 ***
@@ -98,4 +98,4 @@ _z("#button").trigger("click"); // Trigger click event
 </script>
 ```
 
-> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.

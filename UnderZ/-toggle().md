@@ -58,4 +58,4 @@ _z("#buttonFlex").click(function () {
 ```
 
 
-> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.

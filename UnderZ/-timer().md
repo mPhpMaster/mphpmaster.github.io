@@ -3,7 +3,7 @@ layout: UnderZ
 ---
 > _Added in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
 
-> _([window Bound](http://hlack.xyz/UnderZ/Features#variables--methods-window-bound))_
+> _([window Bound](http://underz.decodercan.com/UnderZ/Features#variables--methods-window-bound))_
 
 # Timer.
 Creating a timer to call a function or evaluates an expression at specified intervals (in milliseconds).
@@ -24,7 +24,7 @@ new _z.timer(function);
 * **timer** method/action name.
 * **function** the function that will be executed every **x** seconds.  _( Defualt interval: 1 seocnd )_
 
-> **Returns:** _Object_ [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object)
+> **Returns:** _Object_ [Timer object](http://underz.decodercan.com/UnderZ/-timer()#timer-object)
 
 > This method is a shortcut for _z.timer(1000, function).
 
@@ -43,7 +43,7 @@ new _z.timer(function, milliseconds);
 * **function** the function that will be executed every **x** second/s.
 * **milliseconds** the intervals (in milliseconds) on how often to execute the function. _( 1000 millisecond = 1 second )_
 
-> **Returns:** _Object_ [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object)
+> **Returns:** _Object_ [Timer object](http://underz.decodercan.com/UnderZ/-timer()#timer-object)
 
 
 ***
@@ -146,18 +146,18 @@ _z.timer.removeAll(keepData)
 
 
 
-## [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object) properties
+## [Timer object](http://underz.decodercan.com/UnderZ/-timer()#timer-object) properties
 ### **Variables:**
 1. **callback**: Contains the function to execute.
 2. **interval**: Contains the intervals (in milliseconds) on how often to execute the function **_(in milliseconds)_**.
 3. **isRunning**: Contains Boolean value, the status of the timer.
 
 ### **Methods:**
-1. [**start**](http://hlack.xyz/UnderZ/-timer().start()): Start the timer.
-2. [**stop**](http://hlack.xyz/UnderZ/-timer().stop()): Stop the timer.
-3. [**once**](http://hlack.xyz/UnderZ/-timer().once()): Start the timer once, no repeat.
-4. [**remove**](http://hlack.xyz/UnderZ/-timer().remove()): Delete this timer object.
-5. [**execFunction**](http://hlack.xyz/UnderZ/-timer().execFunction()): Execute the function.
+1. [**start**](http://underz.decodercan.com/UnderZ/-timer().start()): Start the timer.
+2. [**stop**](http://underz.decodercan.com/UnderZ/-timer().stop()): Stop the timer.
+3. [**once**](http://underz.decodercan.com/UnderZ/-timer().once()): Start the timer once, no repeat.
+4. [**remove**](http://underz.decodercan.com/UnderZ/-timer().remove()): Delete this timer object.
+5. [**execFunction**](http://underz.decodercan.com/UnderZ/-timer().execFunction()): Execute the function.
 
 
 ***

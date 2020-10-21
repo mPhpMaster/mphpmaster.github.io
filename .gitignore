@@ -2,3 +2,4 @@
 .idea
 .vscode
 _includes/keys.php
+!/.idea/

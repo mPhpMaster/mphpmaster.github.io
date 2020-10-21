@@ -19,7 +19,7 @@ _z(selector).click(function);
 
 > This method is a shortcut for _z(selector).on( "click", function).
 > 
-> To unbind click event: [Unbind click event](http://hlack.xyz/UnderZ/-click()#unbind-click-event)
+> To unbind click event: [Unbind click event](http://underz.decodercan.com/UnderZ/-click()#unbind-click-event)
 
 ## Trigger click event
 ```js
@@ -76,4 +76,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.

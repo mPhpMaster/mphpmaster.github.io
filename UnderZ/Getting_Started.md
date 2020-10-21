@@ -58,4 +58,4 @@ $ = _z;
 
 
 # How to preform action on element?
-> Please see: [Library Syntax](http://hlack.xyz/UnderZ/Syntax)
+> Please see: [Library Syntax](http://underz.decodercan.com/UnderZ/Syntax)

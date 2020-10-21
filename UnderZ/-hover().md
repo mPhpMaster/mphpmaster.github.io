@@ -23,7 +23,7 @@ _z(selector).hover(function1, [function2]);
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function1).on( "mouseleave", function2)
 > 
-> To unbind hover event: [Unbind hover event](http://hlack.xyz/UnderZ/-hover()#unbind-hover-event)
+> To unbind hover event: [Unbind hover event](http://underz.decodercan.com/UnderZ/-hover()#unbind-hover-event)
 
 
 ***
@@ -158,4 +158,4 @@ _z(".p1").hover(); // try it, have fun.
 </script>
 ```
 
-> Recommended: bind events in [.ready()](http://hlack.xyz/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.

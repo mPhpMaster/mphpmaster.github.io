@@ -17,13 +17,13 @@ layout: UnderZ
 
 # Links:
 
-* [Getting Started](http://hlack.xyz/UnderZ/Getting_Started)
+* [Getting Started](http://underz.decodercan.com/UnderZ/Getting_Started)
 
 * [Library Page](https://github.com/mPhpMaster/UnderZ)
 
-* [Features Page](http://hlack.xyz/UnderZ/Features)
+* [Features Page](http://underz.decodercan.com/UnderZ/Features)
 
-* [Syntax Page](http://hlack.xyz/UnderZ/Syntax)
+* [Syntax Page](http://underz.decodercan.com/UnderZ/Syntax)
 
 
 ***

@@ -11,33 +11,33 @@ layout: UnderZ
 
 
 # Page Content:
-* [Javascript changes](http://hlack.xyz/UnderZ/Features#javascript-changes)
-* * [Function's](http://hlack.xyz/UnderZ/Features#functions-)
-* * * [callSelf](http://hlack.xyz/UnderZ/Features#1-callself)
-* * * [bindSelf](http://hlack.xyz/UnderZ/Features#2-bindself)
-* * [Object's](http://hlack.xyz/UnderZ/Features#objects-)
-* * * [each](http://hlack.xyz/UnderZ/Features#1-each)
-* * * [getType](http://hlack.xyz/UnderZ/Features#2-gettype)
-* * * [isType](http://hlack.xyz/UnderZ/Features#3-istype)
-* * [Array's](http://hlack.xyz/UnderZ/Features#arrays-)
-* * * [pushSetter](http://hlack.xyz/UnderZ/Features#1-pushsetter)
-* * * [unique](http://hlack.xyz/UnderZ/Features#2-unique)
-* * * [add](http://hlack.xyz/UnderZ/Features#3-add)
-* * * [inArray](http://hlack.xyz/UnderZ/Features#4-inarray)
-* * * [remove](http://hlack.xyz/UnderZ/Features#5-remove)
-* * * [removeAll](http://hlack.xyz/UnderZ/Features#6-removeall)
-* * * [extend](http://hlack.xyz/UnderZ/Features#7-extend)
-* * * [mix](http://hlack.xyz/UnderZ/Features#8-mix)
-* * [String's](http://hlack.xyz/UnderZ/Features#strings-)
-* * * [replaceArray](http://hlack.xyz/UnderZ/Features#1-replacearray)
-* * * [replaceAll](http://hlack.xyz/UnderZ/Features#2-replaceall)
-* * [Math.random](http://hlack.xyz/UnderZ/Features#mathrandom-)
-* [Variables & Methods (window Bound)](http://hlack.xyz/UnderZ/Features#variables--methods-window-bound)
-* * [fns Variable](http://hlack.xyz/UnderZ/Features#fns-variable-)
-* * [timer Method](http://hlack.xyz/UnderZ/Features#timer-method-)
-* * [_z Method](http://hlack.xyz/UnderZ/Features#_z-method-)
-* * [_1 Method](http://hlack.xyz/UnderZ/Features#_1-method-)
-* * [gVar Variable](http://hlack.xyz/UnderZ/Features#gvar-variable-)
+* [Javascript changes](http://underz.decodercan.com/UnderZ/Features#javascript-changes)
+* * [Function's](http://underz.decodercan.com/UnderZ/Features#functions-)
+* * * [callSelf](http://underz.decodercan.com/UnderZ/Features#1-callself)
+* * * [bindSelf](http://underz.decodercan.com/UnderZ/Features#2-bindself)
+* * [Object's](http://underz.decodercan.com/UnderZ/Features#objects-)
+* * * [each](http://underz.decodercan.com/UnderZ/Features#1-each)
+* * * [getType](http://underz.decodercan.com/UnderZ/Features#2-gettype)
+* * * [isType](http://underz.decodercan.com/UnderZ/Features#3-istype)
+* * [Array's](http://underz.decodercan.com/UnderZ/Features#arrays-)
+* * * [pushSetter](http://underz.decodercan.com/UnderZ/Features#1-pushsetter)
+* * * [unique](http://underz.decodercan.com/UnderZ/Features#2-unique)
+* * * [add](http://underz.decodercan.com/UnderZ/Features#3-add)
+* * * [inArray](http://underz.decodercan.com/UnderZ/Features#4-inarray)
+* * * [remove](http://underz.decodercan.com/UnderZ/Features#5-remove)
+* * * [removeAll](http://underz.decodercan.com/UnderZ/Features#6-removeall)
+* * * [extend](http://underz.decodercan.com/UnderZ/Features#7-extend)
+* * * [mix](http://underz.decodercan.com/UnderZ/Features#8-mix)
+* * [String's](http://underz.decodercan.com/UnderZ/Features#strings-)
+* * * [replaceArray](http://underz.decodercan.com/UnderZ/Features#1-replacearray)
+* * * [replaceAll](http://underz.decodercan.com/UnderZ/Features#2-replaceall)
+* * [Math.random](http://underz.decodercan.com/UnderZ/Features#mathrandom-)
+* [Variables & Methods (window Bound)](http://underz.decodercan.com/UnderZ/Features#variables--methods-window-bound)
+* * [fns Variable](http://underz.decodercan.com/UnderZ/Features#fns-variable-)
+* * [timer Method](http://underz.decodercan.com/UnderZ/Features#timer-method-)
+* * [_z Method](http://underz.decodercan.com/UnderZ/Features#_z-method-)
+* * [_1 Method](http://underz.decodercan.com/UnderZ/Features#_1-method-)
+* * [gVar Variable](http://underz.decodercan.com/UnderZ/Features#gvar-variable-)
 
 
 ***
@@ -300,7 +300,7 @@ Merage all objects in array to first object using **_z.extend**.
 _z.extend.status = false;
 ```
 > 
-> see [Extinding Object](http://hlack.xyz/UnderZ/-extend())
+> see [Extinding Object](http://underz.decodercan.com/UnderZ/-extend())
 
 
 **Example:** 
@@ -363,7 +363,7 @@ _z.testFunc;  // undefined.
 Merage all objects in array to first object using **_z.mix**.
 > Return: _**Object**_ First object in the array.
 > 
-> see [Merging Object](http://hlack.xyz/UnderZ/-mix())
+> see [Merging Object](http://underz.decodercan.com/UnderZ/-mix())
 
 **Example:** 
 
@@ -471,7 +471,7 @@ str.replaceAll( "Test:" ); // " UnderZ is JS Library."
 Replacing **Math.random** with **_z.rnd**, the original in **Math.__random**.
 > Return: _**Number**_ random number.
 > 
-> see [Random number generator](http://hlack.xyz/UnderZ/-rnd())
+> see [Random number generator](http://underz.decodercan.com/UnderZ/-rnd())
 
 
 ***
@@ -479,14 +479,14 @@ Replacing **Math.random** with **_z.rnd**, the original in **Math.__random**.
 
 ## Variables & Methods _(window Bound)_
 ### fns Variable :
-> see [Function Tools](http://hlack.xyz/UnderZ/fns)
+> see [Function Tools](http://underz.decodercan.com/UnderZ/fns)
 
 
 ***
 
 
 ### timer Method :
-> see [Timer](http://hlack.xyz/UnderZ/-timer()#timer)
+> see [Timer](http://underz.decodercan.com/UnderZ/-timer()#timer)
 
 
 ***
@@ -500,7 +500,7 @@ UnderZ library.
 
 
 ### _1 Method :
-> see [.ready()](http://hlack.xyz/UnderZ/-ready()#method-3-shorter-way)
+> see [.ready()](http://underz.decodercan.com/UnderZ/-ready()#method-3-shorter-way)
 
 
 ***

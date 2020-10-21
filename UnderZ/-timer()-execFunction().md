@@ -11,13 +11,13 @@ Execute timer callback.
 
 
 > _As in v [1.0.0](https://github.com/mPhpMaster/UnderZ/tree/1.0.0)_
-> All examples bellow uses [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object).
+> All examples bellow uses [Timer object](http://underz.decodercan.com/UnderZ/-timer()#timer-object).
 
 ## Create new timer object:
 ```js
 var timer = new _z.timer(function);
 ```
-> Please see: [Timer object](http://hlack.xyz/UnderZ/-timer()#timer-object)
+> Please see: [Timer object](http://underz.decodercan.com/UnderZ/-timer()#timer-object)
 
 
 ***
