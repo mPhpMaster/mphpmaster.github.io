@@ -19,7 +19,7 @@ _z(selector).blur(function);
 
 > This method is a shortcut for **_z(selector).on( "blur", function)**.
 > 
-> To unbind blur event: [Unbind blur event](http://underz.decodercan.com/UnderZ/-blur()#unbind-blur-event)
+> To unbind blur event: [Unbind blur event](http://underz.hlack.net/UnderZ/-blur()#unbind-blur-event)
 
 ## Trigger blur event
 ```js
@@ -81,4 +81,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

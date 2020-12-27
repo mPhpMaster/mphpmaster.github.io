@@ -19,7 +19,7 @@ _z(selector).hide();
 
 > **Returns:** _Object_ \_z(selector)
 
-> To show an element: [Show element](http://underz.decodercan.com/UnderZ/-show())
+> To show an element: [Show element](http://underz.hlack.net/UnderZ/-show())
 
 
 ***
@@ -47,4 +47,4 @@ _z("#buttonShow").click(function () {
 </script>
 ```
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

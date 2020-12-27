@@ -22,7 +22,7 @@ _z(selector).mouseenter(function);
 
 > This method is a shortcut for _z(selector).on( "mouseenter", function).
 > 
-> To unbind mouseenter event: [Unbind mouseenter event](http://underz.decodercan.com/UnderZ/-mouseenter()#unbind-mouseenter-event)
+> To unbind mouseenter event: [Unbind mouseenter event](http://underz.hlack.net/UnderZ/-mouseenter()#unbind-mouseenter-event)
 
 
 ***
@@ -90,4 +90,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 </script>
 ```
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

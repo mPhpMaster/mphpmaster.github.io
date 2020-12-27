@@ -27,7 +27,7 @@ _z.load(function);
 ```js
 _1(function);
 ```
-* **_1** to access [.load()](http://underz.decodercan.com/UnderZ/-load()#method-1-default-way) method in UnderZ library.
+* **_1** to access [.load()](http://underz.hlack.net/UnderZ/-load()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is fully loaded. **It can be anonymous function**
 
 > **Returns:** _Object_ \_z

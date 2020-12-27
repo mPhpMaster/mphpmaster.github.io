@@ -22,7 +22,7 @@ _z(selector).dblclick(function);
 
 > This method is a shortcut for _z(selector).on( "dblclick", function).
 > 
-> To unbind dblclick event: [Unbind dblclick event](http://underz.decodercan.com/UnderZ/-dblclick()#unbind-dblclick-event)
+> To unbind dblclick event: [Unbind dblclick event](http://underz.hlack.net/UnderZ/-dblclick()#unbind-dblclick-event)
 
 
 ***
@@ -93,4 +93,4 @@ _z(".btnUBEvent").dblclick(); // change document title to 'Unbind "Change Title"
 
 ```
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

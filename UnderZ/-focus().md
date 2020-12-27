@@ -22,7 +22,7 @@ _z(selector).focus(function);
 
 > This method is a shortcut for _z(selector).on( "focus", function).
 > 
-> To unbind focus event: [Unbind focus event](http://underz.decodercan.com/UnderZ/-focus()#unbind-focus-event)
+> To unbind focus event: [Unbind focus event](http://underz.hlack.net/UnderZ/-focus()#unbind-focus-event)
 
 
 ***
@@ -90,4 +90,4 @@ _z(".btnUBEvent").click(); // change document title to 'Unbind "Change Title" ev
 
 ```
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

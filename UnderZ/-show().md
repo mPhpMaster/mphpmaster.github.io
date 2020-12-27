@@ -20,7 +20,7 @@ _z(selector).show([display style]);
 
 > **Returns:** _Object_ \_z(selector)
 
-> To hide an element: [Hide element](http://underz.decodercan.com/UnderZ/-hide())
+> To hide an element: [Hide element](http://underz.hlack.net/UnderZ/-hide())
 
 
 ***
@@ -63,4 +63,4 @@ _z("#buttonFlex").click(function () {
 ```
 
 
-> Recommended: bind events in [.ready()](http://underz.decodercan.com/UnderZ/-ready()) to execute the event when the document is fully loaded.
+> Recommended: bind events in [.ready()](http://underz.hlack.net/UnderZ/-ready()) to execute the event when the document is fully loaded.

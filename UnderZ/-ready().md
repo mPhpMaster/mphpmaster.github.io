@@ -33,7 +33,7 @@ _z(function);
 
 > **Returns:** function returning
 
-> You can disable this method by writing this code in [Initial code](http://underz.decodercan.com/UnderZ/Getting_Started#how-to-initiate-the-code-when-the-library-starts-):
+> You can disable this method by writing this code in [Initial code](http://underz.hlack.net/UnderZ/Getting_Started#how-to-initiate-the-code-when-the-library-starts-):
 >
 ```html
 > <script type="text/javascript" src="_z.js" underZ>
@@ -54,7 +54,7 @@ _z(function);
 ```js
 _1(function);
 ```
-* **_1** to access [.ready()](http://underz.decodercan.com/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
+* **_1** to access [.ready()](http://underz.hlack.net/UnderZ/-ready()#method-1-default-way) method in UnderZ library.
 * **function** function to execute after the DOM is ready. **It can be anonymous function**
 
 > **Returns:** _Object_ \_z

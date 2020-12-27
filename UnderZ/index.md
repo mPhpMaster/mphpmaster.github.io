@@ -17,13 +17,13 @@ layout: UnderZ
 
 # Links:
 
-* [Getting Started](http://underz.decodercan.com/UnderZ/Getting_Started)
+* [Getting Started](http://underz.hlack.net/UnderZ/Getting_Started)
 
 * [Library Page](https://github.com/mPhpMaster/UnderZ)
 
-* [Features Page](http://underz.decodercan.com/UnderZ/Features)
+* [Features Page](http://underz.hlack.net/UnderZ/Features)
 
-* [Syntax Page](http://underz.decodercan.com/UnderZ/Syntax)
+* [Syntax Page](http://underz.hlack.net/UnderZ/Syntax)
 
 
 ***
@@ -47,6 +47,11 @@ layout: UnderZ
 
 * [Turki Alrifaie](https://github.com/BlackEagleSA)
 
+***
+
+## Built With JetBrains Support ❤
+
+[![https://www.jetbrains.com/?from=UnderZ](http://hlack.net/jetbrains.svg)](https://www.jetbrains.com/?from=UnderZ)
 
 ***
 
