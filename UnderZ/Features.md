@@ -102,6 +102,7 @@ myFunction.value = "Test: ";
 
 ***
 
+
 ### 3. **getSize**:
 
 **.getSize** method returns size/length of an object.
