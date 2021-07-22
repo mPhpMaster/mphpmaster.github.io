@@ -15,7 +15,7 @@ layout: UnderZ
 * * [Function's](http://underz.hlack.net/UnderZ/Features#functions-)
 * * * [callSelf](http://underz.hlack.net/UnderZ/Features#1-callself)
 * * * [bindSelf](http://underz.hlack.net/UnderZ/Features#2-bindself)
-* * * [getSize](http://underz.hlack.net/UnderZ/Features#3-getSize)
+* * * [getSize](http://underz.hlack.net/UnderZ/Features#3-getsize)
 * * [Object's](http://underz.hlack.net/UnderZ/Features#objects-)
 * * * [each](http://underz.hlack.net/UnderZ/Features#1-each)
 * * * [getType](http://underz.hlack.net/UnderZ/Features#2-gettype)
