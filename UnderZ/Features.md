@@ -32,6 +32,10 @@ layout: UnderZ
 * * [String's](http://underz.hlack.net/UnderZ/Features#strings-)
 * * * [replaceArray](http://underz.hlack.net/UnderZ/Features#1-replacearray)
 * * * [replaceAll](http://underz.hlack.net/UnderZ/Features#2-replaceall)
+* * [Date's](http://underz.hlack.net/UnderZ/Features#dates-)
+* * * [getUnixTime](http://underz.hlack.net/UnderZ/Features#1-getunixtime)
+* * * [time](http://underz.hlack.net/UnderZ/Features#2-time)
+* * * [now](http://underz.hlack.net/UnderZ/Features#3-now)
 * * [Math.random](http://underz.hlack.net/UnderZ/Features#mathrandom-)
 * [Variables & Methods (window Bound)](http://underz.hlack.net/UnderZ/Features#variables--methods-window-bound)
 * * [fns Variable](http://underz.hlack.net/UnderZ/Features#fns-variable-)
@@ -113,8 +117,8 @@ myFunction.value = "Test: ";
 ```js
 let string = "abcd";
 let number = 10;
-let array = ["a", "b", "c"];
-let object = { a: 1, b: [], c: null};
+let array = [ "a", "b", "c" ];
+let object = { a: 1, b: [], c: null };
 
 string.getSize(); // 4 
 number.getSize(); // 0
@@ -486,6 +490,55 @@ str.replaceAll( ["JS", ":"], "*"); // "Test UnderZ is * Library."
 str.replaceAll( ["UnderZ", "JS", "Test: "], ["_z", "JavaScript"]); // "_z is JavaScript Library."
 str.replaceAll( "Test:", "\\:>"); // "\:> UnderZ is JS Library."
 str.replaceAll( "Test:" ); // " UnderZ is JS Library."
+```
+
+
+***
+
+
+### Date's :
+
+
+***
+
+
+### 1. **getUnixTime**:
+
+Get Unix timestamp. _Alias: `Date.time()`_
+> Return: _**Number**_ current Unix timestamp.
+
+**Example:** 
+
+```js
+(new Date()).getUnixTime(); // 1626914738
+Date.time(); // 1626914738
+```
+
+***
+
+
+### 2. **time**:
+
+Get Unix timestamp. _Alias for: `(new Date()).getUnixTime()`_
+> Return: _**Number**_ current Unix timestamp.
+
+**Example:** 
+
+```js
+(new Date()).getUnixTime(); // 1626914738
+Date.time(); // 1626914738
+```
+
+
+### 3. **now**:
+
+Get Javascript timestamp.
+> Return: _**Number**_ current Javascript timestamp.
+
+**Example:** 
+
+```js
+Date.now(); // 1626914836765
 ```
 
 
