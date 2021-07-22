@@ -51,34 +51,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb9db261-1a52-4cbf-8e2f-1255a8612cb4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-blur().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-blur().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-click().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-click().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-dblclick().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-dblclick().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-defaultDisplayStyle().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-defaultDisplayStyle().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-exec().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-exec().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-focus().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-focus().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-hide().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-hide().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-hover().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-hover().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-load().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-load().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-mousedown().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-mousedown().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-mouseenter().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-mouseenter().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-mouseleave().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-mouseleave().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-mouseup().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-mouseup().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-on().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-on().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-ready().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-ready().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-show().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-show().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer()-execFunction().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer()-execFunction().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer()-once().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer()-once().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer()-remove().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer()-remove().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer()-start().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer()-start().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer()-stop().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer()-stop().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-timer().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-timer().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-toggle().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-toggle().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-trigger().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-trigger().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/-un().md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/-un().md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnderZ/Features.md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/Features.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/Getting_Started.md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/Getting_Started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderZ/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/UnderZ/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

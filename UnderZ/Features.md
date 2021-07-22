@@ -15,6 +15,7 @@ layout: UnderZ
 * * [Function's](http://underz.hlack.net/UnderZ/Features#functions-)
 * * * [callSelf](http://underz.hlack.net/UnderZ/Features#1-callself)
 * * * [bindSelf](http://underz.hlack.net/UnderZ/Features#2-bindself)
+* * * [getSize](http://underz.hlack.net/UnderZ/Features#3-getSize)
 * * [Object's](http://underz.hlack.net/UnderZ/Features#objects-)
 * * * [each](http://underz.hlack.net/UnderZ/Features#1-each)
 * * * [getType](http://underz.hlack.net/UnderZ/Features#2-gettype)
@@ -97,6 +98,29 @@ myFunction.value = "Test: ";
 
 (myFunction.bind(myFunction, ["Hello", "World"]))(); // "Test: Hello World"
 (myFunction.bindSelf("Hello", "World"))(); // "Test: Hello World"
+```
+
+***
+
+### 3. **getSize**:
+
+**.getSize** method returns size/length of an object.
+> Return: _**Number**_.
+
+**Example:** 
+
+```js
+let string = "abcd";
+let number = 10;
+let array = ["a", "b", "c"];
+let object = { a: 1, b: [], c: null};
+
+string.getSize(); // 4 
+number.getSize(); // 0
+array.getSize(); // 3
+object.getSize(); // 3
+_z("body").getSize(); // 1
+document.querySelectorAll("body").getSize(); // 1
 ```
 
 ***
