@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Specify Ruby version for GitHub Pages compatibility
-ruby '>= 2.4.0', '< 3.1.0'
+ruby '>= 2.4.0', '< 3.2.0'
 
 gem 'minitest', '~> 5.16'
 
