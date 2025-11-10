@@ -13,4 +13,5 @@ repoTar_url: 'https://github.com/mPhpMaster/UnderZ/tarball/master'
 repository: 'mPhpMaster/UnderZ'
 
 
-
+collections:
+  - UnderZ
