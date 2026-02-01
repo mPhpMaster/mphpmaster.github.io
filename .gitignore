@@ -4,3 +4,4 @@
 _includes/keys.php
 !/.idea/
 .idea/workspace.xml
+vendor/bundle
