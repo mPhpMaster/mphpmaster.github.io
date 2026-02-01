@@ -1,6 +1,11 @@
 source: .
 theme: jekyll-theme-minimal
 
+# SCSS configuration: explicitly set sass_dir to prevent Jekyll from looking for /docs directory
+sass:
+  sass_dir: _sass
+  style: compressed
+
 github: [metadata]
 title: 'UnderZ'
 description: 'Javascript Library.'
