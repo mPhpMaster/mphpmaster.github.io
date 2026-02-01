@@ -1,6 +1,11 @@
 source: .
 theme: jekyll-theme-minimal
 
+# Add this to fix the SCSS directory issue
+sass:
+  sass_dir: _sass
+  style: compressed
+
 github: [metadata]
 title: 'UnderZ'
 description: 'Javascript Library.'
