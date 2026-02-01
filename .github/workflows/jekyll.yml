@@ -24,5 +24,6 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
+        -e NOKOGIRI_USE_SYSTEM_LIBRARIES=true \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 775 /srv/jekyll && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "bundle install && chmod 775 /srv/jekyll && jekyll build --future"
