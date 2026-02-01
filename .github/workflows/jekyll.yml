@@ -17,7 +17,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        gem install bundler
+        gem install bundler --user-install
         bundle install
     
     - name: Build the site in the jekyll/builder container
