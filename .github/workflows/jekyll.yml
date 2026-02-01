@@ -21,9 +21,14 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
     
+    - name: Install Nokogiri Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev
+    
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
         -e NOKOGIRI_USE_SYSTEM_LIBRARIES=true \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "bundle install && chmod 775 /srv/jekyll && jekyll build --future"
+        jekyll/builder:4.2.0 /bin/bash -c "bundle install && chmod 775 /srv/jekyll && jekyll build --future"
