@@ -1,10 +1,13 @@
 source: .
+destination: _site
 theme: jekyll-theme-minimal
 
 # SCSS configuration: explicitly set sass_dir to prevent Jekyll from looking for /docs directory
 sass:
   sass_dir: _sass
   style: compressed
+  load_paths:
+    - _sass
 
 github: [metadata]
 title: 'UnderZ'
